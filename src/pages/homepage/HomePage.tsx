@@ -30,13 +30,13 @@ export default function () {
         </Helmet>
       </HelmetProvider>
 
-      {/* <Billboard {...billboard.billboard} />
+      <Billboard {...billboard.billboard} />
       <ThreeColumnCard {...portableBest} />
 
       <Title {...titleProps} />
       <ProAndConComponent {...proAndCons} />
 
-      <ThreeColumnCard {...countertopBest} /> */}
+      <ThreeColumnCard {...countertopBest} />
 
       <ThreeColumnProduct {...bestSingleProducts} />
 
