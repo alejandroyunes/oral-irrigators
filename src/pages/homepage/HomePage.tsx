@@ -15,7 +15,7 @@ import { questions } from './data/questionsAndAnswers/questions'
 import Title from '../../components/Title/Title'
 import { portableBest } from './data/portableBest/portableBest'
 import { countertopBest } from './data/countertopBest/countertopBest'
-import { firstThreeColumnProduct } from './data/firstThreeColumnProduct/firstThreeColumnProduct'
+import { bestSingleProducts } from './data/bestSingleProducts/bestSingleProducts'
 
 export default function () {
 
@@ -30,15 +30,15 @@ export default function () {
         </Helmet>
       </HelmetProvider>
 
-      <Billboard {...billboard.billboard} />
+      {/* <Billboard {...billboard.billboard} />
       <ThreeColumnCard {...portableBest} />
 
       <Title {...titleProps} />
       <ProAndConComponent {...proAndCons} />
 
-      <ThreeColumnCard {...countertopBest} />
+      <ThreeColumnCard {...countertopBest} /> */}
 
-      <ThreeColumnProduct {...firstThreeColumnProduct} />
+      <ThreeColumnProduct {...bestSingleProducts} />
 
       <TwoColumnInverted {...irrigatorProps} />
       <QuestionsAndAnswers {...questions} />

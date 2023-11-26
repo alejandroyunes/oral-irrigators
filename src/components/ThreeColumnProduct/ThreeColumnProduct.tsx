@@ -9,7 +9,6 @@ type ItemProps = {
   image: string
   productUrl: string
   primeUrl: string
-  url: string
   list: string[]
 }
 
@@ -32,11 +31,13 @@ export default function ThreeRowProduct(props: Props) {
         {items && items.map((post, index) => (
           <div className='product' key={index}>
             <div>
-              <img src={post.image} alt='' width='280' height='280' />
+              <Link to={post.productUrl}>
+                <img src={post.image} alt='' width='280' height='280' />
+              </Link>
             </div>
             <div>
               <h3 className='product-title'>
-                <Link to={post.url}>
+                <Link to={post.productUrl}>
                   {post.title}
                 </Link>
               </h3>
@@ -50,7 +51,7 @@ export default function ThreeRowProduct(props: Props) {
                 {post.primeUrl && <Link to={post.primeUrl}>
                   <PrimeSvg />
                 </Link>}
-                <AmazonButton text='Buy in Amazon' url='/url' />
+                <AmazonButton text='Buy in Amazon' url={post.productUrl} />
               </div>
             </div>
           </div>
