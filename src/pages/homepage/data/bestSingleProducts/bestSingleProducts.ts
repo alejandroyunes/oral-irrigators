@@ -1,9 +1,11 @@
 const waterpikWP580 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700995936/Best/SingleBests/skhiw9t8lpaq1ccghqon.webp'
-const webDev = 'https://res.cloudinary.com/dcpdkock3/image/upload/v1698377831/blog/o8uhw4gqb4wdjj6nrnef.webp'
-const NodeExpressServer = 'https://res.cloudinary.com/dcpdkock3/image/upload/v1698957906/blog/mcygclsb4g0jj5jrchuj.webp'
+const waterpikWP660 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700999294/Best/SingleBests/zliqkbhgjuxjnn0cg9oj.webp'
+const nicefeelFC5090 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700995936/Best/SingleBests/skhiw9t8lpaq1ccghqon.webp'
 
 const amazonPrime = ''
 const waterpikWP580ProductUrl = 'https://a.co/d/i4SwaUw'
+const waterpikWP660ProductUrl = 'https://a.co/d/4TnnWLx'
+const nicefeelFC5090ProductUrl = 'https://a.co/d/7qXs6RG'
 
 export const bestSingleProducts = {
   title: "Brushing Alone Falls Short",
@@ -27,83 +29,35 @@ export const bestSingleProducts = {
       ],
     },
     {
-      title: 'some title longer title, here is a longer title',
-      image: webDev,
-      productUrl: '/amayonlink',
-      primeUrl: '/amazonPrime',
-      url: '/link to reseña',
+      title: 'Waterpik Aquarius Water Flosser, WP-660, 22oz',
+      image: waterpikWP660,
+      alt: "Waterpik Aquarius Water Flosser, WP-660, 22oz",
+      primeUrl: amazonPrime,
+      productUrl: waterpikWP660ProductUrl,
       list: [
-        "Type: Desktop",
-        "Weight: 660 grams",
-        "Tank Capacity: 650 ml",
-        "Includes 7 nozzles",
-        "10 pressure levels",
-        "2 usage modes",
-        "Storage for nozzles",
+        "90 Seconds of Water Capacity",
+        "10 Pressure Settings, 2 pressure settings",
+        "3.8 x 4.7 x 10.3 in, 1.46 lbs",
+        "3-year limited manufacturer’s warranty",
+        "Satisfaction: 9.5/10",
+        "Different color options",
+        "129k reviews on Amazon",
       ],
     },
     {
-      title: 'some title longer title, here is a longer title',
-      image: NodeExpressServer,
-      productUrl: '/amayonlink',
-      primeUrl: '/amazonPrime',
-      url: '/link to reseña',
+      title: 'Nicefeel Water Flosser, Cordless, FC5090, 300ml',
+      image: nicefeelFC5090,
+      alt: "Nicefeel Water Flosser, Cordless, FC5090, 300ml",
+      primeUrl: amazonPrime,
+      productUrl: nicefeelFC5090ProductUrl,
       list: [
-        "Type: Desktop",
-        "Weight: 660 grams",
-        "Tank Capacity: 650 ml",
-        "Includes 7 nozzles",
-        "10 pressure levels",
-        "2 usage modes",
-        "Storage for nozzles",
-      ],
-    },
-    {
-      title: 'some title longer title, here is a longer title',
-      image: waterpikWP580,
-      productUrl: '/amayonlink',
-      primeUrl: '/amazonPrime',
-      url: '/link to reseña',
-      list: [
-        "Type: Desktop",
-        "Weight: 660 grams",
-        "Tank Capacity: 650 ml",
-        "Includes 7 nozzles",
-        "10 pressure levels",
-        "2 usage modes",
-        "Storage for nozzles",
-      ],
-    },
-    {
-      title: 'some title longer title, here is a longer title',
-      image: webDev,
-      productUrl: '/amayonlink',
-      primeUrl: '/amazonPrime',
-      url: '/link to reseña',
-      list: [
-        "Type: Desktop",
-        "Weight: 660 grams",
-        "Tank Capacity: 650 ml",
-        "Includes 7 nozzles",
-        "10 pressure levels",
-        "2 usage modes",
-        "Storage for nozzles",
-      ],
-    },
-    {
-      title: 'some title longer title, here is a longer title',
-      image: NodeExpressServer,
-      productUrl: '/amayonlink',
-      primeUrl: '/amazonPrime',
-      url: '/link to reseña',
-      list: [
-        "Type: Desktop",
-        "Weight: 660 grams",
-        "Tank Capacity: 650 ml",
-        "Includes 7 nozzles",
-        "10 pressure levels",
-        "2 usage modes",
-        "Storage for nozzles",
+        "300ml water tank and PX7 Dual Waterproof",
+        "4 Adjustable Modes & 4 Jet Tips, Type-C Rechargeable",
+        "2.3 x 2.9 x 10 in, 14.07 oz",
+        "18 months limited manufacturer’s warranty",
+        "Satisfaction: 8/10",
+        "Different color options",
+        "20k reviews on Amazon",
       ],
     },
   ],
