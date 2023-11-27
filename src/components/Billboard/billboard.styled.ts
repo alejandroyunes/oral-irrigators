@@ -61,6 +61,9 @@ export const Billboard = styled.div`
         font-size: 1.1rem;
       }
     }
+    .button {
+      display: flex;      
+    }
   }
 `
 

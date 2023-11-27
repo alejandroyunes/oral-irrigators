@@ -10,7 +10,7 @@ const nicefeelFC5090ProductUrl = 'https://a.co/d/7qXs6RG'
 export const bestSingleProducts = {
   title: "Brushing Alone Falls Short",
   subTitle: "The Dental Irrigator removes plaque that lodges deep in the interdental spaces and below the gums. Using a toothbrush or dental floss alone is not sufficient to achieve the best oral hygiene. That's why we recommend that you acquire a good Oral Irrigator, and while these high-quality products may be a little bit more pricy, they undoubtedly offer superior performance and effectiveness.",
-  moreInfo: "Click on the following images to read reviews of the top-rated Bucodental Irrigators:",
+  moreInfo: "Click on the following images to go to the top-rated Bucodental Irrigators:",
   items: [
     {
       title: 'Waterpik Cordless Advanced, WP-580, 7oz',

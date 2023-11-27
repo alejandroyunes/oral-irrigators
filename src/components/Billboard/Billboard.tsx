@@ -28,7 +28,9 @@ export default function (props: BillboardProps) {
             <p>
               {subtitle}
             </p>
-            <SimpleButton text={buttonText} url={url} blank={false} />
+            <div className='button'>
+              <SimpleButton text={buttonText} url={url} blank={false} />
+            </div>
           </div>
         </Billboard>
 

@@ -7,7 +7,7 @@ const HTML5Img = 'https://res.cloudinary.com/dcpdkock3/image/upload/v1698377831/
 export const headerProps = {
   title: "Comparison of the Best Irrigators in 2023",
   subtitle: "Best Dental Irrigator",
-  text: "According to our analysis, the best quality - price dental irrigator is the Waterpik Ultra WP - 660.",
+  text: "According to our analysis, the best quality - price dental irrigator is the Waterpik Ultra WP-660.",
   image: headerBgImage,
   mobileImage: headerBgMobileImage,
   url: '/bestIrrigator',

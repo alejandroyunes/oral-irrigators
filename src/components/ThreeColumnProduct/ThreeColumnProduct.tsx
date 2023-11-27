@@ -31,13 +31,13 @@ export default function ThreeRowProduct(props: Props) {
         {items && items.map((post, index) => (
           <div className='product' key={index}>
             <div>
-              <Link to={post.productUrl}>
+              <Link to={post.productUrl} target='_blank'>
                 <img src={post.image} alt='' width='280' height='280' />
               </Link>
             </div>
             <div>
               <h3 className='product-title'>
-                <Link to={post.productUrl}>
+                <Link to={post.productUrl} target='_blank'>
                   {post.title}
                 </Link>
               </h3>
@@ -51,7 +51,7 @@ export default function ThreeRowProduct(props: Props) {
                 {post.primeUrl && <Link to={post.primeUrl}>
                   <PrimeSvg />
                 </Link>}
-                <AmazonButton text='Buy in Amazon' url={post.productUrl} />
+                <AmazonButton text='Buy in Amazon' url={post.productUrl} blank />
               </div>
             </div>
           </div>
