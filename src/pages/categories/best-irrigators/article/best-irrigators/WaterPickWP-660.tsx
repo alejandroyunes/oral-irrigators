@@ -16,7 +16,7 @@ import {
   titleProps,
   comparativeTableProps,
   titleListProps,
-  turewell600mlProps,
+  waterpikWp66Props,
   proAndCons,
   titleListTurewellProps,
 } from "./data/waterpikwp660"
@@ -28,8 +28,8 @@ export default function () {
         <Helmet>
           <meta
             name='description'
-            content='Turewell introduced an exceptionally budget-friendly model' />
-          <title>Turewell introduced an exceptionally budget-friendly model</title>
+            content='The easy and more effective way to floss, the Waterpik Aquarius Water Flosser features advanced technology and a compact, contemporary design.' />
+          <title>WaterPik Aquarius WP-660 features advanced technology and a compact, contemporary design.</title>
         </Helmet>
       </HelmetProvider>
 
@@ -37,7 +37,7 @@ export default function () {
       <TableOfContent items={tableOfContentItems} />
       <Title message={titleProps.message} titleH2={titleProps.title} id={titleProps.id} />
 
-      <Product {...turewell600mlProps.product} list={turewell600mlProps.list} />
+      <Product {...waterpikWp66Props.product} list={waterpikWp66Props.list} />
 
       <TitleList {...titleListProps} id={titleListProps.id} />
 

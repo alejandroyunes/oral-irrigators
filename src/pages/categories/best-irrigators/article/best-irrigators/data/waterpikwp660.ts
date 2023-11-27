@@ -1,3 +1,7 @@
+export const headerBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701061603/compareIrrigators/WaterPicWP660/k1eonhqyaa3xiqukzbkq.webp'
+export const headerBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701061723/compareIrrigators/WaterPicWP660/tepdnmxuyc7ninueroog.webp'
+export const waterpikwp660 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701061724/compareIrrigators/WaterPicWP660/vkmivxwn8bllfoochcoj.webp'
+
 import {
   h2oflossHF9GlobalData,
   sawgmoreB09GlobalData,
@@ -5,78 +9,81 @@ import {
   zerhuntFC169GlobalData
 } from "../../global-data/best-countertop/best-countertop"
 
+export const amazonPrime = 'https://www.amazon.com'
+export const waterPikWP660ProductUrl = 'https://a.co/d/9ZaRLRh'
+export const waterpikWp660Url = '/best-irrigators/waterpik-wp-660-water-flossing-oral-irrigator'
+
+
 export const headerProps = {
-  title: "Turewell Water Flossing Oral Irrigator FC165, 600ml",
-  subtitle: "Dental Water Teeth Cleaner",
-  text: "Removes 99.99% of Debris: compared with regular toothbrush, toothpick or floss which can't reach the hidden parts.",
-  image: turewell600mlGlobalData.headerBgImage,
-  mobileImage: turewell600mlGlobalData.headerBgMobileImage,
-  url: turewell600mlGlobalData.turewell600mlProductUrl,
+  title: "Waterpik Aquarius Water Flosser WP-660, 650ml",
+  subtitle: "Advanced Water Flossing",
+  text: "Aquarius is a performance water flosser model featuring enhanced pressure settings, massage mode, 22 oz for 90 seconds of use.",
+  image: headerBgImage,
+  mobileImage: headerBgMobileImage,
+  url: waterPikWP660ProductUrl,
   buttonText: "Buy Now",
-  date: '11/18/2023',
+  date: '11/27/2023',
   externalUrl: true
 }
 
-export const turewell600mlUrl = '/best-countertop/turewell-FC165-water-flossing-oral-irrigator'
 
 export const tableOfContentItems = [
   {
-    content: '\u2022 The Best of the Turewell FC165 Water Flosser',
-    id: `${turewell600mlUrl}#the-best-of-turewell`
+    content: '\u2022 The Best of the Waterpik WP-660 Water Flosser',
+    id: `${waterpikWp660Url}#the-best-of-waterpik-wp-660`
   },
   {
-    content: '\u2022 How to use the Turewell FC165?',
-    id: `${turewell600mlUrl}#how-to-use`
+    content: '\u2022 How to use the Waterpik WP-660?',
+    id: `${waterpikWp660Url}#how-to-use`
   },
   {
     content: '\u2022 Props and Cons?',
-    id: `${turewell600mlUrl}#props-and-cons`
+    id: `${waterpikWp660Url}#props-and-cons`
   },
   {
     content: '\u2022 Comparison table with other irrigators',
-    id: `${turewell600mlUrl}#how-does-the-turewell-compares-to-other-irrigators`
+    id: `${waterpikWp660Url}#how-does-the-waterpikWP660-compares-to-other-irrigators`
   },
   {
-    content: '\u2022 Why opt for the Turewell FC165, 600ML?',
-    id: `${turewell600mlUrl}#why-turewell-600ml`
+    content: '\u2022 Why opt for the Waterpik WP-660, 650ML?',
+    id: `${waterpikWp660Url}#why-waterpikwp660`
   },
 ]
 
 export const titleProps = {
-  id: 'the-best-of-turewell',
-  title: 'The Best of the Turewell FC165 Water Flosser',
-  message: 'Turewell introduced an exceptionally budget-friendly model equipped with 360° rotating nozzles and 1700 times/min water pulsation, effectively eliminating 99.99% of debris, thus preventing tooth decay.'
+  id: 'the-best-of-waterpik-wp-660',
+  title: 'The Best of the Waterpik WP-660 Water Flosser',
+  message: 'The easy and more effective way to floss, the Waterpik Aquarius Water Flosser features advanced technology and a compact, contemporary design. And it is the first dental water flosser in its class accepted by the American Dental Association (ADA).'
 }
 
-
-export const turewell600mlProps = {
+export const waterpikWp66Props = {
   product: {
-    title: 'Turewell Water Flossing Oral Irrigator FC165, 600ml',
-    image: turewell600mlGlobalData.turewell600ml,
+    title: 'Waterpik Water Flossing Oral Irrigator WP-660, 650ml',
+    image: waterpikwp660,
     alt: 'Turewell Water Flossing Oral Irrigator',
-    productUrl: turewell600mlGlobalData.turewell600mlProductUrl,
-    primeUrl: turewell600mlGlobalData.amazonPrime,
-    description: 'Turewell offers superior oral care, reaching areas traditional methods miss. Unlike toothbrushes, it cleans hidden gaps, ensuring a thorough and healthier dental routine.'
+    productUrl: waterpikWp660Url,
+    primeUrl: amazonPrime,
+    description: 'Waterpik has focused on water science, engineering, and design. Producsts are backed by over 700 patents worldwide.'
   },
   list: [
-    "Prevents tooth decay, dental calculus, bleeding, and hypersensitivity.",
-    "Ideal for braces and kids.",
-    "600ml larger water tank, easy to clean and removable.",
-    "3 high-pressure tips and 5 specialized tips for various needs.",
-    "3-minute smart timer for safety and device lifespan.",
-    "Anti-leakage design ensures no liquid leaks during high-pressure use.",
-    "Available in black and white.",
+    "Enhanced pressure with 10 settings for a custom clean.",
+    "7 tips for multiple family members and needs.",
+    "650ml larger water tank, easy to clean.",
+    "2 modes (Floss and Massage).",
+    "1-minute timer with 30-second pacer to ensure thorough flossing of all areas.",
+    "LED information panel.",
+    "Available in various colors.",
   ],
 }
 
 export const titleListProps = {
   id: 'how-to-use',
-  titleH2: 'How to use the Turewell FC165 oral irrigator step by step?',
+  titleH2: 'How to use the Waterpik WP-660 oral irrigator step by step?',
   items: [
     {
       itemTitle: [
         'Place the irrigator',
-        'Fill the 600ml',
+        'Fill the 650ml',
         'Connect',
         'Select',
         'Select',
@@ -86,7 +93,7 @@ export const titleListProps = {
       itemContent: [
         'on a smooth surface in the sink. We recommend using a wooden base for stability.',
         'water tank with warm water.',
-        'the Turewell to the power source.',
+        'the Waterpik to the power source.',
         'the pressure level. Start with the lowest level and increase as needed.',
         'the desired nozzle based on your needs (e.g., toothbrush tip, periodontal tip).',
         'the nozzle onto the device and adjust the angle for a 90-degree flow into the sink.',
@@ -98,53 +105,53 @@ export const titleListProps = {
 
 export const proAndCons = {
   id: 'props-and-cons',
-  title: "Pros and Cons of the Turewell FC165",
+  title: "Pros and Cons of the Waterpik WP-660",
   message: "It's important to note that the perceived pros and cons can vary based on individual preferences and needs. Users should consider their specific oral care requirements and lifestyle when deciding if the Turewell Water Flossing Oral Irrigator, 600ml is the right fit for them.",
   itemspro: [
     {
-      title: 'Good for the price.',
+      title: 'The water flosser boasts a 22-ounce reservoir, providing 90 seconds of uninterrupted use without the need for refilling.',
     },
     {
-      title: 'Effectively removes plaque and debris.',
+      title: '7 tips to cater to multiple family members and varied needs.',
     },
     {
       title: 'Setup is easy and simple.',
     },
     {
-      title: 'Comes with a variety of tools and attachments.',
+      title: "Backed by a 3-year limited manufacturer’s warranty, the Aquarius water flosser provides assurance of its durability and quality.",
     },
   ],
   itemscons: [
     {
-      title: 'Customers are mixed about the size of the oral irrigator.',
+      title: 'Customers are mixed about the noise and size of the oral irrigator.',
     },
     {
-      title: 'It gets very messy and water pulsation could generate noise.',
+      title: 'Some customers think the irrigator takes too much storage space.',
     },
   ]
 }
 
 export const comparativeTableProps = {
-  id: 'how-does-the-turewell-compares-to-other-irrigators',
-  title: 'Compare the Turewell FC165 with other irrigators',
+  id: 'how-does-the-waterpikWP660-compares-to-other-irrigators',
+  title: 'Compare the Waterpik WP-660 with other irrigators',
   message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
   primeUrl: turewell600mlGlobalData.amazonPrime,
   items: [
     {
       id: 1,
-      models: 'Turewell FC165',
-      image: turewell600mlGlobalData.turewell600ml,
-      alt: 'Turewell FC165 Oral Irrigator',
+      models: 'Waterpik WP-660',
+      image: waterpikwp660,
+      alt: 'Waterpik WP-660 Oral Irrigator',
       prime: true,
-      dimensions: '5.7 x 4.9 x 8.07 in, 1.7 lbs',
-      multifunctionaltips: '8',
-      capacity: '600 ml',
-      highlight: '8 Nozzles, Value, Ease of use',
-      problem: 'Water Resistance',
+      dimensions: '3.8 x 4.7 x 10.3 in, 1.46 lbs',
+      multifunctionaltips: '7',
+      capacity: '650 ml',
+      highlight: '10 Nozzles, Value, Ease of use',
+      problem: 'Noise, size',
       price: 'Good Price',
-      satisfaction: '8/10',
+      satisfaction: '9.5/10',
       view: 'View Price',
-      url: turewell600mlGlobalData.turewell600mlProductUrl
+      url: waterPikWP660ProductUrl
     },
     {
       id: 2,
@@ -198,23 +205,23 @@ export const comparativeTableProps = {
 }
 
 export const titleListTurewellProps = {
-  id: 'why-turewell-600ml',
-  titleH2: 'Why opt for the Turewell FC165?',
+  id: 'why-waterpikwp660',
+  titleH2: 'Why opt for the Waterpik WP-660?',
   items: [
     {
       itemTitle: [
-        'Turewell',
-        'This model',
-        'Allows',
+        'Backed',
+        'Accepted',
+        'Waterpik',
         'With its',
         'What makes it unique?',
       ],
       itemContent: [
-        'is one of the most recognized brands in the dental hygiene market, known for its oral irrigators that offer a comprehensive solution to users.',
-        'stands out not only for its very affordable price but also for the capacity.',
-        'for easy mouth cleaning by adjusting the power with the dial.',
-        'set of 8 nozzles, each family member can improve their oral hygiene without having to share.',
-        'It features a timer that turns off the irrigator if it detects no use in 3 minutes to save energy.',
+        'by a 3-year limited manufacturer’s warranty.',
+        'by the ADA for safety and effectiveness.',
+        'invented the water flosser in 1962 and is backed by 60 years of innovation.',
+        'set of 7 nozzles, each family member can improve their oral hygiene without having to share.',
+        'Advanced technology and a compact, contemporary design.',
       ]
     }
   ]

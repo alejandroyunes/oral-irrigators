@@ -1,18 +1,18 @@
-import image from './water.jpg'
-const headerBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1699702078/billboard/zcxvfauicbu1q56xtjkl.webp'
-const headerBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1699702078/billboard/zcxvfauicbu1q56xtjkl.webp'
-const HTML5Img = 'https://res.cloudinary.com/dcpdkock3/image/upload/v1698377831/blog/kkc4eb4flw5qgmjpmdro.webp'
+import { headerBgImage, headerBgMobileImage } from "../article/best-irrigators/data/waterpikwp660"
 
+const bestIrrigatorsBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701063834/compareIrrigators/BestIrrigatorBg/bq3ntabxi9mjsbk7zbhi.webp'
+const bestIrrigatorsBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701063921/compareIrrigators/BestIrrigatorBg/vrreipanqkrf8d8xjvrl.webp'
+const HTML5Img = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701063921/compareIrrigators/BestIrrigatorBg/vrreipanqkrf8d8xjvrl.webp'
 
 export const headerProps = {
   title: "Comparison of the Best Irrigators in 2023",
   subtitle: "Best Dental Irrigator",
   text: "According to our analysis, the best quality - price dental irrigator is the Waterpik Ultra WP-660.",
-  image: headerBgImage,
-  mobileImage: headerBgMobileImage,
-  url: '/bestIrrigator',
-  buttonText: "View More",
-  date: '11/12/2023'
+  image: bestIrrigatorsBgImage,
+  mobileImage: bestIrrigatorsBgMobileImage,
+  url: '/best-irrigators/waterpik-wp-660-water-flossing-oral-irrigator',
+  buttonText: "View WaterPic WP-660",
+  date: '11/26/2023'
 }
 
 export const tableOfContentUrl = '/best-irrigators/#'
@@ -83,7 +83,7 @@ export const comparativeTableProps = {
     {
       id: 1,
       models: 'Waterpik Ultra 660 some more texts',
-      image: image,
+      image: HTML5Img,
       alt: 'Waterpik Ultra 660',
       prime: true,
       dimensions: '15 x 16,5 x 23 cm',
@@ -99,7 +99,7 @@ export const comparativeTableProps = {
     {
       id: 2,
       models: 'Waterpik Ultra 660',
-      image: image,
+      image: HTML5Img,
       alt: 'Waterpik Ultra 660',
       prime: false,
       dimensions: '15 x 16,5 x 23 cm',
@@ -116,7 +116,7 @@ export const comparativeTableProps = {
     {
       id: 3,
       models: 'Waterpik Ultra 660',
-      image: image,
+      image: HTML5Img,
       alt: 'Waterpik Ultra 660',
       prime: true,
       dimensions: '15 x 16,5 x 23 cm',
@@ -132,7 +132,7 @@ export const comparativeTableProps = {
     {
       id: 4,
       models: 'Waterpik Ultra 660',
-      image: image,
+      image: HTML5Img,
       alt: 'Waterpik Ultra 660',
       prime: true,
       dimensions: '15 x 16,5 x 23 cm',
