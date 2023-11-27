@@ -1,4 +1,4 @@
-import { headerBgImage, headerBgMobileImage } from "../article/best-irrigators/data/waterpikwp660"
+import { waterPik660amazonPrime, waterPik660productReview, waterPikWP660ProductUrl, waterpikwp660 } from "../article/best-irrigators/data/waterpikwp660"
 
 const bestIrrigatorsBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701063834/compareIrrigators/BestIrrigatorBg/bq3ntabxi9mjsbk7zbhi.webp'
 const bestIrrigatorsBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701063921/compareIrrigators/BestIrrigatorBg/vrreipanqkrf8d8xjvrl.webp'
@@ -82,24 +82,24 @@ export const comparativeTableProps = {
   items: [
     {
       id: 1,
-      models: 'Waterpik Ultra 660 some more texts',
-      image: HTML5Img,
-      alt: 'Waterpik Ultra 660',
+      models: 'Waterpik WP-660',
+      image: waterpikwp660,
+      alt: 'Waterpik WP-660 Oral Irrigator',
       prime: true,
-      dimensions: '15 x 16,5 x 23 cm',
-      multifunctionaltips: '6',
+      dimensions: '3.8 x 4.7 x 10.3 in, 1.46 lbs',
+      multifunctionaltips: '7',
       capacity: '650 ml',
-      highlight: 'Economical, easy to use, and very comprehensive.',
-      problem: 'The customer service of Waterpik.',
-      price: 'Best buy',
-      satisfaction: '5/5',
+      highlight: '10 Nozzles, Best value',
+      problem: 'Noise, size',
+      price: 'Good Price',
+      satisfaction: '9.5/10',
       view: 'View Price',
-      url: '/buy-amazon-url'
+      url: waterPikWP660ProductUrl
     },
     {
       id: 2,
       models: 'Waterpik Ultra 660',
-      image: HTML5Img,
+      image: waterpikwp660,
       alt: 'Waterpik Ultra 660',
       prime: false,
       dimensions: '15 x 16,5 x 23 cm',
@@ -116,7 +116,7 @@ export const comparativeTableProps = {
     {
       id: 3,
       models: 'Waterpik Ultra 660',
-      image: HTML5Img,
+      image: waterpikwp660,
       alt: 'Waterpik Ultra 660',
       prime: true,
       dimensions: '15 x 16,5 x 23 cm',
@@ -132,7 +132,7 @@ export const comparativeTableProps = {
     {
       id: 4,
       models: 'Waterpik Ultra 660',
-      image: HTML5Img,
+      image: waterpikwp660,
       alt: 'Waterpik Ultra 660',
       prime: true,
       dimensions: '15 x 16,5 x 23 cm',
@@ -170,15 +170,15 @@ export const titleListProps = {
 
 export const firstProduct = {
   product: {
-    title: 'some title longer title, here is a longer title',
-    image: HTML5Img,
-    productUrl: '/amayonlink',
-    primeUrl: '/amazonPrime',
-    url: '/link to reseña',
+    title: 'Waterpik Aquarius Water Flosser WP-660, 650ml',
+    image: waterpikwp660,
+    productUrl: waterPikWP660ProductUrl,
+    primeUrl: waterPik660amazonPrime,
+    url: waterPik660productReview,
   },
   list: [
     "Type: Desktop",
-    "Weight: 660 grams",
+    "Weight: 1.46 pounds",
     "Tank Capacity: 650 ml",
     "Includes 7 nozzles",
     "10 pressure levels",
@@ -186,12 +186,12 @@ export const firstProduct = {
     "Storage for nozzles",
   ],
   productDetails: {
-    title: 'The 660EU model from Waterpik is positioned as the best irrigator to date',
+    title: 'The 660 model from Waterpik is positioned as the best irrigator to date',
     message: 'It has one of the most complete sets of nozzles (7 in total), combined with its 10 pressure levels that reach up to 130 psi (a unique feature of Waterpik), allowing you to adjust the power of the jet according to the type of cleaning you want to perform. It has two modes of use: Massage for people with dental sensitivity and Floss to remove bacterial plaque and debris from the teeth.',
     moreinfo: 'A lightweight tabletop irrigator, the perfect size to place on the sink, regardless of the bathroom size, and with a great extra: a compartment to place the most frequently used nozzles'
   },
   proAndCons: {
-    title: "1. Waterpik Ultra 660EU – Best Quality-Price Ratio Irrigator",
+    title: "1. Waterpik WP-660 – Best Quality-Price Ratio Irrigator",
     subtitle: "Taking into account multiple factors, user ratings, and, of course, our own assessment, the Waterpik Ultra model is the best dental irrigator in terms of quality and price, in addition to being one of the most recommended by dentists.",
     url: {
       url: '/blog/water',

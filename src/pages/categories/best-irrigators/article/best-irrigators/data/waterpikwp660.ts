@@ -9,8 +9,9 @@ import {
   zerhuntFC169GlobalData
 } from "../../global-data/best-countertop/best-countertop"
 
-export const amazonPrime = 'https://www.amazon.com'
+export const waterPik660amazonPrime = 'https://www.amazon.com'
 export const waterPikWP660ProductUrl = 'https://a.co/d/9ZaRLRh'
+export const waterPik660productReview = 'https://www.amazon.com/product-reviews/B00HFQQ0VU/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
 export const waterpikWp660Url = '/best-irrigators/waterpik-wp-660-water-flossing-oral-irrigator'
 
 
@@ -25,7 +26,6 @@ export const headerProps = {
   date: '11/27/2023',
   externalUrl: true
 }
-
 
 export const tableOfContentItems = [
   {
@@ -62,7 +62,7 @@ export const waterpikWp66Props = {
     image: waterpikwp660,
     alt: 'Turewell Water Flossing Oral Irrigator',
     productUrl: waterpikWp660Url,
-    primeUrl: amazonPrime,
+    primeUrl: waterPik660amazonPrime,
     description: 'Waterpik has focused on water science, engineering, and design. Producsts are backed by over 700 patents worldwide.'
   },
   list: [
@@ -146,7 +146,7 @@ export const comparativeTableProps = {
       dimensions: '3.8 x 4.7 x 10.3 in, 1.46 lbs',
       multifunctionaltips: '7',
       capacity: '650 ml',
-      highlight: '10 Nozzles, Value, Ease of use',
+      highlight: '10 Nozzles, Best value',
       problem: 'Noise, size',
       price: 'Good Price',
       satisfaction: '9.5/10',
