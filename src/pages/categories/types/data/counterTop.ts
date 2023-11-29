@@ -1,8 +1,8 @@
-import { waterPik660amazonPrime, waterPik660productReview, waterPikWP660ProductUrl, waterpikwp660 } from "../article/best-irrigators/data/waterpikwp660"
-import { nicwellF5025GlobalData } from "../article/global-data/best-portable/best-portable"
+import { waterPik660amazonPrime, waterPik660productReview, waterPikWP660ProductUrl, waterpikwp660 } from "../../best-irrigators/article/best-irrigators/data/waterpikwp660"
+import { nicwellF5025GlobalData } from "../../best-irrigators/article/global-data/best-portable/best-portable"
 
-const bestIrrigatorsBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701063834/compareIrrigators/BestIrrigatorBg/bq3ntabxi9mjsbk7zbhi.webp'
-const bestIrrigatorsBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701063921/compareIrrigators/BestIrrigatorBg/vrreipanqkrf8d8xjvrl.webp'
+const bestIrrigatorsBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701242753/typesOfIrrigators/counterTop/counter-top-irrigators_kgedbc.webp'
+const bestIrrigatorsBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701244411/typesOfIrrigators/counterTop/counter-top-irrigators-mobile_yspdf9.webp'
 
 const waterpicWP580 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701082075/compareIrrigators/Waterpic-WP-580/au3iegupvu2oby4ibqyy.webp'
 const waterpicWP580ProductUrl = 'https://a.co/d/fDPfb5g'
@@ -15,8 +15,8 @@ const waterpicWF13ProductReview = 'https://www.amazon.com/product-reviews/B09C2Q
 const amazonPrime = 'https://www.amazon.com/'
 
 export const headerProps = {
-  title: "Comparison of the Best Irrigators in 2023",
-  subtitle: "Best Dental Irrigator",
+  title: "The Best CounterTop Irrigators in 2023",
+  subtitle: "Best CounterTop Dental Irrigator",
   text: "According to our analysis, the best quality - price dental irrigator is the Waterpik Ultra WP-660.",
   image: bestIrrigatorsBgImage,
   mobileImage: bestIrrigatorsBgMobileImage,

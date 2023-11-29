@@ -20,11 +20,11 @@ type Props = {
 }
 
 export default function (props: Props) {
-  const { title, subTitle, url, items } = props
+  const { title, subTitle, items } = props
 
   return (
     <Container>
-      <Title titleH2={title} message={subTitle} url={{ url: url, text: 'See the three types' }} />
+      <Title titleH2={title} message={subTitle}/>
       <TwoColumn>
         {items.map((item) => {
           return (

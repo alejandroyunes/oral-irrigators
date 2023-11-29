@@ -19,6 +19,7 @@ import InSmartFC256 from "../../pages/categories/best-irrigators/article/best-po
 import H2oFlossHF9 from "../../pages/categories/best-irrigators/article/best-counter/H2oFlossHF9.tsx"
 import SawgmoreB09 from "../../pages/categories/best-irrigators/article/best-counter/SawgmoreB09.tsx"
 import WaterPickWP660 from "../../pages/categories/best-irrigators/article/best-irrigators/WaterPickWP-660.tsx"
+import CounterType from "../../pages/categories/types/CounterType.tsx"
 
 const bestPortableConfig = [
   {
@@ -88,6 +89,11 @@ const routerConfig: RouteObject[] = [
       {
         path: '/best-irrigators/waterpik-wp-660-water-flossing-oral-irrigator',
         element: <WaterPickWP660 />,
+        errorElement: <ErrorPage />
+      },
+      {
+        path: '/types/countertop',
+        element: <CounterType />,
         errorElement: <ErrorPage />
       },
       ...bestPortableConfig.map(config => ({

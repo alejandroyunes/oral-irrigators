@@ -23,10 +23,6 @@ export const SimpleButton = styled.button`
     white-space: nowrap;
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
   }
-  a:hover, span:hover {
-    transform: scale(1.1);
-    border: 1px solid ${({ theme }) => theme.palette.black};
-  }
   .color { 
     background-color: ${({ theme }) => theme.palette.primary.contrastButton};
     color: ${({ theme }) => theme.palette.primary.contrastText};

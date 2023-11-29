@@ -12,7 +12,7 @@ export default function ({ text, url, color, blank }: SimpleButtonProps) {
   return (
     <Container>
       <Button>
-        <Link to={url} target={blank ? '_blank' : '_self'} style={{ margin: '0 auto' }}>
+        <Link to={url} target={blank ? '_blank' : '_self'} >
 
           <span className={color ? 'color' : ''}>
             {text}

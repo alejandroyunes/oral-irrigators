@@ -6,7 +6,7 @@ import Product from "../../../components/Product/Product"
 import TableOfContent from "../../../components/TableOfContent/TableOfContent"
 import Title from "../../../components/Title/Title"
 import TitleList from "../../../components/TitleList/TitleList"
-import { tableOfContentItems, headerProps, titleProps, comparativeTableProps, titleListProps, firstProduct, secondProduct, thirdProduct, fourthProduct } from "./data/best"
+import { tableOfContentItems, headerProps, titleProps, comparativeTableProps, titleListProps, firstProduct, secondProduct, thirdProduct, fourthProduct } from "./data/counterTop"
 
 export default function () {
   return (

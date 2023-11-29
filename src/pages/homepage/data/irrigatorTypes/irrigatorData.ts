@@ -2,7 +2,6 @@ const counterTop = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v170100642
 const wireless = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701006421/typesOfIrrigators/krk1blvi7n0yl8zwdpii.webp'
 const portable = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701006658/typesOfIrrigators/nfr2hz3tnyekctw3aznj.webp'
 
-
 export const irrigatorProps = {
   title: "What Type of Dental Irrigator to Buy?",
   subTitle: "The best irrigator is the one that fits your needs. To meet different demands, manufacturers have created three main types of irrigators: countertop (powerful), cordless (more convenient to use), and travel (lightweight).",
@@ -14,7 +13,7 @@ export const irrigatorProps = {
       text: 'Countertop dental irrigators are characterized by their stationary design and larger water tank capacity. Unlike portable models, they offer multiple pressure settings and interchangeable nozzles, allowing for more precise and customized cleaning based on individual needs. Their size and features make them ideal for intensive and personalized use at home, providing comprehensive and professional oral hygiene.',
       image: counterTop,
       alt: '',
-      url: ''
+      url: '/types/countertop'
     },
     {
       id: 2,
@@ -32,6 +31,5 @@ export const irrigatorProps = {
       alt: '',
       url: ''
     },
-
   ],
 }
