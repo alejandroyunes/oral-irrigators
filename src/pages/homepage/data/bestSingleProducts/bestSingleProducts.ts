@@ -1,6 +1,6 @@
 const waterpikWP580 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700995936/Best/SingleBests/skhiw9t8lpaq1ccghqon.webp'
 const waterpikWP660 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700999294/Best/SingleBests/zliqkbhgjuxjnn0cg9oj.webp'
-const nicefeelFC5090 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700995936/Best/SingleBests/skhiw9t8lpaq1ccghqon.webp'
+const nicefeelFC5090 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700999294/Best/SingleBests/szgwkq7fkaoqkdexrkzn.webp'
 
 const amazonPrime = 'https://www.amazon.com/'
 const waterpikWP580ProductUrl = 'https://a.co/d/i4SwaUw'

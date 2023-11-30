@@ -21,6 +21,7 @@ import SawgmoreB09 from "../../pages/categories/best-irrigators/article/best-cou
 import WaterPickWP660 from "../../pages/categories/best-irrigators/article/best-irrigators/WaterPickWP-660.tsx"
 import CounterType from "../../pages/categories/types/CounterType.tsx"
 import WirelessType from "../../pages/categories/types/WirelessType.tsx"
+import WaterPickWP580 from "../../pages/categories/best-irrigators/article/best-irrigators/WaterPickWP-580.tsx"
 
 const bestPortableConfig = [
   {
@@ -100,6 +101,11 @@ const routerConfig: RouteObject[] = [
       {
         path: '/types/wireless',
         element: <WirelessType />,
+        errorElement: <ErrorPage />
+      },
+      {
+        path: '/best-wireless/waterpik-wp-580-water-flossing-oral-irrigator',
+        element: <WaterPickWP580 />,
         errorElement: <ErrorPage />
       },
       ...bestPortableConfig.map(config => ({

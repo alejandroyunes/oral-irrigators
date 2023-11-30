@@ -20,7 +20,7 @@ export const headerProps = {
   text: "The best quality - price wireless dental irrigator is the Waterpik Ultra WP-660.",
   image: bestIrrigatorsBgImage,
   mobileImage: bestIrrigatorsBgMobileImage,
-  url: '/best-irrigators/waterpik-wp-660-water-flossing-oral-irrigator',
+  url: '/best-wireless/waterpik-wp-580-water-flossing-oral-irrigator',
   buttonText: "View Waterpic WP-580",
   date: '11/30/2023'
 }
