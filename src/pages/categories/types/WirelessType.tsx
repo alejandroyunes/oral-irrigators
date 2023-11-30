@@ -6,7 +6,17 @@ import Product from "../../../components/Product/Product"
 import TableOfContent from "../../../components/TableOfContent/TableOfContent"
 import Title from "../../../components/Title/Title"
 import TitleList from "../../../components/TitleList/TitleList"
-import { tableOfContentItems, headerProps, titleProps, comparativeTableProps, titleListProps, firstProduct, secondProduct, thirdProduct, fourthProduct } from "./data/wireless"
+import {
+  tableOfContentItems,
+  headerProps,
+  titleProps,
+  comparativeTableProps,
+  titleListProps,
+  firstProduct,
+  secondProduct,
+  thirdProduct,
+  fourthProduct
+} from "./data/wireless"
 
 export default function () {
   return (
@@ -15,14 +25,13 @@ export default function () {
         <Helmet>
           <meta
             name='description'
-            content='Comparison of the Best Countertop Irrigators in 2023 | Dental Irrigator' />
-          <title>Comparison of the Best Countertop Irrigators in 2023 | Dental Irrigator</title>
+            content='Comparison of the Best Wireless and portable Irrigators in 2023 | Dental Irrigator' />
+          <title>Comparison of the Best Wireless and portable Irrigators in 2023 | Dental Irrigator</title>
         </Helmet>
       </HelmetProvider>
 
       <Header {...headerProps} />
       <TableOfContent items={tableOfContentItems} />
-
 
 
       {/* First Product */}

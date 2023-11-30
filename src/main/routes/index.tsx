@@ -20,6 +20,7 @@ import H2oFlossHF9 from "../../pages/categories/best-irrigators/article/best-cou
 import SawgmoreB09 from "../../pages/categories/best-irrigators/article/best-counter/SawgmoreB09.tsx"
 import WaterPickWP660 from "../../pages/categories/best-irrigators/article/best-irrigators/WaterPickWP-660.tsx"
 import CounterType from "../../pages/categories/types/CounterType.tsx"
+import WirelessType from "../../pages/categories/types/WirelessType.tsx"
 
 const bestPortableConfig = [
   {
@@ -98,7 +99,7 @@ const routerConfig: RouteObject[] = [
       },
       {
         path: '/types/wireless',
-        element: <CounterType />,
+        element: <WirelessType />,
         errorElement: <ErrorPage />
       },
       ...bestPortableConfig.map(config => ({

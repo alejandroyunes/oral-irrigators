@@ -1,8 +1,8 @@
-import { waterPik660amazonPrime, waterPik660productReview, waterPikWP660ProductUrl, waterpikwp660 } from "../../best-irrigators/article/best-irrigators/data/waterpikwp660"
-import { nicwellF5025GlobalData } from "../../best-irrigators/article/global-data/best-portable/best-portable"
+import { waterPik660amazonPrime, waterPik660productReview, waterPikWP660ProductUrl } from "../../best-irrigators/article/best-irrigators/data/waterpikwp660"
+import { nicefeelFC1592bkGlobalData, nicwellF5025GlobalData } from "../../best-irrigators/article/global-data/best-portable/best-portable"
 
-const bestIrrigatorsBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701242753/typesOfIrrigators/counterTop/counter-top-irrigators_kgedbc.webp'
-const bestIrrigatorsBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701244411/typesOfIrrigators/counterTop/counter-top-irrigators-mobile_yspdf9.webp'
+const bestIrrigatorsBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701242679/typesOfIrrigators/Wireless/wireless-irrigators_xycmdt.webp'
+const bestIrrigatorsBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701342128/typesOfIrrigators/Wireless/dctntu9w1sa1g089k5q6.webp'
 
 const waterpicWP580 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701082075/compareIrrigators/Waterpic-WP-580/au3iegupvu2oby4ibqyy.webp'
 const waterpicWP580ProductUrl = 'https://a.co/d/fDPfb5g'
@@ -15,34 +15,34 @@ const waterpicWF13ProductReview = 'https://www.amazon.com/product-reviews/B09C2Q
 const amazonPrime = 'https://www.amazon.com/'
 
 export const headerProps = {
-  title: "The Best CounterTop Irrigators in 2023",
-  subtitle: "Best CounterTop Dental Irrigator",
-  text: "The best quality - price countertop dental irrigator is the Waterpik Ultra WP-660.",
+  title: "The Best Wireless Irrigators in 2023",
+  subtitle: "Best Wireless and Portable Dental Irrigator",
+  text: "The best quality - price wireless dental irrigator is the Waterpik Ultra WP-660.",
   image: bestIrrigatorsBgImage,
   mobileImage: bestIrrigatorsBgMobileImage,
   url: '/best-irrigators/waterpik-wp-660-water-flossing-oral-irrigator',
-  buttonText: "View Waterpic WP-660",
-  date: '11/29/2023'
+  buttonText: "View Waterpic WP-580",
+  date: '11/30/2023'
 }
 
-export const tableOfContentUrl = '/best-irrigators/#'
+export const tableOfContentUrl = '/types/wireless/#'
 
 export const tableOfContentItems = [
   {
-    content: '\u2022 1. Waterpik WP 660 – Best Quality-Price Countertop Irrigator',
-    id: `${tableOfContentUrl}waterpik-wp-660-countertop-irrigator`
-  },
-  {
-    content: '\u2022 2. Waterpik Cordless Advanced WP-580, 200ml',
+    content: '\u2022 1. Waterpik Cordless Advanced WP-580, 200ml',
     id: `${tableOfContentUrl}waterpik-wp-580-quality-ratio-irrigator`
   },
   {
-    content: '\u2022 3. Waterpik Rechargeable Pearl WF-13, 207ml',
+    content: '\u2022 2. Waterpik Rechargeable Pearl WF-13, 207ml',
     id: `${tableOfContentUrl}waterpik-pearl-wf-13-irrigator`
   },
   {
-    content: '\u2022 4. Nicwell Professional Water Flosser F5025, 200ml',
+    content: '\u2022 3. Nicwell Professional Water Flosser F5025, 200ml',
     id: `${tableOfContentUrl}nicwell-f5025-irrigator`
+  },
+  {
+    content: '\u2022 4. Nicefeel Cordless Water Flosser FC1592BK, 300ml',
+    id: `${tableOfContentUrl}nicefeel-fc1592bk-countertop-irrigator`
   },
   {
     content: '\u2022 Comparative Table of the Best Oral Irrigators',
@@ -83,24 +83,9 @@ export const comparativeTableProps = {
   message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
   primeUrl: amazonPrime,
   items: [
+
     {
       id: 1,
-      models: 'Waterpik WP-660',
-      image: waterpikwp660,
-      alt: 'Waterpik WP-660 Oral Irrigator',
-      prime: true,
-      dimensions: '3.8 x 4.7 x 10.3 in, 1.46 lbs',
-      multifunctionaltips: '7',
-      capacity: '650 ml',
-      highlight: '10 Nozzles, Best value',
-      problem: 'Noise, Size',
-      price: 'Fair',
-      satisfaction: '9.5/10',
-      view: 'View Price',
-      url: waterPikWP660ProductUrl
-    },
-    {
-      id: 2,
       models: 'Waterpik WP-580',
       image: waterpicWP580,
       alt: 'Waterpik Cordless WP-580, 200ml',
@@ -116,7 +101,7 @@ export const comparativeTableProps = {
       url: waterpicWP580ProductUrl
     },
     {
-      id: 3,
+      id: 2,
       models: 'Waterpik Pearl WF-13',
       image: waterpicWF13,
       alt: 'Waterpik Pearl WF-13',
@@ -132,7 +117,7 @@ export const comparativeTableProps = {
       url: waterpicWF13ProductUrl
     },
     {
-      id: 4,
+      id: 3,
       models: 'Nicwell F5025',
       image: nicwellF5025GlobalData.nicwellf5025,
       alt: 'Nicwell 200ml Oral Irrigator',
@@ -146,72 +131,28 @@ export const comparativeTableProps = {
       satisfaction: '9/10',
       view: 'View Price',
       url: nicwellF5025GlobalData.nicwellf5025ProductUrl
-    }
+    },
+    {
+      id: 4,
+      models: 'Nicefeel FC1592-BK',
+      image: nicefeelFC1592bkGlobalData.nicefeelFC1592bk,
+      alt: 'Nicefeel FC1592-BK Oral Irrigator Image',
+      prime: true,
+      dimensions: '0.3 x 0.31 x 0.87 in, 13 oz',
+      multifunctionaltips: '4',
+      capacity: '300 ml',
+      highlight: 'Compact Design, Long Battery Life',
+      problem: 'Durability',
+      price: 'Great Price',
+      satisfaction: '8/10',
+      view: 'View Price',
+      url: nicefeelFC1592bkGlobalData.nicefeelFC1592bkProductUrl
+    },
   ]
 }
 
-export const firstProduct = {
-  product: {
-    id: 'waterpik-wp-660-countertop-irrigator',
-    title: 'Waterpik Aquarius Water Flosser WP-660, 650ml',
-    image: waterpikwp660,
-    productUrl: waterPikWP660ProductUrl,
-    primeUrl: waterPik660amazonPrime,
-    url: waterPik660productReview,
-  },
-  list: [
-    "Type: Desktop",
-    "Weight: 1.46 pounds",
-    "Tank Capacity: 650 ml",
-    "Includes 7 nozzles",
-    "10 pressure levels",
-    "2 usage modes",
-    "Storage for nozzles",
-  ],
-  productDetails: {
-    title: 'The WP-660 model from Waterpik is positioned as the best irrigator to date',
-    message: 'It has one of the most complete sets of nozzles (7 in total), combined with its 10 pressure levels that reach up to 130 psi (a unique feature of Waterpik), allowing you to adjust the power of the jet according to the type of cleaning you want to perform. It has two modes of use: Massage for people with dental sensitivity and Floss to remove bacterial plaque and debris from the teeth.',
-    moreinfo: 'A lightweight tabletop irrigator, the perfect size to place on the sink, regardless of the bathroom size, and with a great extra: a compartment to place the most frequently used nozzles'
-  },
-  proAndCons: {
-    title: "1. Waterpik WP-660 – Countertop Oral Irrigator",
-    subtitle: "Taking into account multiple factors, user ratings, and, of course, our own assessment, the Waterpik Ultra model is the best dental irrigator in terms of quality and price, in addition to being one of the most recommended by dentists.",
-    url: {
-      url: '/blog/water',
-      text: 'WaterPik url title'
-    },
-    itemspro: [
-      {
-        title: 'Helps reduce tartar and prevent oral diseases.',
-      },
-      {
-        title: 'Ensures a thorough cleaning, improving the health of teeth and gums.',
-      },
-      {
-        title: 'Can be especially useful for people with braces or implants, facilitating cleaning in hard-to-reach areas.',
-      },
-      {
-        title: 'Promotes circulation in the gums, strengthening them and helping to maintain their health.',
-      },
-      {
-        title: 'Contributes to the prevention of dental stains, maintaining a more attractive dental aesthetic.',
-      },
-    ],
-    itemscons: [
-      {
-        title: 'The more comprehensive models require a lot of space',
-      },
-      {
-        title: ' For those with dental sensitivity, using it can be a bit uncomfortable.',
-      },
-      {
-        title: 'Is easy to use, but it is necessary to learn how to use it correctly to avoid damaging the gums.',
-      },
-    ]
-  }
-}
 
-export const secondProduct = {
+export const firstProduct = {
   product: {
     id: 'waterpik-wp-580-quality-ratio-irrigator',
     title: 'Waterpik Cordless Advanced WP-580, 200ml',
@@ -230,11 +171,11 @@ export const secondProduct = {
     "4 hrs Battery life",
   ],
   productDetails: {
-    title: 'The WP-580 model from Waterpik is positioned as the second best irrigator to date',
+    title: 'The WP-580 model from Waterpik is positioned as the best wireless and portable irrigator to date',
     message: 'Exceptional features and cutting-edge design, the Waterpik 580 model remains unrivaled as the premier choice for state-of-the-art portable oral irrigation.',
   },
   proAndCons: {
-    title: "2. Waterpik WP-580 – Second Best Quality Irrigator",
+    title: "1. Waterpik WP-580 – Dental Irrigator",
     subtitle: "The Waterpik WP-580 Cordless Advanced, a handheld cordless water flosser designed for quiet operation and efficient oral care. Ideal for travel, this portable device is globally voltage compatible and includes essential accessories, making it the perfect companion for maintaining your oral health wherever life takes you.",
     itemspro: [
       {
@@ -255,7 +196,7 @@ export const secondProduct = {
   }
 }
 
-export const thirdProduct = {
+export const secondProduct = {
   product: {
     id: 'waterpik-pearl-wf-13-irrigator',
     title: 'Waterpik Rechargeable Pearl WF-13, 207ml',
@@ -274,11 +215,11 @@ export const thirdProduct = {
     "2 weeks of Battery life",
   ],
   productDetails: {
-    title: 'The WF-13 model from Waterpik is positioned as the third best irrigator to date',
+    title: 'The WF-13 model from Waterpik an affortable oral irrigator',
     message: 'Ergonomic design and quiet flossing technology, this handheld flosser ensures enhanced maneuverability and discreet operation.  The ease of cleaning with this oral irrigator stands out, as customers rave about its remarkable ability to clean teeth thoroughly, leaving the mouth feeling exceptionally clean.',
   },
   proAndCons: {
-    title: "3. Waterpik WF-13 – Third Best Quality Irrigator",
+    title: "2. Waterpik WF-13 – Oral Irrigator",
     subtitle: "Waterpik WF-13 rechargable Pearl will help you maintain healthier gums and brighter teeth whether you are at home or on the go. The optimal pressure and easy cleaning process make it a versatile tool, suitable even for use in the shower. Users note significant improvements noticed by their hygienists, emphasizing that it tackles more debris than traditional brushing alone.",
     itemspro: [
       {
@@ -302,7 +243,7 @@ export const thirdProduct = {
   }
 }
 
-export const fourthProduct = {
+export const thirdProduct = {
   product: {
     id: 'nicwell-f5025-irrigator',
     title: 'Nicwell Professional Water Flosser F5025, 200ml',
@@ -320,11 +261,11 @@ export const fourthProduct = {
     "Up to 21 days of use with a single charge",
   ],
   productDetails: {
-    title: 'The Nicwell F5025 model from Nicwell is positioned as the fourth best irrigator to date',
+    title: 'The Nicwell F5025 model from Nicwell is positioned as a top oral irrigator',
     message: 'Nicwell Water Dental Flosser redefines oral care with its upgraded pulsation technique, delivering a high-pressure water pulse for deep cleaning, gum massage, and improved blood circulation. It effectively addresses issues like bleeding gums, bad breath, and is beneficial for orthodontic brace and bridge care.',
   },
   proAndCons: {
-    title: "4. Nicwell F5025 – Fourth Best Quality Irrigator",
+    title: "3. Nicwell F5025 – Oral Dental Irrigator",
     subtitle: "Nicwell F5025 Portable, rechargeable, and designed for optimal oral health on the go.",
     itemspro: [
       {
@@ -349,6 +290,58 @@ export const fourthProduct = {
       },
       {
         title: 'Customers are not satisfied with the charging feature of the oral irrigator. They mention that the charger is a USB and they never have a usb charger in the bathroom.',
+      },
+    ]
+  }
+}
+
+export const fourthProduct = {
+  product: {
+    id: 'nicefeel-fc1592bk-countertop-irrigator',
+    title: 'Nicefeel Cordless Water Flosser FC1592BK, 300ml',
+    image: nicefeelFC1592bkGlobalData.nicefeelFC1592bk,
+    productUrl: waterPikWP660ProductUrl,
+    primeUrl: waterPik660amazonPrime,
+    url: waterPik660productReview,
+  },
+  list: [
+    "Type: Desktop",
+    "Weight: 1.46 pounds",
+    "Tank Capacity: 650 ml",
+    "Includes 7 nozzles",
+    "10 pressure levels",
+    "2 usage modes",
+    "Storage for nozzles",
+  ],
+  productDetails: {
+    title: 'The Nicefeel Cordless Water Flosser FC1592BK model from is positioned as the one of the best irrigator',
+    message: "Powerful and Efficient Cleaning: The Nicefeel FC1592BK features a high-pressure water pulse of 1800 times/minute, ensuring powerful and efficient cleaning that reaches areas traditional brushing can't.",
+    moreinfo: "A lightweight wireless irrigator, the perfect size to place on the sink, regardless of the bathroom size, and with a great extra: a compartment to place the most frequently used nozzles"
+  },
+  proAndCons: {
+    title: "4. Nicefeel Cordless Water Flosser FC1592BK, 300ml",
+    subtitle: "Experience the pinnacle of oral care with Nicefeel's Cordless Water Flosser—a portable and rechargeable solution that effortlessly enhances gum health, teeth cleaning, and overall dental hygiene.",
+
+    itemspro: [
+      {
+        title: 'Large Water Tank: 300ml capacity for uninterrupted use.',
+      },
+      {
+        title: 'Efficient Cleaning: 1800 times/minute high pressure water pulse for effective removal of food residues.',
+      },
+      {
+        title: 'Memory Function: Allows presetting and remembering preferred cleaning modes.',
+      },
+      {
+        title: 'Orthodontic Tip: Great for users with braces and orthodontic appliances.',
+      },
+    ],
+    itemscons: [
+      {
+        title: 'Initial Charging Time: Requires 4 hours of charging before first-time use.',
+      },
+      {
+        title: 'Nozzle Replacement: Suggested to change nozzles every 3 months for optimal health.',
       },
     ]
   }
