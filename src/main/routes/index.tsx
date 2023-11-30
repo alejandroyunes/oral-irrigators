@@ -96,6 +96,11 @@ const routerConfig: RouteObject[] = [
         element: <CounterType />,
         errorElement: <ErrorPage />
       },
+      {
+        path: '/types/wireless',
+        element: <CounterType />,
+        errorElement: <ErrorPage />
+      },
       ...bestPortableConfig.map(config => ({
         path: config.path,
         element: config.element,

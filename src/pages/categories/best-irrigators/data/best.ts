@@ -33,7 +33,7 @@ export const tableOfContentItems = [
     id: `${tableOfContentUrl}criteria-used-in-this-irrigator-comparison`
   },
   {
-    content: '\u2022 1. Waterpik Ultra 660 – Best Quality-Price Ratio Irrigator',
+    content: '\u2022 1. Waterpik 660 – Best Quality-Price Ratio Irrigator',
     id: `${tableOfContentUrl}waterpik-wp-660-best-quality-price-ratio-irrigator`
   },
   {
@@ -315,7 +315,7 @@ export const fourthProduct = {
     "Portable and Lightweight",
     "Weight: 12.8 oz",
     "Tank Capacity: 200 ml",
-    "45 Tips",
+    "12 Tips",
     "4 pressure levels",
     "Up to 21 days of use with a single charge",
   ],

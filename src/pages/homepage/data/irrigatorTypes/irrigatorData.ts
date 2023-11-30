@@ -29,7 +29,7 @@ export const irrigatorProps = {
       text: 'Wireless dental irrigators offer the flexibility of cable-free cleaning. Unlike countertop models, they do not need to be connected to the electrical grid, making them more versatile and convenient to use. They operate on rechargeable batteries, and their design is often more compact and ergonomic, allowing for easy handling. Although they may have a smaller water reservoir, their freedom of movement makes them ideal for modern and efficient oral hygiene.',
       image: wireless,
       alt: '',
-      url: ''
+      url: '/types/wireless'
     },
   ],
 }

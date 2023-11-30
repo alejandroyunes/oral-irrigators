@@ -1,5 +1,4 @@
 import { waterPik660amazonPrime, waterPik660productReview, waterPikWP660ProductUrl, waterpikwp660 } from "../../best-irrigators/article/best-irrigators/data/waterpikwp660"
-import { h2oflossHF9GlobalData, sawgmoreB09GlobalData, turewell600mlGlobalData } from "../../best-irrigators/article/global-data/best-countertop/best-countertop"
 import { nicwellF5025GlobalData } from "../../best-irrigators/article/global-data/best-portable/best-portable"
 
 const bestIrrigatorsBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701242753/typesOfIrrigators/counterTop/counter-top-irrigators_kgedbc.webp'
@@ -17,7 +16,7 @@ const amazonPrime = 'https://www.amazon.com/'
 
 export const headerProps = {
   title: "The Best CounterTop Irrigators in 2023",
-  subtitle: "",
+  subtitle: "Best CounterTop Dental Irrigator",
   text: "The best quality - price countertop dental irrigator is the Waterpik Ultra WP-660.",
   image: bestIrrigatorsBgImage,
   mobileImage: bestIrrigatorsBgMobileImage,
@@ -34,8 +33,8 @@ export const tableOfContentItems = [
     id: `${tableOfContentUrl}waterpik-wp-660-countertop-irrigator`
   },
   {
-    content: '\u2022 2. Turewell FC165 Water Flosser, 600ml',
-    id: `${tableOfContentUrl}turewell-fc165-irrigator`
+    content: '\u2022 2. Waterpik Cordless Advanced WP-580, 200ml',
+    id: `${tableOfContentUrl}waterpik-wp-580-quality-ratio-irrigator`
   },
   {
     content: '\u2022 3. Waterpik Rechargeable Pearl WF-13, 207ml',
@@ -214,49 +213,43 @@ export const firstProduct = {
 
 export const secondProduct = {
   product: {
-    id: 'turewell-fc165-irrigator',
-    title: 'Turewell FC165 Water Flosser, 600ml',
-    image: turewell600mlGlobalData.turewell600ml,
-    productUrl: turewell600mlGlobalData.turewell600mlProductUrl,
-    primeUrl: turewell600mlGlobalData.amazonPrime,
-    url: turewell600mlGlobalData.productReview,
+    id: 'waterpik-wp-580-quality-ratio-irrigator',
+    title: 'Waterpik Cordless Advanced WP-580, 200ml',
+    image: waterpicWP580,
+    productUrl: waterpicWP580ProductUrl,
+    primeUrl: amazonPrime,
+    url: waterpicWP580ProductReview,
   },
   list: [
-    "Type: Countertop",
-    "Weight: 1.7 lbs",
-    "Tank Capacity: 600 ml",
-    "5 specialized tips for various needs",
+    "Type: Wireless, portable",
+    "Weight: 12.8 oz",
+    "Tank Capacity: 200 ml",
+    "2 Classic, 1 Orthodontic, 1 Plaque Seeker Tip",
     "3 pressure levels",
-    "Anti-leakage design",
-    "3-minute smart timer for safety and device lifespan",
+    "2-year manufacturer's limited warranty",
+    "4 hrs Battery life",
   ],
   productDetails: {
-    title: '',
-    message: 'Turewell offers superior oral care, reaching areas traditional methods miss. Unlike toothbrushes, it cleans hidden gaps, ensuring a thorough and healthier dental routine.',
+    title: 'The WP-580 model from Waterpik is positioned as the second best irrigator to date',
+    message: 'Exceptional features and cutting-edge design, the Waterpik 580 model remains unrivaled as the premier choice for state-of-the-art portable oral irrigation.',
   },
   proAndCons: {
-    title: "2. Turewell Water Flossing Oral Irrigator FC165, 600ml",
-    subtitle: "Turewell introduced an exceptionally budget-friendly model equipped with 360° rotating nozzles and 1700 times/min water pulsation, effectively eliminating 99.99% of debris, thus preventing tooth decay.",
+    title: "2. Waterpik WP-580 – Second Best Quality Irrigator",
+    subtitle: "The Waterpik WP-580 Cordless Advanced, a handheld cordless water flosser designed for quiet operation and efficient oral care. Ideal for travel, this portable device is globally voltage compatible and includes essential accessories, making it the perfect companion for maintaining your oral health wherever life takes you.",
     itemspro: [
       {
-        title: 'Good for the price.',
+        title: 'Customers appreciate the user-friendly design.',
       },
       {
-        title: 'Effectively removes plaque and debris.',
+        title: 'Users highlight the ease of cleaning the oral irrigator.',
       },
       {
-        title: 'Setup is easy and simple.',
-      },
-      {
-        title: 'Comes with a variety of tools and attachments.',
+        title: 'Customers enjoy greater maneuverability, finding the product convenient to operate.',
       },
     ],
     itemscons: [
       {
-        title: 'Customers are mixed about the size of the oral irrigator.',
-      },
-      {
-        title: 'It gets very messy and water pulsation could generate noise.',
+        title: 'Some customers think is too large for travel, describing it as bulky and challenging to maneuver.',
       },
     ]
   }
@@ -264,49 +257,46 @@ export const secondProduct = {
 
 export const thirdProduct = {
   product: {
-    id: 'sawgmore-b09-irrigator',
-    title: 'Sawgmore Water Flosser Oral Irrigator B09, 600ml',
-    image: sawgmoreB09GlobalData.sawgmoreB09,
-    productUrl: sawgmoreB09GlobalData.sawgmoreB09ProductUrl,
-    primeUrl: sawgmoreB09GlobalData.amazonPrime,
-    url: sawgmoreB09GlobalData.productReview,
+    id: 'waterpik-pearl-wf-13-irrigator',
+    title: 'Waterpik Rechargeable Pearl WF-13, 207ml',
+    image: waterpicWF13,
+    productUrl: waterpicWF13ProductUrl,
+    primeUrl: amazonPrime,
+    url: waterpicWF13ProductReview,
   },
   list: [
-    "Type: Countertop",
-    "Weight: 2.2 lbs",
-    "Tank Capacity: 600 ml",
-    "8 Jets for various cleaning needs",
+    "Type: Wireless, portable",
+    "Weight: 12.8 oz",
+    "Tank Capacity: 207 ml",
+    "4 Tips",
     "2 pressure levels",
-    "360 nozzle rotation",
-    "10 adjustable water pressure",
+    "2-year manufacturer's limited warranty",
+    "2 weeks of Battery life",
   ],
   productDetails: {
-    title: '',
-    message: 'Sawgmore water flosser holds 600ML/22ounces water and 90 seconds of continuous dental flossing, which satisfy the whole family use without frequent refilling.',
+    title: 'The WF-13 model from Waterpik is positioned as the third best irrigator to date',
+    message: 'Ergonomic design and quiet flossing technology, this handheld flosser ensures enhanced maneuverability and discreet operation.  The ease of cleaning with this oral irrigator stands out, as customers rave about its remarkable ability to clean teeth thoroughly, leaving the mouth feeling exceptionally clean.',
   },
   proAndCons: {
-    title: "3. Sawgmore B09 – Oral Dental Irrigator, 600ml",
-    subtitle: "Sawgmore water flosser can effectively remove 99.9% of plaque and solve various oral problems. he advanced technology and excellent design can meet your needs for multiple uses.",
+    title: "3. Waterpik WF-13 – Third Best Quality Irrigator",
+    subtitle: "Waterpik WF-13 rechargable Pearl will help you maintain healthier gums and brighter teeth whether you are at home or on the go. The optimal pressure and easy cleaning process make it a versatile tool, suitable even for use in the shower. Users note significant improvements noticed by their hygienists, emphasizing that it tackles more debris than traditional brushing alone.",
     itemspro: [
       {
-        title: 'Customers consistently appreciate the quality and value of the oral irrigator.',
+        title: 'Equipped with a rechargeable battery and a handheld portable design.',
       },
       {
-        title: 'Users are satisfied with the variety of attachments included with the oral irrigator.',
+        title: 'Enjoy enhanced maneuverability with a narrow hand grip and improved 360-degree tip rotation.',
       },
       {
-        title: 'The attachments are interchangeable, and the overall usability is highlighted as a positive aspect.',
-      },
-      {
-        title: 'The oral irrigator is recognized for its affordability.',
+        title: 'he Waterpik brand is clinically proven and the first water flosser to earn the American Dental Association (ADA) Seal of Acceptance.',
       },
     ],
     itemscons: [
       {
-        title: 'Some appreciate the large reservoir, while others report issues such as the motor running without water coming out, quick water depletion at the max setting, and the need for messy water refills.',
+        title: "Customers express dissatisfaction with the oral irrigator's storage capacity,",
       },
       {
-        title: 'It gets very messy and water pulsation could generate noise.',
+        title: 'Customers express varying opinions regarding the battery life of the oral irrigator. ',
       },
     ]
   }
@@ -314,55 +304,51 @@ export const thirdProduct = {
 
 export const fourthProduct = {
   product: {
-    id: 'h2ofloss-hf9-irrigator',
-    title: 'H2ofloss Dental Water Flosser, HF-9, 800ml',
-    image: h2oflossHF9GlobalData.h2oflossHF9,
-    productUrl: h2oflossHF9GlobalData.h2oflossHF9ProductUrl,
-    primeUrl: h2oflossHF9GlobalData.amazonPrime,
-    url: h2oflossHF9GlobalData.productReview,
+    id: 'nicwell-f5025-irrigator',
+    title: 'Nicwell Professional Water Flosser F5025, 200ml',
+    image: nicwellF5025GlobalData.nicwellf5025,
+    productUrl: nicwellF5025GlobalData.nicwellf5025ProductUrl,
+    primeUrl: amazonPrime,
+    url: nicwellF5025GlobalData.productReview,
   },
   list: [
-    "Type: Countertop",
-    "Weight: 3.95 lbs",
-    "Tank Capacity: 800 ml",
+    "Portable and Lightweight",
+    "Weight: 12.8 oz",
+    "Tank Capacity: 200 ml",
     "12 Tips",
-    "6 pressure levels",
-    "Suitable for the whole family",
-    "24 months & 24hrs E-mail support"
+    "4 pressure levels",
+    "Up to 21 days of use with a single charge",
   ],
   productDetails: {
-    title: 'Discover the top features and benefits of the H2ofloss HF-9 Water Flosser. Keep your oral health in check with advanced pulse frequency, customizable water pressure settings, and more!',
+    title: 'The Nicwell F5025 model from Nicwell is positioned as the fourth best irrigator to date',
     message: 'Nicwell Water Dental Flosser redefines oral care with its upgraded pulsation technique, delivering a high-pressure water pulse for deep cleaning, gum massage, and improved blood circulation. It effectively addresses issues like bleeding gums, bad breath, and is beneficial for orthodontic brace and bridge care.',
   },
   proAndCons: {
-    title: "4. H2ofloss Dental Water Flosser, HF-9, 800ml",
-    subtitle: "The 800ml capacity, pause function, and overheat protection ensure a convenient and safe experience. Ideal for the whole family, including those with braces, implants, crowns, or periodontal pockets.",
+    title: "4. Nicwell F5025 – Fourth Best Quality Irrigator",
+    subtitle: "Nicwell F5025 Portable, rechargeable, and designed for optimal oral health on the go.",
     itemspro: [
       {
-        title: 'Customers consistently praise the oral irrigator for its performance and cleaning capabilities.',
+        title: 'Well worth the price.',
       },
       {
-        title: 'Many customers are impressed with the combination of performance and affordability, making it a cost-effective choice.',
+        title: 'Users like the cleanliness the product provides, effectively cleaning between teeth and leaving a clean feeling.',
       },
       {
-        title: 'The pressure control is considered good, contributing to a user-friendly experience.',
+        title: 'The oral irrigator is praised for being easy to use, offering convenience and cost-effectiveness in daily oral care routines.',
       },
       {
-        title: 'Customers appreciate the cleaning power of the oral irrigator, mentioning its effectiveness in cleaning between teeth.',
+        title: 'Many customers find the overall performance impressive, praising its effectiveness in maintaining oral hygiene.',
       },
       {
-        title: '24 months & 24hrs E-mail support.',
+        title: 'Customers appreciate the convenience of the oral irrigator, especially in comparison to traditional flossing.',
       },
     ],
     itemscons: [
       {
-        title: 'Some customers express mixed opinions about the quality and durability of the oral irrigator. While some find it well-constructed, others report issues such as a faulty handpiece and a relatively short lifespan.',
+        title: 'Opinions on water resistance, battery life, and overall performance are mixed, indicating varying experiences among users.',
       },
       {
-        title: 'Opinions about the noise levels vary. While some customers find it relatively quiet, others complain about loud rattling during use.',
-      },
-      {
-        title: 'Leaking is a consistent issue raised by customers.',
+        title: 'Customers are not satisfied with the charging feature of the oral irrigator. They mention that the charger is a USB and they never have a usb charger in the bathroom.',
       },
     ]
   }

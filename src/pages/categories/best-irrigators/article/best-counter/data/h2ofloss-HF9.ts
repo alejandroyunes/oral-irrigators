@@ -51,7 +51,7 @@ export const h2oflossHF9Props = {
     alt: 'H2ofloss Water Flossing Oral Irrigator',
     productUrl: h2oflossHF9GlobalData.h2oflossHF9ProductUrl,
     primeUrl: h2oflossHF9GlobalData.amazonPrime,
-    description: "The 800ml capacity, pause function, and overheat protection ensure a convenient and safe experience. Ideal for the whole family, including those with braces, implants, crowns, or periodontal pockets."
+    description: "The 800ml capacity and overheat protection ensure a convenient and safe experience. Ideal for the whole family, including those with braces, implants, crowns, or periodontal pockets."
   },
   list: [
     '12 Multifunctional Tips for versatile oral care.',
