@@ -1,17 +1,8 @@
 import { waterPik660amazonPrime, waterPik660productReview, waterPikWP660ProductUrl, waterpikwp660 } from "../../best-irrigators/article/best-irrigators/data/waterpikwp660"
 import { h2oflossHF9GlobalData, sawgmoreB09GlobalData, turewell600mlGlobalData } from "../../best-irrigators/article/global-data/best-countertop/best-countertop"
-import { nicwellF5025GlobalData } from "../../best-irrigators/article/global-data/best-portable/best-portable"
 
 const bestIrrigatorsBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701242753/typesOfIrrigators/counterTop/counter-top-irrigators_kgedbc.webp'
 const bestIrrigatorsBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701244411/typesOfIrrigators/counterTop/counter-top-irrigators-mobile_yspdf9.webp'
-
-const waterpicWP580 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701082075/compareIrrigators/Waterpic-WP-580/au3iegupvu2oby4ibqyy.webp'
-const waterpicWP580ProductUrl = 'https://a.co/d/fDPfb5g'
-const waterpicWP580ProductReview = 'https://www.amazon.com/product-reviews/B01GNVF8S8/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
-
-const waterpicWF13 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701085259/compareIrrigators/Waterpik-WF-13/alhhatr4eii53pnyze9d.webp'
-const waterpicWF13ProductUrl = 'https://a.co/d/hB29NQR'
-const waterpicWF13ProductReview = 'https://www.amazon.com/product-reviews/B09C2QZQFQ/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
 
 const amazonPrime = 'https://www.amazon.com/'
 
@@ -26,9 +17,13 @@ export const headerProps = {
   date: '11/29/2023'
 }
 
-export const tableOfContentUrl = '/best-irrigators/#'
+export const tableOfContentUrl = '/types/countertop/#'
 
 export const tableOfContentItems = [
+  {
+    content: '\u2022 Criteria Used in this Irrigator Comparison',
+    id: `${tableOfContentUrl}criteria-used-in-this-irrigator-comparison`
+  },
   {
     content: '\u2022 1. Waterpik WP 660 – Best Quality-Price Countertop Irrigator',
     id: `${tableOfContentUrl}waterpik-wp-660-countertop-irrigator`
@@ -38,20 +33,16 @@ export const tableOfContentItems = [
     id: `${tableOfContentUrl}turewell-fc165-irrigator`
   },
   {
-    content: '\u2022 3. Waterpik Rechargeable Pearl WF-13, 207ml',
-    id: `${tableOfContentUrl}waterpik-pearl-wf-13-irrigator`
+    content: '\u2022 3. Sawgmore Water Flosser Oral Irrigator B09, 600ml',
+    id: `${tableOfContentUrl}sawgmore-b09-irrigator`
   },
   {
-    content: '\u2022 4. Nicwell Professional Water Flosser F5025, 200ml',
-    id: `${tableOfContentUrl}nicwell-f5025-irrigator`
+    content: '\u2022 4. H2ofloss Dental Water Flosser, HF-9, 800ml',
+    id: `${tableOfContentUrl}h2ofloss-hf9-irrigator`
   },
   {
     content: '\u2022 Comparative Table of the Best Oral Irrigators',
     id: `${tableOfContentUrl}comparative-table-of-the-best-oral-irrigators`
-  },
-  {
-    content: '\u2022 Criteria Used in this Irrigator Comparison',
-    id: `${tableOfContentUrl}criteria-used-in-this-irrigator-comparison`
   },
 ]
 
@@ -102,51 +93,51 @@ export const comparativeTableProps = {
     },
     {
       id: 2,
-      models: 'Waterpik WP-580',
-      image: waterpicWP580,
-      alt: 'Waterpik Cordless WP-580, 200ml',
+      models: 'Turewell FC165',
+      image: turewell600mlGlobalData.turewell600ml,
+      alt: 'Turewell FC165 Oral Irrigator',
       prime: true,
-      dimensions: '4 x 2.8 x 11.6 in, 12.8oz',
-      multifunctionaltips: '6',
-      capacity: '200 ml',
-      highlight: 'Long battery life, Cordless',
-      problem: 'Small reservoir',
-      price: 'Fair',
-      satisfaction: '9.5/10',
+      dimensions: '5.7 x 4.9 x 8.07 in, 1.7 lbs',
+      multifunctionaltips: '8',
+      capacity: '600 ml',
+      highlight: '8 Nozzles, Value, Ease of use',
+      problem: 'Water Resistance',
+      price: 'Good Price',
+      satisfaction: '8/10',
       view: 'View Price',
-      url: waterpicWP580ProductUrl
+      url: turewell600mlGlobalData.turewell600mlProductUrl
     },
     {
       id: 3,
-      models: 'Waterpik Pearl WF-13',
-      image: waterpicWF13,
-      alt: 'Waterpik Pearl WF-13',
+      models: 'Sawgmore B09',
+      image: sawgmoreB09GlobalData.sawgmoreB09,
+      alt: 'Sawgmore B09 Oral Irrigator',
       prime: true,
-      dimensions: '3.7 x 2.5 x 11.6 in, 12.8 oz',
-      multifunctionaltips: '4',
-      capacity: '207 ml',
-      highlight: 'Quality, Ultra quiet',
-      problem: 'Storage space',
-      price: 'Good buy',
-      satisfaction: '9.4/10',
+      dimensions: '7.09 x 5.31 x 8.27 in, 2.2 lbs',
+      multifunctionaltips: '8',
+      capacity: '600 ml',
+      highlight: '8 Nozzles, Value, Ease of use',
+      problem: 'Noisy',
+      price: 'Good Price',
+      satisfaction: '8/10',
       view: 'View Price',
-      url: waterpicWF13ProductUrl
+      url: sawgmoreB09GlobalData.sawgmoreB09ProductUrl
     },
     {
       id: 4,
-      models: 'Nicwell F5025',
-      image: nicwellF5025GlobalData.nicwellf5025,
-      alt: 'Nicwell 200ml Oral Irrigator',
+      models: 'H2ofloss HF-9',
+      image: h2oflossHF9GlobalData.h2oflossHF9,
+      alt: 'H2ofloss HF-9 Oral Irrigator',
       prime: true,
-      dimensions: '8.03 x 4.02 x 2.73 in, 14 oz',
-      multifunctionaltips: '5',
-      capacity: '200 ml',
-      highlight: 'Cleaning Orthodontic Gums, Prevent Bad Breath',
-      problem: 'Charging',
-      price: 'Great Price',
+      dimensions: '8.39 x 2.56 x 4 in, 3.95 lbs',
+      multifunctionaltips: '12',
+      capacity: '800 ml',
+      highlight: 'User-Friendly Design, Versatility and Cleaning Power',
+      problem: 'Leaking Problems, Noise Levels',
+      price: 'Good Price',
       satisfaction: '9/10',
       view: 'View Price',
-      url: nicwellF5025GlobalData.nicwellf5025ProductUrl
+      url: h2oflossHF9GlobalData.h2oflossHF9ProductUrl
     }
   ]
 }
@@ -331,12 +322,12 @@ export const fourthProduct = {
     "24 months & 24hrs E-mail support"
   ],
   productDetails: {
-    title: 'Discover the top features and benefits of the H2ofloss HF-9 Water Flosser. Keep your oral health in check with advanced pulse frequency, customizable water pressure settings, and more!',
-    message: 'Nicwell Water Dental Flosser redefines oral care with its upgraded pulsation technique, delivering a high-pressure water pulse for deep cleaning, gum massage, and improved blood circulation. It effectively addresses issues like bleeding gums, bad breath, and is beneficial for orthodontic brace and bridge care.',
+    title: '',
+    message: 'Discover the top features and benefits of the H2ofloss HF-9 Water Flosser. Keep your oral health in check with advanced pulse frequency, customizable water pressure settings, and more!',
   },
   proAndCons: {
     title: "4. H2ofloss Dental Water Flosser, HF-9, 800ml",
-    subtitle: "The 800ml capacity, pause function, and overheat protection ensure a convenient and safe experience. Ideal for the whole family, including those with braces, implants, crowns, or periodontal pockets.",
+    subtitle: "The 800ml capacity and overheat protection ensure a convenient and safe experience. Ideal for the whole family, including those with braces, implants, crowns, or periodontal pockets.",
     itemspro: [
       {
         title: 'Customers consistently praise the oral irrigator for its performance and cleaning capabilities.',

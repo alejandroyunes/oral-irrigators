@@ -24,6 +24,8 @@ export default function () {
       <TableOfContent items={tableOfContentItems} />
 
 
+      <TitleList {...titleListProps} />
+      <Title message={titleProps} />
 
       {/* First Product */}
       <Title titleH2={firstProduct.proAndCons.title} message={firstProduct.proAndCons.subtitle} id={firstProduct.product.id} />
@@ -54,8 +56,6 @@ export default function () {
       <Title id={comparativeTableProps.id} titleH2={comparativeTableProps.title} message={comparativeTableProps.message} />
       <ComparativeTable items={comparativeTableProps.items} primeUrl={comparativeTableProps.primeUrl} />
 
-      <TitleList {...titleListProps} />
-      <Title message={titleProps} />
 
     </main>
   )
