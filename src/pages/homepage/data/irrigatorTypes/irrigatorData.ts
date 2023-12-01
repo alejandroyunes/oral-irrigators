@@ -21,7 +21,7 @@ export const irrigatorProps = {
       text: 'Travel dental irrigators are the portable choice for oral hygiene on the go. Unlike countertop models, their compact and lightweight design makes them easy to carry. They often operate on batteries and have smaller water reservoirs, suitable for temporary use away from home. Although they may have fewer pressure settings, their convenience and adaptability make them essential for those who frequently travel.',
       image: portable,
       alt: '',
-      url: ''
+      url: '/types/travel'
     },
     {
       id: 3,

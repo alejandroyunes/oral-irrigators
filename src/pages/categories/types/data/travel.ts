@@ -1,7 +1,7 @@
 import { nicefeelFC1592bkGlobalData, nicwellF5025GlobalData } from "../../best-irrigators/article/global-data/best-portable/best-portable"
 
-const bestIrrigatorsBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701242679/typesOfIrrigators/Wireless/wireless-irrigators_xycmdt.webp'
-const bestIrrigatorsBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701342128/typesOfIrrigators/Wireless/dctntu9w1sa1g089k5q6.webp'
+const bestIrrigatorsBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701242639/typesOfIrrigators/portable/portable-irrigators_dwtake.webp'
+const bestIrrigatorsBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701439059/typesOfIrrigators/portable/shpabaxdzoacdcsve1kg.webp'
 
 const waterpicWP580 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701082075/compareIrrigators/Waterpic-WP-580/au3iegupvu2oby4ibqyy.webp'
 const waterpicWP580ProductUrl = 'https://a.co/d/fDPfb5g'
@@ -14,13 +14,13 @@ export const waterpicWF13ProductReview = 'https://www.amazon.com/product-reviews
 const amazonPrime = 'https://www.amazon.com/'
 
 export const headerProps = {
-  title: "The Best Wireless Irrigators in 2023",
-  subtitle: "Best Wireless and Portable Dental Irrigator",
+  title: "The Best Portable Irrigators in 2023",
+  subtitle: "Best Portable Dental Irrigator",
   text: "The best quality - price wireless dental irrigator is the Waterpik Ultra WP-660.",
   image: bestIrrigatorsBgImage,
   mobileImage: bestIrrigatorsBgMobileImage,
-  url: '/best-wireless/waterpik-wp-580-water-flossing-oral-irrigator',
-  buttonText: "View Waterpic WP-580",
+  url: '/best-portable/waterpik-wp-580-water-flossing-oral-irrigator',
+  buttonText: "",
   date: '11/30/2023'
 }
 
@@ -154,7 +154,7 @@ export const comparativeTableProps = {
 export const firstProduct = {
   product: {
     id: 'waterpik-wp-580-quality-ratio-irrigator',
-    title: 'Waterpik Cordless Advanced WP-580, 200ml',
+    title: 'Panasonic Portable Water Flosser EW-DJ10-W, 160ml',
     image: waterpicWP580,
     productUrl: waterpicWP580ProductUrl,
     primeUrl: amazonPrime,
@@ -174,7 +174,7 @@ export const firstProduct = {
     message: 'Exceptional features and cutting-edge design, the Waterpik 580 model remains unrivaled as the premier choice for state-of-the-art portable oral irrigation.',
   },
   proAndCons: {
-    title: "1. Waterpik WP-580 – Dental Irrigator",
+    title: "1. Panasonic Portable Water Flosser",
     subtitle: "The Waterpik WP-580 Cordless Advanced, a handheld cordless water flosser designed for quiet operation and efficient oral care. Ideal for travel, this portable device is globally voltage compatible and includes essential accessories, making it the perfect companion for maintaining your oral health wherever life takes you.",
     itemspro: [
       {

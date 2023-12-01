@@ -22,6 +22,7 @@ import WaterPickWP660 from "../../pages/categories/best-irrigators/article/best-
 import CounterType from "../../pages/categories/types/CounterType.tsx"
 import WirelessType from "../../pages/categories/types/WirelessType.tsx"
 import WaterPickWP580 from "../../pages/categories/best-irrigators/article/best-irrigators/WaterPickWP-580.tsx"
+import TravelType from "../../pages/categories/types/TravelType.tsx"
 
 const bestPortableConfig = [
   {
@@ -101,6 +102,11 @@ const routerConfig: RouteObject[] = [
       {
         path: '/types/wireless',
         element: <WirelessType />,
+        errorElement: <ErrorPage />
+      },
+      {
+        path: '/types/travel',
+        element: <TravelType />,
         errorElement: <ErrorPage />
       },
       {
