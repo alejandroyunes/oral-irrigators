@@ -8,9 +8,9 @@ const waterpicWP580 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v170108
 const waterpicWP580ProductUrl = 'https://a.co/d/fDPfb5g'
 const waterpicWP580ProductReview = 'https://www.amazon.com/product-reviews/B01GNVF8S8/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
 
-const waterpicWF13 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701085259/compareIrrigators/Waterpik-WF-13/alhhatr4eii53pnyze9d.webp'
-const waterpicWF13ProductUrl = 'https://a.co/d/hB29NQR'
-const waterpicWF13ProductReview = 'https://www.amazon.com/product-reviews/B09C2QZQFQ/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
+export const waterpicWF13 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701085259/compareIrrigators/Waterpik-WF-13/alhhatr4eii53pnyze9d.webp'
+export const waterpicWF13ProductUrl = 'https://a.co/d/hB29NQR'
+export const waterpicWF13ProductReview = 'https://www.amazon.com/product-reviews/B09C2QZQFQ/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
 
 const amazonPrime = 'https://www.amazon.com/'
 

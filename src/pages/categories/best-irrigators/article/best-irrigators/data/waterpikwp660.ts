@@ -60,7 +60,7 @@ export const waterpikWp66Props = {
   product: {
     title: 'Waterpik Water Flossing Oral Irrigator WP-660, 650ml',
     image: waterpikwp660,
-    alt: 'Turewell Water Flossing Oral Irrigator',
+    alt: 'Waterpik Water Flossing Oral Irrigator',
     productUrl: waterpikWp660Url,
     primeUrl: waterPik660amazonPrime,
     description: 'Waterpik has focused on water science, engineering, and design. Producsts are backed by over 700 patents worldwide.'
@@ -204,7 +204,7 @@ export const comparativeTableProps = {
   ]
 }
 
-export const titleListTurewellProps = {
+export const titleListWaterpikWP660Props = {
   id: 'why-waterpikwp660',
   titleH2: 'Why opt for the Waterpik WP-660?',
   items: [

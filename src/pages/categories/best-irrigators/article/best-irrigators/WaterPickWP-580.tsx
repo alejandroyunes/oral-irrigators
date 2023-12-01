@@ -16,10 +16,12 @@ import {
   titleProps,
   comparativeTableProps,
   titleListProps,
-  waterpikWp66Props,
+  waterpikWp580Props,
   proAndCons,
   titleListTurewellProps,
-} from "./data/waterpikwp660"
+  waterPikWP580ProductUrl,
+  waterPik580productReview,
+} from "./data/waterpikwp580"
 
 export default function () {
   return (
@@ -28,8 +30,8 @@ export default function () {
         <Helmet>
           <meta
             name='description'
-            content='The easy and more effective way to floss, the Waterpik Aquarius Water Flosser features advanced technology and a compact, contemporary design.' />
-          <title>WaterPik Aquarius WP-660 features advanced technology and a compact, contemporary design.</title>
+            content='Waterpik Cordless Flosser WP-580, 150ml.' />
+          <title>WaterPik Cordless WP-580 features advanced technology and a compact, contemporary design.</title>
         </Helmet>
       </HelmetProvider>
 
@@ -37,20 +39,20 @@ export default function () {
       <TableOfContent items={tableOfContentItems} />
       <Title message={titleProps.message} titleH2={titleProps.title} id={titleProps.id} />
 
-      <Product {...waterpikWp66Props.product} list={waterpikWp66Props.list} />
+      <Product {...waterpikWp580Props.product} list={waterpikWp580Props.list} />
 
       <TitleList {...titleListProps} id={titleListProps.id} />
 
       <Title titleH2={proAndCons.title} id={proAndCons.id} />
       <ProAndCon {...proAndCons} />
-      <SimpleButton blank text="View all Reviews" url={turewell600mlGlobalData.productReview} />
+      <SimpleButton blank text="View all Reviews" url={waterPik580productReview} />
 
       <Title id={comparativeTableProps.id} titleH2={comparativeTableProps.title} message={comparativeTableProps.message} />
       <ComparativeTable items={comparativeTableProps.items} primeUrl={comparativeTableProps.primeUrl} />
 
       <TitleList {...titleListTurewellProps} id={titleListTurewellProps.id} />
 
-      <AmazonButton text="Buy in Amazon" url={turewell600mlGlobalData.turewell600mlProductUrl} blank />
+      <AmazonButton text="Buy in Amazon" url={waterPikWP580ProductUrl} blank />
     </main>
   )
 }
