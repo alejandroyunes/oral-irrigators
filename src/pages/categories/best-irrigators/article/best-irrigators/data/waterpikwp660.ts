@@ -61,7 +61,7 @@ export const waterpikWp66Props = {
     title: 'Waterpik Water Flossing Oral Irrigator WP-660, 650ml',
     image: waterpikwp660,
     alt: 'Waterpik Water Flossing Oral Irrigator',
-    productUrl: waterpikWp660Url,
+    productUrl: waterPikWP660ProductUrl,
     primeUrl: waterPik660amazonPrime,
     description: 'Waterpik has focused on water science, engineering, and design. Producsts are backed by over 700 patents worldwide.'
   },

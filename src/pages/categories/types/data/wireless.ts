@@ -300,9 +300,9 @@ export const fourthProduct = {
     id: 'nicefeel-fc1592bk-countertop-irrigator',
     title: 'Nicefeel Cordless Water Flosser FC1592BK, 300ml',
     image: nicefeelFC1592bkGlobalData.nicefeelFC1592bk,
-    productUrl: waterPikWP660ProductUrl,
-    primeUrl: waterPik660amazonPrime,
-    url: waterPik660productReview,
+    productUrl: nicefeelFC1592bkGlobalData.nicefeelFC1592bkProductUrl,
+    primeUrl: nicefeelFC1592bkGlobalData.amazonPrime,
+    url: nicefeelFC1592bkGlobalData.productReview,
   },
   list: [
     "Type: Desktop",
