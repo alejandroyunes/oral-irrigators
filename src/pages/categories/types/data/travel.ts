@@ -11,6 +11,9 @@ const synhopeB08 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v170154628
 const synhopeB08ProductUrl = 'https://a.co/d/5i0PSQf'
 const synhopeB08ProductReview = 'https://www.amazon.com/product-reviews/B08J858JXQ/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
 
+const YaFexARWF1 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701549112/typesOfIrrigators/portable/YaFexAR/uxqbi9xpd7vd4muzcaw4.webp'
+const YaFexARWF1ProductUrl = 'https://a.co/d/hTfKrMZ'
+const YaFexARWF1ProductReview = 'https://www.amazon.com/product-reviews/B08M62TMC3/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
 
 const amazonPrime = 'https://www.amazon.com/'
 
@@ -45,8 +48,8 @@ export const tableOfContentItems = [
     id: `${tableOfContentUrl}panasonic-dj-10-irrigator`
   },
   {
-    content: '\u2022 3. Nicwell Professional Water Flosser F5025, 200ml',
-    id: `${tableOfContentUrl}nicwell-f5025-irrigator`
+    content: '\u2022 3.  Professional Water Flosser F5025, 200ml',
+    id: `${tableOfContentUrl}yafex-irrigator`
   },
   {
     content: '\u2022 4. Nicefeel Cordless Water Flosser FC1592BK, 300ml',
@@ -65,7 +68,7 @@ export const tableOfContentItems = [
 export const firstProduct = {
   product: {
     id: 'synhope-B08-irrigator',
-    title: 'Synhope B08, 150ml',
+    title: 'Synhope B08',
     image: synhopeB08,
     productUrl: synhopeB08ProductUrl,
     primeUrl: amazonPrime,
@@ -85,7 +88,7 @@ export const firstProduct = {
     message: 'Ergonomic design and quiet flossing technology, this portable flosser ensures enhanced maneuverability and discreet operation.  The ease of cleaning with this oral irrigator stands out, as customers rave about its remarkable ability to clean teeth thoroughly, leaving the mouth feeling exceptionally clean.',
   },
   proAndCons: {
-    title: "1. Synhope B08 – Portable Oral Irrigator",
+    title: "1. Synhope B08 – Portable Oral Irrigator, 150ml",
     subtitle: "The Synhope water flosser features a portable design with a telescopic water tank, three cleaning modes, and IPX7 waterproofing. Its unique leak-proof design enhances durability, and the long 30-day battery life makes it travel-friendly.",
     itemspro: [
       {
@@ -158,51 +161,48 @@ export const secondProduct = {
 
 export const thirdProduct = {
   product: {
-    id: 'nicwell-f5025-irrigator',
-    title: 'Nicwell Professional Water Flosser F5025, 200ml',
-    image: nicwellF5025GlobalData.nicwellf5025,
-    productUrl: nicwellF5025GlobalData.nicwellf5025ProductUrl,
+    id: 'yafex-irrigator',
+    title: 'YaFex cordless Portable Water Flosser AR-W-F1',
+    image: YaFexARWF1,
+    productUrl: YaFexARWF1ProductUrl,
     primeUrl: amazonPrime,
-    url: nicwellF5025GlobalData.productReview,
+    url: YaFexARWF1ProductReview,
   },
   list: [
     "Portable and Lightweight",
-    "Weight: 12.8 oz",
+    "Weight: 7.7 oz",
     "Tank Capacity: 200 ml",
-    "12 Tips",
+    "5 Tips",
     "4 pressure levels",
-    "Up to 21 days of use with a single charge",
+    "Up to 25-30 days of use with a single charge",
   ],
   productDetails: {
-    title: 'The Nicwell F5025 model from Nicwell is positioned as a top oral irrigator',
-    message: 'Nicwell Water Dental Flosser redefines oral care with its upgraded pulsation technique, delivering a high-pressure water pulse for deep cleaning, gum massage, and improved blood circulation. It effectively addresses issues like bleeding gums, bad breath, and is beneficial for orthodontic brace and bridge care.',
+    title: '',
+    message: "YaFex's small portable water flosser provides powerful pressure, delivering up to 1600 water pulses per minute for efficient teeth cleaning and the removal of 99.9% of plaque. With a compact design and hard-shell carry case, it's perfect for travel. The flosser offers 4 pressure modes, including a memory function, and is rechargeable with a 25-30 day battery life.",
   },
   proAndCons: {
-    title: "3. Nicwell F5025 – Oral Dental Irrigator",
-    subtitle: "Nicwell F5025 Portable, rechargeable, and designed for optimal oral health on the go.",
+    title: "3. YaFex AR-W-F1, 240ml",
+    subtitle: "Portable water flosser offers a powerful and efficient way to deep clean your teeth and gums, Its portable design makes it easy to use at home or on the go.",
     itemspro: [
       {
-        title: 'Well worth the price.',
+        title: 'Small and compact size, especially for travel, with a zippered carrying case that helps save space in luggage.',
       },
       {
-        title: 'Users like the cleanliness the product provides, effectively cleaning between teeth and leaving a clean feeling.',
+        title: 'Easy to assemble, with a quick twist-off reservoir and straightforward jet insertion.',
       },
       {
-        title: 'The oral irrigator is praised for being easy to use, offering convenience and cost-effectiveness in daily oral care routines.',
+        title: 'Long-lasting battery life',
       },
       {
-        title: 'Many customers find the overall performance impressive, praising its effectiveness in maintaining oral hygiene.',
-      },
-      {
-        title: 'Customers appreciate the convenience of the oral irrigator, especially in comparison to traditional flossing.',
+        title: 'Comes with a protective case that customers find great for travel',
       },
     ],
     itemscons: [
       {
-        title: 'Opinions on water resistance, battery life, and overall performance are mixed, indicating varying experiences among users.',
+        title: "Some customers report issues with the oral irrigator's performance, including intermittent functioning, weak streams, and occasional failure after less than a year of use.",
       },
       {
-        title: 'Customers are not satisfied with the charging feature of the oral irrigator. They mention that the charger is a USB and they never have a usb charger in the bathroom.',
+        title: 'Dissatisfaction with the warranty period, stating that issues occurred after the warranty expired.',
       },
     ]
   }
