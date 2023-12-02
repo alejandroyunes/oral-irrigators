@@ -14,9 +14,9 @@ export const waterPik580productReview = 'https://www.amazon.com/product-reviews/
 export const waterpikWp580Url = '/best-wireless/waterpik-wp-580-water-flossing-oral-irrigator'
 
 export const headerProps = {
-  title: "Waterpik Cordless Flosser WP-580, 200ml",
-  subtitle: "Advanced Water Flossing",
-  text: "The Waterpik Cordless Advanced Water Flosser features an extra-quiet design and 4-hour rapid magnetic charger.",
+  title: "Synhope M6 Plus, 150ml",
+  subtitle: "Advanced Portable Water Flossing",
+  text: "Designed for home and travel, this flosser offers an extended usage time with safety-certified batteries, providing 60 flossing cycles on one charge.",
   image: headerBgImage,
   mobileImage: headerBgMobileImage,
   url: waterPikWP580ProductUrl,

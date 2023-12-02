@@ -288,7 +288,7 @@ export const thirdProduct = {
         title: 'Enjoy enhanced maneuverability with a narrow hand grip and improved 360-degree tip rotation.',
       },
       {
-        title: 'he Waterpik brand is clinically proven and the first water flosser to earn the American Dental Association (ADA) Seal of Acceptance.',
+        title: 'The Waterpik brand is clinically proven and the first water flosser to earn the American Dental Association (ADA) Seal of Acceptance.',
       },
     ],
     itemscons: [

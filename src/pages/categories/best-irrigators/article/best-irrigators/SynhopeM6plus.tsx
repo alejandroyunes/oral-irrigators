@@ -20,7 +20,7 @@ import {
   titleListTurewellProps,
   waterPikWP580ProductUrl,
   waterPik580productReview,
-} from "./data/waterpikwp580"
+} from "./data/synhopeM6Plus"
 
 export default function () {
   return (
@@ -29,8 +29,8 @@ export default function () {
         <Helmet>
           <meta
             name='description'
-            content='Waterpik Cordless Flosser WP-580, 150ml.' />
-          <title>WaterPik Cordless WP-580 features advanced technology and a compact, contemporary design.</title>
+            content='Synhope M6plus, 150ml' />
+          <title>Synhope M6plus Design for home and travel. Safety certified batteries offer 60 times flossing by one full charged.</title>
         </Helmet>
       </HelmetProvider>
 

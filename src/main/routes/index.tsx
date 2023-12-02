@@ -23,6 +23,7 @@ import CounterType from "../../pages/categories/types/CounterType.tsx"
 import WirelessType from "../../pages/categories/types/WirelessType.tsx"
 import WaterPickWP580 from "../../pages/categories/best-irrigators/article/best-irrigators/WaterPickWP-580.tsx"
 import TravelType from "../../pages/categories/types/TravelType.tsx"
+import SynhopeM6plus from "../../pages/categories/best-irrigators/article/best-irrigators/SynhopeM6plus.tsx"
 
 const bestPortableConfig = [
   {
@@ -105,13 +106,18 @@ const routerConfig: RouteObject[] = [
         errorElement: <ErrorPage />
       },
       {
+        path: '/best-wireless/waterpik-wp-580-water-flossing-oral-irrigator',
+        element: <WaterPickWP580 />,
+        errorElement: <ErrorPage />
+      },
+      {
         path: '/types/travel',
         element: <TravelType />,
         errorElement: <ErrorPage />
       },
       {
-        path: '/best-wireless/waterpik-wp-580-water-flossing-oral-irrigator',
-        element: <WaterPickWP580 />,
+        path: '/best-portable/synhope-B08-portable-oral-irrigator',
+        element: <SynhopeM6plus />,
         errorElement: <ErrorPage />
       },
       ...bestPortableConfig.map(config => ({

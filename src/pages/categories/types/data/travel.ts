@@ -3,37 +3,46 @@ import { nicefeelFC1592bkGlobalData, nicwellF5025GlobalData } from "../../best-i
 const bestIrrigatorsBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701242639/typesOfIrrigators/portable/portable-irrigators_dwtake.webp'
 const bestIrrigatorsBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701439059/typesOfIrrigators/portable/shpabaxdzoacdcsve1kg.webp'
 
+const panasonicDJ10 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701541960/typesOfIrrigators/portable/Panasonic-EW-DJ10/k2z9vwzvovgs6rfzzemh.webp'
+const panasonicProductUrl = 'https://a.co/d/0DFOamU'
+const panasonicProductReview = 'https://www.amazon.com/product-reviews/B08287TDRJ/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
+
+const synhopeB08 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701546280/typesOfIrrigators/portable/Synhope-b08/jejuh8acst2tmj8dfycf.webp'
+const synhopeB08ProductUrl = 'https://a.co/d/5i0PSQf'
+const synhopeB08ProductReview = 'https://www.amazon.com/product-reviews/B08J858JXQ/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
+
+
+const amazonPrime = 'https://www.amazon.com/'
+
+//other products
 const waterpicWP580 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701082075/compareIrrigators/Waterpic-WP-580/au3iegupvu2oby4ibqyy.webp'
 const waterpicWP580ProductUrl = 'https://a.co/d/fDPfb5g'
-const waterpicWP580ProductReview = 'https://www.amazon.com/product-reviews/B01GNVF8S8/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
 
 export const waterpicWF13 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701085259/compareIrrigators/Waterpik-WF-13/alhhatr4eii53pnyze9d.webp'
 export const waterpicWF13ProductUrl = 'https://a.co/d/hB29NQR'
 export const waterpicWF13ProductReview = 'https://www.amazon.com/product-reviews/B09C2QZQFQ/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
 
-const amazonPrime = 'https://www.amazon.com/'
-
 export const headerProps = {
   title: "The Best Portable Irrigators in 2023",
   subtitle: "Best Portable Dental Irrigator",
-  text: "The best quality - price wireless dental irrigator is the Waterpik Ultra WP-660.",
+  text: "The best quality - price portable dental irrigator is the Synhope M6 Plus.",
   image: bestIrrigatorsBgImage,
   mobileImage: bestIrrigatorsBgMobileImage,
-  url: '/best-portable/waterpik-wp-580-water-flossing-oral-irrigator',
-  buttonText: "",
-  date: '11/30/2023'
+  url: '/best-portable/synhope-B08-portable-oral-irrigator',
+  buttonText: "Synhope M6 Plus",
+  date: '02/12/2023'
 }
 
-export const tableOfContentUrl = '/types/wireless/#'
+export const tableOfContentUrl = '/types/travel/#'
 
 export const tableOfContentItems = [
   {
-    content: '\u2022 1. Waterpik Cordless Advanced WP-580, 200ml',
-    id: `${tableOfContentUrl}waterpik-wp-580-quality-ratio-irrigator`
+    content: '\u2022 1. Synhope M6 Plus, 150ml',
+    id: `${tableOfContentUrl}synhope-B08-irrigator`
   },
   {
-    content: '\u2022 2. Waterpik Rechargeable Pearl WF-13, 207ml',
-    id: `${tableOfContentUrl}waterpik-pearl-wf-13-irrigator`
+    content: '\u2022 2. Panasonic DJ-10, 165ml',
+    id: `${tableOfContentUrl}panasonic-dj-10-irrigator`
   },
   {
     content: '\u2022 3. Nicwell Professional Water Flosser F5025, 200ml',
@@ -53,143 +62,48 @@ export const tableOfContentItems = [
   },
 ]
 
-export const titleListProps = {
-  id: 'criteria-used-in-this-irrigator-comparison',
-  title: 'What criteria we used in this Irrigators Comparison?',
-  items: [
-    {
-      itemTitle: [
-        '',
-        '',
-        '',
-        '',
-      ],
-      itemContent: [
-        'To find the most reliable oral irrigators, we have analyzed user satisfaction levels, rating them on a scale of 1 to 10.',
-        'From buyer opinions, we have extracted the most praised feature and the most common issue for each irrigator.',
-        'To provide you with comprehensive information, we present the features and accessories of each one.',
-        'Finally, we assess the price in relation to its quality, rating it as: Improvable, Fair, Exceptional.',
-      ]
-    }
-  ]
-}
-
-export const titleProps = 'Dental irrigators are efficient for removing plaque and food particles from between the teeth. Additionally, they contribute to reducing the risk of gum diseases and combating bad breath. But, which irrigator to buy? What would be the best irrigator? Below, we present the most comprehensive and detailed analysis of the best irrigators to assist you in your purchase.'
-
-export const comparativeTableProps = {
-  id: 'comparative-table-of-the-best-oral-irrigators',
-  title: 'Comparative of the Best Oral Irrigators',
-  message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
-  primeUrl: amazonPrime,
-  items: [
-
-    {
-      id: 1,
-      models: 'Waterpik WP-580',
-      image: waterpicWP580,
-      alt: 'Waterpik Cordless WP-580, 200ml',
-      prime: true,
-      dimensions: '4 x 2.8 x 11.6 in, 12.8oz',
-      multifunctionaltips: '6',
-      capacity: '200 ml',
-      highlight: 'Long battery life, Cordless',
-      problem: 'Small reservoir',
-      price: 'Fair',
-      satisfaction: '9.5/10',
-      view: 'View Price',
-      url: waterpicWP580ProductUrl
-    },
-    {
-      id: 2,
-      models: 'Waterpik Pearl WF-13',
-      image: waterpicWF13,
-      alt: 'Waterpik Pearl WF-13',
-      prime: true,
-      dimensions: '3.7 x 2.5 x 11.6 in, 12.8 oz',
-      multifunctionaltips: '4',
-      capacity: '207 ml',
-      highlight: 'Quality, Ultra quiet',
-      problem: 'Storage space',
-      price: 'Good buy',
-      satisfaction: '9.4/10',
-      view: 'View Price',
-      url: waterpicWF13ProductUrl
-    },
-    {
-      id: 3,
-      models: 'Nicwell F5025',
-      image: nicwellF5025GlobalData.nicwellf5025,
-      alt: 'Nicwell 200ml Oral Irrigator',
-      prime: true,
-      dimensions: '8.03 x 4.02 x 2.73 in, 14 oz',
-      multifunctionaltips: '5',
-      capacity: '200 ml',
-      highlight: 'Cleaning Orthodontic Gums, Prevent Bad Breath',
-      problem: 'Charging',
-      price: 'Great Price',
-      satisfaction: '9/10',
-      view: 'View Price',
-      url: nicwellF5025GlobalData.nicwellf5025ProductUrl
-    },
-    {
-      id: 4,
-      models: 'Nicefeel FC1592-BK',
-      image: nicefeelFC1592bkGlobalData.nicefeelFC1592bk,
-      alt: 'Nicefeel FC1592-BK Oral Irrigator Image',
-      prime: true,
-      dimensions: '0.3 x 0.31 x 0.87 in, 13 oz',
-      multifunctionaltips: '4',
-      capacity: '300 ml',
-      highlight: 'Compact Design, Long Battery Life',
-      problem: 'Durability',
-      price: 'Great Price',
-      satisfaction: '8/10',
-      view: 'View Price',
-      url: nicefeelFC1592bkGlobalData.nicefeelFC1592bkProductUrl
-    },
-  ]
-}
-
-
 export const firstProduct = {
   product: {
-    id: 'waterpik-wp-580-quality-ratio-irrigator',
-    title: 'Panasonic Portable Water Flosser EW-DJ10-W, 160ml',
-    image: waterpicWP580,
-    productUrl: waterpicWP580ProductUrl,
+    id: 'synhope-B08-irrigator',
+    title: 'Synhope B08, 150ml',
+    image: synhopeB08,
+    productUrl: synhopeB08ProductUrl,
     primeUrl: amazonPrime,
-    url: waterpicWP580ProductReview,
+    url: synhopeB08ProductReview,
   },
   list: [
-    "Type: Wireless, portable",
-    "Weight: 12.8 oz",
-    "Tank Capacity: 200 ml",
-    "2 Classic, 1 Orthodontic, 1 Plaque Seeker Tip",
+    "Type: Portable",
+    "Weight: Lightweight",
+    "Tank Capacity: 150 ml",
+    "4 Tips",
     "3 pressure levels",
-    "2-year manufacturer's limited warranty",
-    "4 hrs Battery life",
+    "30 days manufacturer's limited warranty",
+    "30 days of Battery life",
   ],
   productDetails: {
-    title: 'The WP-580 model from Waterpik is positioned as the best wireless and portable irrigator to date',
-    message: 'Exceptional features and cutting-edge design, the Waterpik 580 model remains unrivaled as the premier choice for state-of-the-art portable oral irrigation.',
+    title: '',
+    message: 'Ergonomic design and quiet flossing technology, this portable flosser ensures enhanced maneuverability and discreet operation.  The ease of cleaning with this oral irrigator stands out, as customers rave about its remarkable ability to clean teeth thoroughly, leaving the mouth feeling exceptionally clean.',
   },
   proAndCons: {
-    title: "1. Panasonic Portable Water Flosser",
-    subtitle: "The Waterpik WP-580 Cordless Advanced, a handheld cordless water flosser designed for quiet operation and efficient oral care. Ideal for travel, this portable device is globally voltage compatible and includes essential accessories, making it the perfect companion for maintaining your oral health wherever life takes you.",
+    title: "1. Synhope B08 – Portable Oral Irrigator",
+    subtitle: "The Synhope water flosser features a portable design with a telescopic water tank, three cleaning modes, and IPX7 waterproofing. Its unique leak-proof design enhances durability, and the long 30-day battery life makes it travel-friendly.",
     itemspro: [
       {
-        title: 'Customers appreciate the user-friendly design.',
+        title: 'Small and convenient size, especially for travel.',
       },
       {
-        title: 'Users highlight the ease of cleaning the oral irrigator.',
+        title: 'Easy to use, effectiveness, and ease of filling.',
       },
       {
-        title: 'Customers enjoy greater maneuverability, finding the product convenient to operate.',
+        title: 'compact size, versatility, and ability to remove debris effectively',
       },
     ],
     itemscons: [
       {
-        title: 'Some customers think is too large for travel, describing it as bulky and challenging to maneuver.',
+        title: "Reports of the battery breaking within a few months for some users",
+      },
+      {
+        title: 'Users report issues with water flow, including tangling inside, poor squirting, splattering, low capacity, and leaks, with no way to adjust water pressure.',
       },
     ]
   }
@@ -197,46 +111,46 @@ export const firstProduct = {
 
 export const secondProduct = {
   product: {
-    id: 'waterpik-pearl-wf-13-irrigator',
-    title: 'Waterpik Rechargeable Pearl WF-13, 207ml',
-    image: waterpicWF13,
-    productUrl: waterpicWF13ProductUrl,
+    id: 'panasonic-dj-10-irrigator',
+    title: 'Panasonic Portable Water Flosser EW-DJ10',
+    image: panasonicDJ10,
+    productUrl: panasonicProductUrl,
     primeUrl: amazonPrime,
-    url: waterpicWF13ProductReview,
+    url: panasonicProductReview,
   },
   list: [
-    "Type: Wireless, portable",
-    "Weight: 12.8 oz",
-    "Tank Capacity: 207 ml",
-    "4 Tips",
+    "Type: Portable",
+    "Weight: 13.76 oz",
+    "Tank Capacity: 165 ml",
+    "1 Replacement and 4 Jet Nozzles",
     "2 pressure levels",
-    "2-year manufacturer's limited warranty",
-    "2 weeks of Battery life",
+    "30 days manufacturer's limited warranty",
+    "4 hrs Battery life",
   ],
   productDetails: {
-    title: 'The WF-13 model from Waterpik an affortable oral irrigator',
-    message: 'Ergonomic design and quiet flossing technology, this handheld flosser ensures enhanced maneuverability and discreet operation.  The ease of cleaning with this oral irrigator stands out, as customers rave about its remarkable ability to clean teeth thoroughly, leaving the mouth feeling exceptionally clean.',
+    title: '',
+    message: 'Unlike traditional dental floss, the Panasonic Portable dental water flosser and oral irrigator EW-DJ10-W creates rapid, targeted jets of water to comfortably and thoroughly help remove food particles, plaque and bacteria from between teeth and gums and in periodontal pockets.',
   },
   proAndCons: {
-    title: "2. Waterpik WF-13 – Oral Irrigator",
-    subtitle: "Waterpik WF-13 rechargable Pearl will help you maintain healthier gums and brighter teeth whether you are at home or on the go. The optimal pressure and easy cleaning process make it a versatile tool, suitable even for use in the shower. Users note significant improvements noticed by their hygienists, emphasizing that it tackles more debris than traditional brushing alone.",
+    title: "2. Panasonic Portable Water Flosser EW-DJ10-W, 165ml",
+    subtitle: "",
     itemspro: [
       {
-        title: 'Equipped with a rechargeable battery and a handheld portable design.',
+        title: 'Customers appreciate the compact, light, and easily portable design of the personal care appliance, making it convenient for travel.',
       },
       {
-        title: 'Enjoy enhanced maneuverability with a narrow hand grip and improved 360-degree tip rotation.',
+        title: 'Users find the product easy to clean, effectively removing gunk and contributing to a clean mouth.',
       },
       {
-        title: 'he Waterpik brand is clinically proven and the first water flosser to earn the American Dental Association (ADA) Seal of Acceptance.',
+        title: 'The personal care appliance is praised for its simplicity, fast clean-up, clear instructions, and overall user-friendly experience.',
       },
     ],
     itemscons: [
       {
-        title: "Customers express dissatisfaction with the oral irrigator's storage capacity,",
+        title: 'Mixed opinions about the power, with concerns ranging from not being as powerful as plug-in flossers to experiencing weak water pulses, leading to doubts about product defects.',
       },
       {
-        title: 'Customers express varying opinions regarding the battery life of the oral irrigator. ',
+        title: 'There are mixed reviews regarding water resistance, with some praising the waterproof switch and battery lid, while others raise concerns about weak water intensity and leaks between the tank and motor space.',
       },
     ]
   }
@@ -345,3 +259,100 @@ export const fourthProduct = {
     ]
   }
 }
+
+export const comparativeTableProps = {
+  id: 'comparative-table-of-the-best-oral-irrigators',
+  title: 'Comparative of the Best Oral Irrigators',
+  message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
+  primeUrl: amazonPrime,
+  items: [
+
+    {
+      id: 1,
+      models: 'Waterpik WP-580',
+      image: waterpicWP580,
+      alt: 'Waterpik Cordless WP-580, 200ml',
+      prime: true,
+      dimensions: '4 x 2.8 x 11.6 in, 12.8oz',
+      multifunctionaltips: '6',
+      capacity: '200 ml',
+      highlight: 'Long battery life, Cordless',
+      problem: 'Small reservoir',
+      price: 'Fair',
+      satisfaction: '9.5/10',
+      view: 'View Price',
+      url: waterpicWP580ProductUrl
+    },
+    {
+      id: 2,
+      models: 'Waterpik Pearl WF-13',
+      image: waterpicWF13,
+      alt: 'Waterpik Pearl WF-13',
+      prime: true,
+      dimensions: '3.7 x 2.5 x 11.6 in, 12.8 oz',
+      multifunctionaltips: '4',
+      capacity: '207 ml',
+      highlight: 'Quality, Ultra quiet',
+      problem: 'Storage space',
+      price: 'Good buy',
+      satisfaction: '9.4/10',
+      view: 'View Price',
+      url: waterpicWF13ProductUrl
+    },
+    {
+      id: 3,
+      models: 'Nicwell F5025',
+      image: nicwellF5025GlobalData.nicwellf5025,
+      alt: 'Nicwell 200ml Oral Irrigator',
+      prime: true,
+      dimensions: '8.03 x 4.02 x 2.73 in, 14 oz',
+      multifunctionaltips: '5',
+      capacity: '200 ml',
+      highlight: 'Cleaning Orthodontic Gums, Prevent Bad Breath',
+      problem: 'Charging',
+      price: 'Great Price',
+      satisfaction: '9/10',
+      view: 'View Price',
+      url: nicwellF5025GlobalData.nicwellf5025ProductUrl
+    },
+    {
+      id: 4,
+      models: 'Nicefeel FC1592-BK',
+      image: nicefeelFC1592bkGlobalData.nicefeelFC1592bk,
+      alt: 'Nicefeel FC1592-BK Oral Irrigator Image',
+      prime: true,
+      dimensions: '0.3 x 0.31 x 0.87 in, 13 oz',
+      multifunctionaltips: '4',
+      capacity: '300 ml',
+      highlight: 'Compact Design, Long Battery Life',
+      problem: 'Durability',
+      price: 'Great Price',
+      satisfaction: '8/10',
+      view: 'View Price',
+      url: nicefeelFC1592bkGlobalData.nicefeelFC1592bkProductUrl
+    },
+  ]
+}
+
+export const titleListProps = {
+  id: 'criteria-used-in-this-irrigator-comparison',
+  title: 'What criteria we used in this Irrigators Comparison?',
+  items: [
+    {
+      itemTitle: [
+        '',
+        '',
+        '',
+        '',
+      ],
+      itemContent: [
+        'To find the most reliable oral irrigators, we have analyzed user satisfaction levels, rating them on a scale of 1 to 10.',
+        'From buyer opinions, we have extracted the most praised feature and the most common issue for each irrigator.',
+        'To provide you with comprehensive information, we present the features and accessories of each one.',
+        'Finally, we assess the price in relation to its quality, rating it as: Improvable, Fair, Exceptional.',
+      ]
+    }
+  ]
+}
+
+export const titleProps = 'Dental irrigators are efficient for removing plaque and food particles from between the teeth. Additionally, they contribute to reducing the risk of gum diseases and combating bad breath. But, which irrigator to buy? What would be the best irrigator? Below, we present the most comprehensive and detailed analysis of the best irrigators to assist you in your purchase.'
