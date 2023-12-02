@@ -11,9 +11,14 @@ const synhopeB08 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v170154628
 const synhopeB08ProductUrl = 'https://a.co/d/5i0PSQf'
 const synhopeB08ProductReview = 'https://www.amazon.com/product-reviews/B08J858JXQ/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
 
-const YaFexARWF1 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701549112/typesOfIrrigators/portable/YaFexAR/uxqbi9xpd7vd4muzcaw4.webp'
-const YaFexARWF1ProductUrl = 'https://a.co/d/hTfKrMZ'
-const YaFexARWF1ProductReview = 'https://www.amazon.com/product-reviews/B08M62TMC3/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
+const yaFexARWF1 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701549112/typesOfIrrigators/portable/YaFexAR/uxqbi9xpd7vd4muzcaw4.webp'
+const yaFexARWF1ProductUrl = 'https://a.co/d/hTfKrMZ'
+const yaFexARWF1ProductReview = 'https://www.amazon.com/product-reviews/B08M62TMC3/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
+
+
+const salateB0cj = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701550814/typesOfIrrigators/portable/SalateB0CJ/jaqrkoocz2kfkelaibzn.webp'
+const salateB0cjProductUrl = 'https://a.co/d/bcpqzIm'
+const salateB0cjProductReview = 'https://www.amazon.com/product-reviews/B0CJBZZZTX/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
 
 const amazonPrime = 'https://www.amazon.com/'
 
@@ -48,12 +53,12 @@ export const tableOfContentItems = [
     id: `${tableOfContentUrl}panasonic-dj-10-irrigator`
   },
   {
-    content: '\u2022 3.  Professional Water Flosser F5025, 200ml',
+    content: '\u2022 3. YaFex cordless Portable Water Flosser AR-W-F1, 200ml',
     id: `${tableOfContentUrl}yafex-irrigator`
   },
   {
-    content: '\u2022 4. Nicefeel Cordless Water Flosser FC1592BK, 300ml',
-    id: `${tableOfContentUrl}nicefeel-fc1592bk-countertop-irrigator`
+    content: '\u2022 4. Salate Cordless Water Flosser B0CJ, 230ml',
+    id: `${tableOfContentUrl}salate-B0CJ`
   },
   {
     content: '\u2022 Comparative Table of the Best Oral Irrigators',
@@ -163,10 +168,10 @@ export const thirdProduct = {
   product: {
     id: 'yafex-irrigator',
     title: 'YaFex cordless Portable Water Flosser AR-W-F1',
-    image: YaFexARWF1,
-    productUrl: YaFexARWF1ProductUrl,
+    image: yaFexARWF1,
+    productUrl: yaFexARWF1ProductUrl,
     primeUrl: amazonPrime,
-    url: YaFexARWF1ProductReview,
+    url: yaFexARWF1ProductReview,
   },
   list: [
     "Portable and Lightweight",
@@ -191,10 +196,10 @@ export const thirdProduct = {
         title: 'Easy to assemble, with a quick twist-off reservoir and straightforward jet insertion.',
       },
       {
-        title: 'Long-lasting battery life',
+        title: 'Long-lasting battery life.',
       },
       {
-        title: 'Comes with a protective case that customers find great for travel',
+        title: 'Comes with a protective case that customers find great for travel.',
       },
     ],
     itemscons: [
@@ -210,51 +215,51 @@ export const thirdProduct = {
 
 export const fourthProduct = {
   product: {
-    id: 'nicefeel-fc1592bk-countertop-irrigator',
-    title: 'Nicefeel Cordless Water Flosser FC1592BK, 300ml',
-    image: nicefeelFC1592bkGlobalData.nicefeelFC1592bk,
-    productUrl: nicefeelFC1592bkGlobalData.nicefeelFC1592bkProductUrl,
-    primeUrl: nicefeelFC1592bkGlobalData.amazonPrime,
-    url: nicefeelFC1592bkGlobalData.productReview,
+    id: 'salate-B0CJ',
+    title: 'Salate Cordless Water Flosser B0CJ, 230ml',
+    image: salateB0cj,
+    productUrl: salateB0cjProductUrl,
+    primeUrl: amazonPrime,
+    url: salateB0cjProductReview,
   },
   list: [
-    "Type: Desktop",
-    "Weight: 1.46 pounds",
-    "Tank Capacity: 650 ml",
-    "Includes 7 nozzles",
-    "10 pressure levels",
-    "2 usage modes",
-    "Storage for nozzles",
+    "Type: Portable",
+    "Weight: 15.2 oz",
+    "Tank Capacity: 230 ml",
+    "Includes 4 nozzles",
+    "Frequency Pulse: 1800-2000 times/min",
+    "4 cleaning modes",
+    "1-year warranty",
   ],
   productDetails: {
-    title: 'The Nicefeel Cordless Water Flosser FC1592BK model from is positioned as the one of the best irrigator',
-    message: "Powerful and Efficient Cleaning: The Nicefeel FC1592BK features a high-pressure water pulse of 1800 times/minute, ensuring powerful and efficient cleaning that reaches areas traditional brushing can't.",
-    moreinfo: "A lightweight wireless irrigator, the perfect size to place on the sink, regardless of the bathroom size, and with a great extra: a compartment to place the most frequently used nozzles"
+    title: '',
+    message: "Salate oral irrgator features a unique gravity ball design that allows you to use it at any angle for efficient water ejection. Unlike other water picks that require specific holding angles, our innovative design lets you customize your oral care routine with ease and comfort.",
+    moreinfo: ""
   },
   proAndCons: {
-    title: "4. Nicefeel Cordless Water Flosser FC1592BK, 300ml",
-    subtitle: "Experience the pinnacle of oral care with Nicefeel's Cordless Water Flosser—a portable and rechargeable solution that effortlessly enhances gum health, teeth cleaning, and overall dental hygiene.",
+    title: "4. Salate Cordless Water Flosser B0CJ, 230ml",
+    subtitle: "Salate's portable water flosser, featuring One Sterilize Mode with blue light technology, ensures efficient sterilization of the water reservoir and nozzles for optimal oral health.",
 
     itemspro: [
       {
-        title: 'Large Water Tank: 300ml capacity for uninterrupted use.',
+        title: 'Well-built, functional, and an excellent product.',
       },
       {
-        title: 'Efficient Cleaning: 1800 times/minute high pressure water pulse for effective removal of food residues.',
+        title: 'Compact and portable design of the oral irrigator is appreciated by users.',
       },
       {
-        title: 'Memory Function: Allows presetting and remembering preferred cleaning modes.',
+        title: 'Practical design, including collapsibility and self-cleaning capabilities, is considered a great feature by customers.',
       },
       {
-        title: 'Orthodontic Tip: Great for users with braces and orthodontic appliances.',
+        title: 'Customers find the oral irrigator surprisingly powerful, easy to fill and use, making it a convenient gadget.',
       },
     ],
     itemscons: [
       {
-        title: 'Initial Charging Time: Requires 4 hours of charging before first-time use.',
+        title: 'While some users appreciate the impressive water pressure and good flow for cleaning between teeth, others report issues with water spraying all over the place and leaking from the top, creating a mess.',
       },
       {
-        title: 'Nozzle Replacement: Suggested to change nozzles every 3 months for optimal health.',
+        title: 'Some customers find that the product needs to be charged very often.',
       },
     ]
   }
