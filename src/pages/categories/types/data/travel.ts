@@ -1,5 +1,3 @@
-import { nicefeelFC1592bkGlobalData, nicwellF5025GlobalData } from "../../best-irrigators/article/global-data/best-portable/best-portable"
-
 const bestIrrigatorsBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701242639/typesOfIrrigators/portable/portable-irrigators_dwtake.webp'
 const bestIrrigatorsBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701439059/typesOfIrrigators/portable/shpabaxdzoacdcsve1kg.webp'
 
@@ -21,14 +19,6 @@ const salateB0cjProductUrl = 'https://a.co/d/bcpqzIm'
 const salateB0cjProductReview = 'https://www.amazon.com/product-reviews/B0CJBZZZTX/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
 
 const amazonPrime = 'https://www.amazon.com/'
-
-//other products
-const waterpicWP580 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701082075/compareIrrigators/Waterpic-WP-580/au3iegupvu2oby4ibqyy.webp'
-const waterpicWP580ProductUrl = 'https://a.co/d/fDPfb5g'
-
-export const waterpicWF13 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701085259/compareIrrigators/Waterpik-WF-13/alhhatr4eii53pnyze9d.webp'
-export const waterpicWF13ProductUrl = 'https://a.co/d/hB29NQR'
-export const waterpicWF13ProductReview = 'https://www.amazon.com/product-reviews/B09C2QZQFQ/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
 
 export const headerProps = {
   title: "The Best Portable Irrigators in 2023",
