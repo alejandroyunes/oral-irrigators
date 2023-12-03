@@ -13,14 +13,6 @@ export const footerDataProps = {
         link: "Brands",
         path: '/brands',
       },
-      {
-        link: "Portfolio",
-        path: '/portfolio',
-      },
-      {
-        link: "Blog",
-        path: '/blog',
-      }
     ],
     arialLabel: 'Menu button',
   },

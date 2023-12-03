@@ -9,6 +9,8 @@ import Notice from "../../components/Legal/Notice/Notice.tsx"
 import Cookie from "../../components/Legal/Cookie/Cookie.tsx"
 
 import Best from "../../pages/categories/best-irrigators/Best.tsx"
+import Brands from '../../pages/brands/Brands.tsx'
+
 import Turewell600ML from "../../pages/categories/best-irrigators/article/best-counter/Turewell600ML.tsx"
 import NicwellF5025 from "../../pages/categories/best-irrigators/article/best-portable/NicwellF5025.tsx"
 import Waterpikwf02 from "../../pages/categories/best-irrigators/article/best-portable/Waterpikwf02.tsx"
@@ -88,6 +90,11 @@ const routerConfig: RouteObject[] = [
       {
         path: '/best-irrigators',
         element: <Best />,
+        errorElement: <ErrorPage />
+      },
+      {
+        path: '/brands',
+        element: <Brands />,
         errorElement: <ErrorPage />
       },
       {
