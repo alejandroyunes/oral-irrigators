@@ -5,7 +5,7 @@ const portable = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701006658/
 export const irrigatorProps = {
   title: "What Type of Dental Irrigator to Buy?",
   subTitle: "The best irrigator is the one that fits your needs. To meet different demands, manufacturers have created three main types of irrigators: countertop (powerful), cordless (more convenient to use), and travel (lightweight).",
-  url: '/blog/what-is-a-dental-irrigator',
+  url: '/best-irrigators',
   items: [
     {
       id: 1,

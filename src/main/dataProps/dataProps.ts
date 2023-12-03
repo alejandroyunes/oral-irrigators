@@ -6,12 +6,12 @@ export const footerDataProps = {
         path: '/',
       },
       {
-        link: 'About us',
-        path: '/about-us'
+        link: 'Types',
+        path: '#types'
       },
       {
-        link: "Services",
-        path: '/services',
+        link: "Brands",
+        path: '/brands',
       },
       {
         link: "Portfolio",

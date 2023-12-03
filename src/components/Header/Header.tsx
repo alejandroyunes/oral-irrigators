@@ -33,16 +33,12 @@ export default function Header({ headerProps }: LinkItemProps) {
   return (
     <>
       <HeaderContainer>
-        <Logo className="nav-logo">
-          <Link to='/'>
+        <Link to='/'>
+          <Logo className="nav-logo">
             <img src={logo} alt="Dental Irrigators" />
-          </Link>
-
-          <div>
             <h3>Dental Irrigator</h3>
-          </div>
-
-        </Logo>
+          </Logo>
+        </Link>
         <NavContainer>
           <ColorSwitcher />
           <NavItems>

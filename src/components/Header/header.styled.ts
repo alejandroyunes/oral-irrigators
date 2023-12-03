@@ -29,6 +29,7 @@ export const Logo = styled.div`
     font-size: 1.125rem;
     font-weight: 500;
   }
+
   @media(max-width: ${({ theme }) => theme.breakpoint.xs}){
     img {
       height: 40px;
@@ -59,41 +60,21 @@ export const NavItems = styled.div`
     color: ${({ theme }) => theme.palette.primary.main};
     font-weight: 400;
   }
-  li:hover::before {
-    content: "[";
-    color: ${({ theme }) => theme.palette.primary.main};
-    animation: left-bracket;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-out;
-    position: absolute;
-    animation-fill-mode: forwards;
+  li::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
   }
-  li:hover::after {
-    content: "]";
-    color: ${({ theme }) => theme.palette.primary.main};
-    animation: right-bracket;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-out;
-    position: absolute;
-    animation-fill-mode: forwards;
-  }
-  li.active::before {
-    content: "[";
-    color: ${({ theme }) => theme.palette.primary.main};
-    animation: left-bracket;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-out;
-    position: absolute;
-    animation-fill-mode: forwards;
-  }
-  li.active::after {
-    content: "]";
-    color: ${({ theme }) => theme.palette.primary.main};
-    animation: right-bracket;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-out;
-    position: absolute;
-    animation-fill-mode: forwards;
+    li:hover {
+      text-decoration: underline;
+
   }
   @keyframes left-bracket {
     0% {

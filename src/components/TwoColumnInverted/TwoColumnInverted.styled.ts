@@ -4,6 +4,7 @@ export const Container = styled.section`
   width: 100%;
   background-color: ${({ theme }) => theme.palette.primary.contrastBg};
   margin: 32px 0;
+  scroll-margin-top: 24px;
 `
 export const TwoColumn = styled.div`
   max-width:  ${({ theme }) => theme.breakpoint.sm};

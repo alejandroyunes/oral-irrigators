@@ -20,11 +20,11 @@ type Props = {
 }
 
 export default function (props: Props) {
-  const { title, subTitle, items } = props
+  const { title, subTitle, items, url } = props
 
   return (
-    <Container>
-      <Title titleH2={title} message={subTitle}/>
+    <Container id='types'>
+      <Title titleH2={title} message={subTitle} />
       <TwoColumn>
         {items.map((item) => {
           return (
@@ -45,7 +45,7 @@ export default function (props: Props) {
       </TwoColumn>
 
       <Button>
-        <SimpleButton url={'url'} text='Buy The Best Irrigators' color={true} />
+        <SimpleButton url={url} text='Buy The Best Irrigators' color={true} />
       </Button>
     </Container>
   )
