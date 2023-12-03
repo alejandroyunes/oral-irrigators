@@ -7,7 +7,7 @@ export const footerDataProps = {
       },
       {
         link: 'Types',
-        path: '#types'
+        path: '/#types'
       },
       {
         link: "Brands",
