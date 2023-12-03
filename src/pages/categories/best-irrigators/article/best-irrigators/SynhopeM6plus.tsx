@@ -15,11 +15,11 @@ import {
   titleProps,
   comparativeTableProps,
   titleListProps,
-  waterpikWp580Props,
+  synhopem6Props,
   proAndCons,
-  titleListTurewellProps,
-  waterPikWP580ProductUrl,
-  waterPik580productReview,
+  titleListSynhopeM6Props,
+  synhopem6ProductUrl,
+  synhopem6productReview,
 } from "./data/synhopeM6Plus"
 
 export default function () {
@@ -38,20 +38,20 @@ export default function () {
       <TableOfContent items={tableOfContentItems} />
       <Title message={titleProps.message} titleH2={titleProps.title} id={titleProps.id} />
 
-      <Product {...waterpikWp580Props.product} list={waterpikWp580Props.list} />
+      <Product {...synhopem6Props.product} list={synhopem6Props.list} />
 
       <TitleList {...titleListProps} id={titleListProps.id} />
 
       <Title titleH2={proAndCons.title} id={proAndCons.id} />
       <ProAndCon {...proAndCons} />
-      <SimpleButton blank text="View all Reviews" url={waterPik580productReview} />
+      <SimpleButton blank text="View all Reviews" url={synhopem6productReview} />
 
       <Title id={comparativeTableProps.id} titleH2={comparativeTableProps.title} message={comparativeTableProps.message} />
       <ComparativeTable items={comparativeTableProps.items} primeUrl={comparativeTableProps.primeUrl} />
 
-      <TitleList {...titleListTurewellProps} id={titleListTurewellProps.id} />
+      <TitleList {...titleListSynhopeM6Props} id={titleListSynhopeM6Props.id} />
 
-      <AmazonButton text="Buy in Amazon" url={waterPikWP580ProductUrl} blank />
+      <AmazonButton text="Buy in Amazon" url={synhopem6ProductUrl} blank />
     </main>
   )
 }

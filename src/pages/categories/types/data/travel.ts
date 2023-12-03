@@ -1,21 +1,21 @@
 const bestIrrigatorsBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701242639/typesOfIrrigators/portable/portable-irrigators_dwtake.webp'
 const bestIrrigatorsBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701439059/typesOfIrrigators/portable/shpabaxdzoacdcsve1kg.webp'
 
-const panasonicDJ10 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701541960/typesOfIrrigators/portable/Panasonic-EW-DJ10/k2z9vwzvovgs6rfzzemh.webp'
-const panasonicProductUrl = 'https://a.co/d/0DFOamU'
+export const panasonicDJ10 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701541960/typesOfIrrigators/portable/Panasonic-EW-DJ10/k2z9vwzvovgs6rfzzemh.webp'
+export const panasonicProductUrl = 'https://a.co/d/0DFOamU'
 const panasonicProductReview = 'https://www.amazon.com/product-reviews/B08287TDRJ/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
 
-const synhopeB08 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701546280/typesOfIrrigators/portable/Synhope-b08/jejuh8acst2tmj8dfycf.webp'
-const synhopeB08ProductUrl = 'https://a.co/d/5i0PSQf'
-const synhopeB08ProductReview = 'https://www.amazon.com/product-reviews/B08J858JXQ/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
+const synhopeM6 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701546280/typesOfIrrigators/portable/Synhope-b08/jejuh8acst2tmj8dfycf.webp'
+const synhopeM6ProductUrl = 'https://a.co/d/5i0PSQf'
+const synhopeM6ProductReview = 'https://www.amazon.com/product-reviews/B08J858JXQ/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
 
-const yaFexARWF1 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701549112/typesOfIrrigators/portable/YaFexAR/uxqbi9xpd7vd4muzcaw4.webp'
-const yaFexARWF1ProductUrl = 'https://a.co/d/hTfKrMZ'
-const yaFexARWF1ProductReview = 'https://www.amazon.com/product-reviews/B08M62TMC3/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
+export const yaFexARWF1 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701549112/typesOfIrrigators/portable/YaFexAR/uxqbi9xpd7vd4muzcaw4.webp'
+export const yaFexARWF1ProductUrl = 'https://a.co/d/hTfKrMZ'
+export const yaFexARWF1ProductReview = 'https://www.amazon.com/product-reviews/B08M62TMC3/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
 
 
-const salateB0cj = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701550814/typesOfIrrigators/portable/SalateB0CJ/jaqrkoocz2kfkelaibzn.webp'
-const salateB0cjProductUrl = 'https://a.co/d/bcpqzIm'
+export const salateB0cj = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701550814/typesOfIrrigators/portable/SalateB0CJ/jaqrkoocz2kfkelaibzn.webp'
+export const salateB0cjProductUrl = 'https://a.co/d/bcpqzIm'
 const salateB0cjProductReview = 'https://www.amazon.com/product-reviews/B0CJBZZZTX/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
 
 const amazonPrime = 'https://www.amazon.com/'
@@ -26,7 +26,7 @@ export const headerProps = {
   text: "The best quality - price portable dental irrigator is the Synhope M6 Plus.",
   image: bestIrrigatorsBgImage,
   mobileImage: bestIrrigatorsBgMobileImage,
-  url: '/best-portable/synhope-B08-portable-oral-irrigator',
+  url: '/best-portable/synhope-m6-water-flossing-oral-irrigator',
   buttonText: "Synhope M6 Plus",
   date: '02/12/2023'
 }
@@ -36,7 +36,7 @@ export const tableOfContentUrl = '/types/travel/#'
 export const tableOfContentItems = [
   {
     content: '\u2022 1. Synhope M6 Plus, 150ml',
-    id: `${tableOfContentUrl}synhope-B08-irrigator`
+    id: `${tableOfContentUrl}synhope-m6-irrigator`
   },
   {
     content: '\u2022 2. Panasonic DJ-10, 165ml',
@@ -62,12 +62,12 @@ export const tableOfContentItems = [
 
 export const firstProduct = {
   product: {
-    id: 'synhope-B08-irrigator',
-    title: 'Synhope B08',
-    image: synhopeB08,
-    productUrl: synhopeB08ProductUrl,
+    id: 'synhope-m6-irrigator',
+    title: 'Synhope M6 Plus',
+    image: synhopeM6,
+    productUrl: synhopeM6ProductUrl,
     primeUrl: amazonPrime,
-    url: synhopeB08ProductReview,
+    url: synhopeM6ProductReview,
   },
   list: [
     "Type: Portable",
@@ -83,7 +83,7 @@ export const firstProduct = {
     message: 'Ergonomic design and quiet flossing technology, this portable flosser ensures enhanced maneuverability and discreet operation.  The ease of cleaning with this oral irrigator stands out, as customers rave about its remarkable ability to clean teeth thoroughly, leaving the mouth feeling exceptionally clean.',
   },
   proAndCons: {
-    title: "1. Synhope B08 – Portable Oral Irrigator, 150ml",
+    title: "1. Synhope M6 Plus – Portable Oral Irrigator, 150ml",
     subtitle: "The Synhope water flosser features a portable design with a telescopic water tank, three cleaning modes, and IPX7 waterproofing. Its unique leak-proof design enhances durability, and the long 30-day battery life makes it travel-friendly.",
     itemspro: [
       {
@@ -264,9 +264,9 @@ export const comparativeTableProps = {
 
     {
       id: 1,
-      models: 'Synhope B08',
-      image: synhopeB08,
-      alt: 'synhopeB08, 150ml',
+      models: 'Synhope M6 Plus',
+      image: synhopeM6,
+      alt: 'synhopeM6, 150ml',
       prime: true,
       dimensions: '4.88 x 2.8 x 3 in, 8.8oz',
       multifunctionaltips: '4',
@@ -276,7 +276,7 @@ export const comparativeTableProps = {
       price: 'Fair',
       satisfaction: '8.5/10',
       view: 'View Price',
-      url: synhopeB08ProductReview
+      url: synhopeM6ProductReview
     },
     {
       id: 2,

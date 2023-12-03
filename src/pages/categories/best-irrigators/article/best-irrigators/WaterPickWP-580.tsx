@@ -17,7 +17,7 @@ import {
   titleListProps,
   waterpikWp580Props,
   proAndCons,
-  titleListTurewellProps,
+  titleListWaterpik580Props,
   waterPikWP580ProductUrl,
   waterPik580productReview,
 } from "./data/waterpikwp580"
@@ -49,7 +49,7 @@ export default function () {
       <Title id={comparativeTableProps.id} titleH2={comparativeTableProps.title} message={comparativeTableProps.message} />
       <ComparativeTable items={comparativeTableProps.items} primeUrl={comparativeTableProps.primeUrl} />
 
-      <TitleList {...titleListTurewellProps} id={titleListTurewellProps.id} />
+      <TitleList {...titleListWaterpik580Props} id={titleListWaterpik580Props.id} />
 
       <AmazonButton text="Buy in Amazon" url={waterPikWP580ProductUrl} blank />
     </main>

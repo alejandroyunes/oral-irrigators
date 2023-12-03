@@ -116,7 +116,7 @@ const routerConfig: RouteObject[] = [
         errorElement: <ErrorPage />
       },
       {
-        path: '/best-portable/synhope-B08-portable-oral-irrigator',
+        path: '/best-portable/synhope-m6-water-flossing-oral-irrigator',
         element: <SynhopeM6plus />,
         errorElement: <ErrorPage />
       },

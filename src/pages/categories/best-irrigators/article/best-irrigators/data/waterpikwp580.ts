@@ -35,8 +35,8 @@ export const tableOfContentItems = [
     id: `${waterpikWp580Url}#how-to-use`
   },
   {
-    content: '\u2022 Props and Cons?',
-    id: `${waterpikWp580Url}#props-and-cons`
+    content: '\u2022 Pros and Cons?',
+    id: `${waterpikWp580Url}#pros-and-cons`
   },
   {
     content: '\u2022 Comparison table with other irrigators',
@@ -102,7 +102,7 @@ export const titleListProps = {
 }
 
 export const proAndCons = {
-  id: 'props-and-cons',
+  id: 'pros-and-cons',
   title: "Pros and Cons of the Waterpik WP-580",
   message: "It's important to note that the perceived pros and cons can vary based on individual preferences and needs. Users should consider their specific oral care requirements and lifestyle when deciding if the Turewell Water Flossing Oral Irrigator, 600ml is the right fit for them.",
   itemspro: [
@@ -202,7 +202,7 @@ export const comparativeTableProps = {
   ]
 }
 
-export const titleListTurewellProps = {
+export const titleListWaterpik580Props = {
   id: 'why-waterpikwp580',
   titleH2: 'Why opt for the Waterpik WP-580?',
   items: [

@@ -1,225 +1,208 @@
-export const headerBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701428933/Best/Waterpik-wp-580/weo6nyzxsmgkyglftdno.webp'
-export const headerBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701428933/Best/Waterpik-wp-580/fiptwjxmmnfoz0xfrcg3.webp'
-export const waterpikwp580 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700995936/Best/SingleBests/skhiw9t8lpaq1ccghqon.webp'
+export const headerBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701618666/typesOfIrrigators/portable/Synhope-b08/raqx09dsxkupdjhcgg7v.webp'
+export const headerBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701618666/typesOfIrrigators/portable/Synhope-b08/kqe8imskviqh6vic6xbl.webp'
+const synhopeM6 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701546280/typesOfIrrigators/portable/Synhope-b08/jejuh8acst2tmj8dfycf.webp'
 
-import { waterpicWF13, waterpicWF13ProductUrl } from "../../../../types/data/wireless"
-import {
-  turewell600mlGlobalData,
-} from "../../global-data/best-countertop/best-countertop"
-import { nicefeelFC1592bkGlobalData, nicwellF5025GlobalData } from "../../global-data/best-portable/best-portable"
+import { panasonicDJ10, panasonicProductUrl, salateB0cj, salateB0cjProductUrl, yaFexARWF1, yaFexARWF1ProductUrl } from "../../../../types/data/travel"
 
-export const waterPik580amazonPrime = 'https://www.amazon.com'
-export const waterPikWP580ProductUrl = 'https://a.co/d/d3UVK29'
-export const waterPik580productReview = 'https://www.amazon.com/product-reviews/B01GNVF8S8/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
-export const waterpikWp580Url = '/best-wireless/waterpik-wp-580-water-flossing-oral-irrigator'
+export const synhopem6amazonPrime = 'https://www.amazon.com'
+export const synhopem6ProductUrl = 'https://a.co/d/3oRuu5F'
+export const synhopem6productReview = 'https://www.amazon.com/product-reviews/B08J858JXQ/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
+export const synhopem6Url = '/best-portable/synhope-m6-water-flossing-oral-irrigator'
 
 export const headerProps = {
   title: "Synhope M6 Plus, 150ml",
   subtitle: "Advanced Portable Water Flossing",
-  text: "Designed for home and travel, this flosser offers an extended usage time with safety-certified batteries, providing 60 flossing cycles on one charge.",
+  text: "Features a portable design with a telescopic water tank and integrated storage nozzle, providing convenience for on-the-go use.",
   image: headerBgImage,
   mobileImage: headerBgMobileImage,
-  url: waterPikWP580ProductUrl,
+  url: synhopem6ProductUrl,
   buttonText: "Buy Now",
-  date: '01/12/2023',
+  date: '03/12/2023',
   externalUrl: true
 }
 
 export const tableOfContentItems = [
   {
-    content: '\u2022 The Best of the Waterpik WP-580 Water Flosser',
-    id: `${waterpikWp580Url}#the-best-of-waterpik-wp-580`
+    content: '\u2022 The Best of the Synhope M6 Plus Water Flosser',
+    id: `${synhopem6Url}#the-best-of-synhope-m6`
   },
   {
-    content: '\u2022 How to use the Waterpik WP-580?',
-    id: `${waterpikWp580Url}#how-to-use`
+    content: '\u2022 How to use the Synhope M6 Plus?',
+    id: `${synhopem6Url}#how-to-use`
   },
   {
-    content: '\u2022 Props and Cons?',
-    id: `${waterpikWp580Url}#props-and-cons`
+    content: '\u2022 Pros and Cons?',
+    id: `${synhopem6Url}#pros-and-cons`
   },
   {
     content: '\u2022 Comparison table with other irrigators',
-    id: `${waterpikWp580Url}#how-does-the-waterpikWP580-compares-to-other-irrigators`
+    id: `${synhopem6Url}#how-does-the-synhope-m6-compares-to-other-irrigators`
   },
   {
-    content: '\u2022 Why opt for the Waterpik WP-580, 150ML?',
-    id: `${waterpikWp580Url}#why-waterpikwp580`
+    content: '\u2022 Why opt for the Synhope M6 Plus, 150ml?',
+    id: `${synhopem6Url}#why-synhope-m6`
   },
 ]
 
 export const titleProps = {
-  id: 'the-best-of-waterpik-wp-580',
-  title: 'The Best of the Waterpik WP-580 Water Flosser',
-  message: 'Featuring a handheld design with quiet operation and a rechargeable battery. Convenient charger connects magnetically and charges in 4 hours; LED indicator lets you know when to recharge.'
+  id: 'the-best-of-synhope-m6',
+  title: 'The Best of the Synhope M6 Plus Flosser',
+  message: 'Ultra-small palm-sized flosser that is convenient for you to use in any place and easy to carry.  Three cleaning modes and IPX8 waterproof design, it offers a versatile and safe oral care solution.'
 }
 
-export const waterpikWp580Props = {
+export const synhopem6Props = {
   product: {
-    title: 'Waterpik Water Flossing Oral Irrigator WP-580, 200ml',
-    image: waterpikwp580,
-    alt: 'Waterpik Water Flossing Oral Irrigator WP-580',
-    productUrl: waterpikWp580Url,
-    primeUrl: waterPik580amazonPrime,
-    description: 'Waterpik has focused on water science, engineering, and design. Producsts are backed by over 700 patents worldwide.'
+    title: 'Synhope Water Flossing Oral Irrigator M6 Plus',
+    image: synhopeM6,
+    alt: 'Synhope Water Flossing Oral Irrigator M6 Plus',
+    productUrl: synhopem6ProductUrl,
+    primeUrl: synhopem6amazonPrime,
+    description: 'Design for home and travel. Safety certified batteries offer 60 times flossing by one full charged.'
   },
   list: [
-    "9 in 10 dental professionals recommend the Waterpik brand.",
-    "4 tips, 3 pressure settings (45-75 PSI).",
-    "45 secs floss time, rechargeable, USB magnetic charger.",
-    "Backed by a 2-year limited manufacturer’s warranty.",
+    "Long usage time.",
+    "360 degree rotation nozzle.",
+    "IPX8 Waterproof.",
+    "Soft, Pulse, Strong mode.",
     "Travel-ready and includes a microfiber travel bag.",
-    "4 hours for up to 4 weeks of use per charge.",
+    "Strong moto brings stable and powerful water impact.",
     "Available in various colors.",
   ],
 }
 
 export const titleListProps = {
   id: 'how-to-use',
-  titleH2: 'How to use the Waterpik WP-580 oral irrigator step by step?',
+  titleH2: 'How to use the Synhope M6 Plus oral irrigator step by step?',
   items: [
     {
       itemTitle: [
-        'Charge',
-        'Grab the handle of',
-        'Fill the 200ml',
-        'Select',
-        'Select',
-        'Press',
-        'Follow',
+        'Fill the Telescopic Water Tank:',
+        'Choose Your Cleaning Mode:',
+        'Activate the High-Pressure Water Pulse:',
+        'Target Treated Areas:',
       ],
       itemContent: [
-        'the Waterpik to the power source.',
-        'the irrigator near the sink.',
-        'water tank with warm water.',
-        'the pressure level. Start with the lowest level and increase as needed.',
-        'the desired nozzle based on your needs (e.g., toothbrush tip, periodontal tip).',
-        'the nozzle onto the device and adjust the angle for a 90-degree flow into the sink.',
-        'your gum line to thoroughly clean teeth and gums.'
+        "Open the telescopic water tank fully to fill it with water. The upgraded design reduces the product's volume, making it more portable.",
+        'Select from the three cleaning modes (Soft, Pulse, Strong) based on your oral care needs.',
+        'Press the button to activate the high-pressure water pulse, which occurs 1200 times at 140 PSI.',
+        'Direct the water jet towards treated areas, moving it along the gumline and between teeth to thoroughly clean and remove plaque.',
       ]
     }
   ]
 }
 
 export const proAndCons = {
-  id: 'props-and-cons',
-  title: "Pros and Cons of the Waterpik WP-580",
+  id: 'pros-and-cons',
+  title: "Pros and Cons of the Synhope M6 Plus",
   message: "It's important to note that the perceived pros and cons can vary based on individual preferences and needs. Users should consider their specific oral care requirements and lifestyle when deciding if the Turewell Water Flossing Oral Irrigator, 600ml is the right fit for them.",
   itemspro: [
     {
-      title: 'User-friendly design, clear directions, and smooth operation',
+      title: 'Small and convenient size, especially for travel.',
     },
     {
-      title: ' multiple pressure settings and interchangeable tips allows users to tailor their flossing experience to their preferences and sensitivity.',
+      title: 'Easy to use, effectiveness, and ease of filling.',
     },
     {
-      title: 'Easy to pack, not taking much time, and being easy to operate.',
-    },
-    {
-      title: "Powerful and consistent water stream.",
+      title: 'compact size, versatility, and ability to remove debris effectively',
     },
   ],
   itemscons: [
     {
-      title: 'Some customers express dissatisfaction with the small size of the water reservoir.',
+      title: "Reports of the battery breaking within a few months for some users",
     },
     {
-      title: "While some find it worth every penny, others criticize it as expensive, with concerns about the product's build quality.",
+      title: 'Users report issues with water flow, including tangling inside, poor squirting, splattering, low capacity, and leaks, with no way to adjust water pressure.',
     },
   ]
 }
 
 export const comparativeTableProps = {
-  id: 'how-does-the-waterpikWP580-compares-to-other-irrigators',
-  title: 'Compare the Waterpik WP-580 with other irrigators',
+  id: 'how-does-the-synhope-m6-compares-to-other-irrigators',
+  title: 'Compare the Synhope M6 Plus with other irrigators',
   message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
-  primeUrl: turewell600mlGlobalData.amazonPrime,
+  primeUrl: synhopem6amazonPrime,
   items: [
     {
       id: 1,
-      models: 'Waterpik WP-580',
-      image: waterpikwp580,
-      alt: 'Waterpik WP-580 Oral Irrigator',
+      models: 'Synhope M6 Plus',
+      image: synhopeM6,
+      alt: 'synhopeM6, 150ml',
       prime: true,
-      dimensions: '4 x 2.8 x 11.6 in, 13 oz',
-      multifunctionaltips: '7',
-      capacity: '200 ml',
-      highlight: '4 tips, 3 pressure settings (45-75 PSI)',
-      problem: 'Price, size',
-      price: 'Fair Price',
-      satisfaction: '9.5/10',
+      dimensions: '4.88 x 2.8 x 3 in, 8.8oz',
+      multifunctionaltips: '4',
+      capacity: '150 ml',
+      highlight: 'Size, Cordless',
+      problem: 'Quality, Flow',
+      price: 'Fair',
+      satisfaction: '8.5/10',
       view: 'View Price',
-      url: waterPikWP580ProductUrl
+      url: synhopem6ProductUrl
     },
     {
       id: 2,
-      models: 'Waterpik Pearl WF-13',
-      image: waterpicWF13,
-      alt: 'Waterpik Pearl WF-13',
+      models: 'Panasonic EW-DJ10',
+      image: panasonicDJ10,
+      alt: 'Panasonic Portable Water Flosser EW-DJ10',
       prime: true,
-      dimensions: '3.7 x 2.5 x 11.6 in, 12.8 oz',
+      dimensions: '2 x 2.7 x 8.6 in, 13.7 oz',
       multifunctionaltips: '4',
-      capacity: '207 ml',
-      highlight: 'Quality, Ultra quiet',
-      problem: 'Storage space',
-      price: 'Good buy',
-      satisfaction: '9.4/10',
+      capacity: '165 ml',
+      highlight: 'Perfomance, Ease of use',
+      problem: 'Battery life',
+      price: 'Fair',
+      satisfaction: '8.4/10',
       view: 'View Price',
-      url: waterpicWF13ProductUrl
+      url: panasonicProductUrl
     },
     {
       id: 3,
-      models: 'Nicwell F5025',
-      image: nicwellF5025GlobalData.nicwellf5025,
-      alt: 'Nicwell 200ml Oral Irrigator',
+      models: 'YaFex AR-W-F1',
+      image: yaFexARWF1,
+      alt: 'YaFex cordless Portable Water Flosser AR-W-F1',
       prime: true,
-      dimensions: '8.03 x 4.02 x 2.73 in, 14 oz',
+      dimensions: '2.17 x 2.17 x 6.3 in, 15.5 oz',
       multifunctionaltips: '5',
       capacity: '200 ml',
-      highlight: 'Cleaning Orthodontic Gums, Prevent Bad Breath',
-      problem: 'Charging',
+      highlight: 'Size, Battery life, Power',
+      problem: 'Quality',
       price: 'Great Price',
-      satisfaction: '9/10',
+      satisfaction: '8.6/10',
       view: 'View Price',
-      url: nicwellF5025GlobalData.nicwellf5025ProductUrl
+      url: yaFexARWF1ProductUrl
     },
     {
       id: 4,
-      models: 'Nicefeel FC1592-BK',
-      image: nicefeelFC1592bkGlobalData.nicefeelFC1592bk,
-      alt: 'Nicefeel FC1592-BK Oral Irrigator Image',
+      models: 'Salate Flosser B0CJ',
+      image: salateB0cj,
+      alt: 'Salate Cordless Water Flosser B0CJ, 230ml',
       prime: true,
-      dimensions: '0.3 x 0.31 x 0.87 in, 13 oz',
+      dimensions: '7.36 x 4.65 x 2.48 in, 15.2 oz',
       multifunctionaltips: '4',
-      capacity: '300 ml',
-      highlight: 'Compact Design, Long Battery Life',
-      problem: 'Durability',
+      capacity: '230 ml',
+      highlight: 'Quality, Size, Power',
+      problem: 'Flow',
       price: 'Great Price',
-      satisfaction: '8/10',
+      satisfaction: '9.2/10',
       view: 'View Price',
-      url: nicefeelFC1592bkGlobalData.nicefeelFC1592bkProductUrl
+      url: salateB0cjProductUrl
     },
   ]
 }
 
-export const titleListTurewellProps = {
-  id: 'why-waterpikwp580',
-  titleH2: 'Why opt for the Waterpik WP-580?',
+export const titleListSynhopeM6Props = {
+  id: 'why-synhope-m6',
+  titleH2: 'Why opt for the Synhope M6 Plus?',
   items: [
     {
       itemTitle: [
         'Backed',
-        'Accepted',
-        'Waterpik',
-        'With its',
-        'What makes it unique?',
+        'Portable',
+        'The M6 Plus',
       ],
       itemContent: [
-        'by a 2-year limited manufacturer’s warranty.',
-        'by the ADA for safety and effectiveness.',
-        'invented the water flosser in 1962 and is backed by 60 years of innovation.',
-        'set of 4 nozzles, each family member can improve their oral hygiene without having to share.',
-        'Advanced technology and a compact, contemporary design.',
+        '30-day no-reason refund warranty and 24 hours of technical support.',
+        "designed with a telescopic water tank and an integrated storage nozzle, reducing the product's volume compared to similar products.",
+        'boasts a powerful lithium battery that can be used continuously for 30 days once fully charged in just 4 hours.',
       ]
     }
   ]
