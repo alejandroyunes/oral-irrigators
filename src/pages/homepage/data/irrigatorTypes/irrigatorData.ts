@@ -1,5 +1,5 @@
 const counterTop = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701006421/typesOfIrrigators/hfp0f2vemqcdfkglm1nh.webp'
-const wireless = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701006421/typesOfIrrigators/krk1blvi7n0yl8zwdpii.webp'
+const wirelessProduct = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701006421/typesOfIrrigators/qwilolfgrie0kk0pjepm.webp'
 const portable = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701006658/typesOfIrrigators/nfr2hz3tnyekctw3aznj.webp'
 
 export const irrigatorProps = {
@@ -27,7 +27,7 @@ export const irrigatorProps = {
       id: 3,
       title: 'Wireless',
       text: 'Wireless dental irrigators offer the flexibility of cable-free cleaning. Unlike countertop models, they do not need to be connected to the electrical grid, making them more versatile and convenient to use. They operate on rechargeable batteries, and their design is often more compact and ergonomic, allowing for easy handling. Although they may have a smaller water reservoir, their freedom of movement makes them ideal for modern and efficient oral hygiene.',
-      image: wireless,
+      image: wirelessProduct,
       alt: '',
       url: '/types/wireless'
     },
