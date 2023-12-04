@@ -16,21 +16,22 @@ export default function () {
           <meta
             name='description'
             content='Comparison of the Best Irrigators in 2023 | Dental Irrigator' />
-          <title>Comparison of the Best Irrigators in 2023 | Dental Irrigator</title>
+          <title>Discover the Ultimate Oral Care: Unveiling the Best Brands of Oral Irrigators</title>
         </Helmet>
       </HelmetProvider>
 
       <Header {...headerProps} />
       <TableOfContent items={tableOfContentItems} />
 
-      <TitleList {...titleListProps} />
-      <Title message={titleProps} />
-
       {/* First Product */}
       <Title titleH2={firstProduct.proAndCons.title} message={firstProduct.proAndCons.subtitle} id={firstProduct.product.id} />
-      <Product {...firstProduct.product} list={firstProduct.list} />
-      <Title {...firstProduct.productDetails} />
-      <ProAndCon {...firstProduct.proAndCons} />
+      {/* <Product {...firstProduct.product} list={firstProduct.list} /> */}
+      {/* <Title {...firstProduct.productDetails} /> */}
+      {/* <ProAndCon {...firstProduct.proAndCons} /> */}
+
+      <Title id={comparativeTableProps.id} titleH2={comparativeTableProps.title} message={comparativeTableProps.message} />
+      <ComparativeTable items={comparativeTableProps.items} primeUrl={comparativeTableProps.primeUrl} />
+
 
       {/* Second Product */}
       <Title titleH2={secondProduct.proAndCons.title} message={secondProduct.proAndCons.subtitle} id={secondProduct.product.id} />
@@ -52,8 +53,8 @@ export default function () {
       <ProAndCon {...fourthProduct.proAndCons} />
 
 
-      <Title id={comparativeTableProps.id} titleH2={comparativeTableProps.title} message={comparativeTableProps.message} />
-      <ComparativeTable items={comparativeTableProps.items} primeUrl={comparativeTableProps.primeUrl} />
+      <TitleList {...titleListProps} />
+      <Title message={titleProps} />
 
     </main>
   )

@@ -1,7 +1,6 @@
 import { waterPik660amazonPrime, waterPik660productReview, waterPikWP660ProductUrl, waterpikwp660 } from "../categories/best-irrigators/article/best-irrigators/data/waterpikwp660"
 import { nicwellF5025GlobalData } from "../categories/best-irrigators/article/global-data/best-portable/best-portable"
 
-
 const bestIrrigatorsBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701063834/compareIrrigators/BestIrrigatorBg/bq3ntabxi9mjsbk7zbhi.webp'
 const bestIrrigatorsBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701063921/compareIrrigators/BestIrrigatorBg/vrreipanqkrf8d8xjvrl.webp'
 
@@ -16,26 +15,23 @@ const waterpicWF13ProductReview = 'https://www.amazon.com/product-reviews/B09C2Q
 const amazonPrime = 'https://www.amazon.com/'
 
 export const headerProps = {
-  title: "Comparison of the Best Irrigators in 2023",
-  subtitle: "Best Dental Irrigator",
-  text: "According to our analysis, the best quality - price dental irrigator is the Waterpik Ultra WP-660.",
+  title: "The best brands of Oral Irrigators in 2023",
+  subtitle: "Elevate your oral hygiene routine",
+  text: "Discover the Ultimate Oral Care: Unveiling the Best Brands of Oral Irrigators",
   image: bestIrrigatorsBgImage,
   mobileImage: bestIrrigatorsBgMobileImage,
-  url: '/best-irrigators/waterpik-wp-660-water-flossing-oral-irrigator',
-  buttonText: "View Waterpic WP-660",
-  date: '11/26/2023'
+  url: '/#types',
+  buttonText: "View Types",
+  date: '4/12/2023'
 }
 
-export const tableOfContentUrl = '/best-irrigators/#'
+export const tableOfContentUrl = '/brands/#'
 
 export const tableOfContentItems = [
+
   {
-    content: '\u2022 Criteria Used in this Irrigator Comparison',
-    id: `${tableOfContentUrl}criteria-used-in-this-irrigator-comparison`
-  },
-  {
-    content: '\u2022 1. Waterpik 660 – Best Quality-Price Ratio Irrigator',
-    id: `${tableOfContentUrl}waterpik-wp-660-best-quality-price-ratio-irrigator`
+    content: '\u2022 1. Waterpik – Top Quality-Price Ratio Irrigator',
+    id: `${tableOfContentUrl}waterpik`
   },
   {
     content: '\u2022 2. Waterpik Cordless Advanced WP-580, 200ml',
@@ -53,35 +49,31 @@ export const tableOfContentItems = [
     content: '\u2022 Comparative Table of the Best Oral Irrigators',
     id: `${tableOfContentUrl}comparative-table-of-the-best-oral-irrigators`
   },
+  {
+    content: '\u2022 Criteria Used in this Irrigator Comparison',
+    id: `${tableOfContentUrl}criteria-used-in-this-irrigator-comparison`
+  },
 ]
 
-export const titleListProps = {
-  id: 'criteria-used-in-this-irrigator-comparison',
-  title: 'What criteria we used in this Irrigators Comparison?',
-  items: [
-    {
-      itemTitle: [
-        '',
-        '',
-        '',
-        '',
-      ],
-      itemContent: [
-        'To find the most reliable oral irrigators, we have analyzed user satisfaction levels, rating them on a scale of 1 to 10.',
-        'From buyer opinions, we have extracted the most praised feature and the most common issue for each irrigator.',
-        'To provide you with comprehensive information, we present the features and accessories of each one.',
-        'Finally, we assess the price in relation to its quality, rating it as: Improvable, Fair, Exceptional.',
-      ]
-    }
-  ]
+export const firstProduct = {
+  product: {
+    id: 'waterpik',
+    title: 'Waterpik Aquarius Water Flosser WP-660, 650ml',
+    image: waterpikwp660,
+    productUrl: waterPikWP660ProductUrl,
+    primeUrl: waterPik660amazonPrime,
+    url: waterPik660productReview,
+  },
+  proAndCons: {
+    title: "1. Waterpik dental irrigators",
+    subtitle: "Experience precision and power with WaterPik oral irrigators, a leading brand in oral irrigators. Engineered with state-of-the-art water pulsation technology, this device effectively removes plaque, debris, and bacteria from hard-to-reach areas. Its customizable pressure settings cater to individual preferences, making it suitable for users of all ages. Elevate your oral care routine with WaterPulse Precision Pro – where innovation meets perfection.",
+  }
 }
-
-export const titleProps = 'Dental irrigators are efficient for removing plaque and food particles from between the teeth. Additionally, they contribute to reducing the risk of gum diseases and combating bad breath. But, which irrigator to buy? What would be the best irrigator? Below, we present the most comprehensive and detailed analysis of the best irrigators to assist you in your purchase.'
 
 export const comparativeTableProps = {
   id: 'comparative-table-of-the-best-oral-irrigators',
   title: 'Comparative of the Best Oral Irrigators',
-  message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
+  message: 'In this table, you can see some of the Waterpik models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
   primeUrl: amazonPrime,
   items: [
     {
@@ -149,67 +141,6 @@ export const comparativeTableProps = {
       url: nicwellF5025GlobalData.nicwellf5025ProductUrl
     }
   ]
-}
-
-export const firstProduct = {
-  product: {
-    id: 'waterpik-wp-660-best-quality-price-ratio-irrigator',
-    title: 'Waterpik Aquarius Water Flosser WP-660, 650ml',
-    image: waterpikwp660,
-    productUrl: waterPikWP660ProductUrl,
-    primeUrl: waterPik660amazonPrime,
-    url: waterPik660productReview,
-  },
-  list: [
-    "Type: Desktop",
-    "Weight: 1.46 pounds",
-    "Tank Capacity: 650 ml",
-    "Includes 7 nozzles",
-    "10 pressure levels",
-    "2 usage modes",
-    "Storage for nozzles",
-  ],
-  productDetails: {
-    title: 'The WP-660 model from Waterpik is positioned as the best irrigator to date',
-    message: 'It has one of the most complete sets of nozzles (7 in total), combined with its 10 pressure levels that reach up to 130 psi (a unique feature of Waterpik), allowing you to adjust the power of the jet according to the type of cleaning you want to perform. It has two modes of use: Massage for people with dental sensitivity and Floss to remove bacterial plaque and debris from the teeth.',
-    moreinfo: 'A lightweight tabletop irrigator, the perfect size to place on the sink, regardless of the bathroom size, and with a great extra: a compartment to place the most frequently used nozzles'
-  },
-  proAndCons: {
-    title: "1. Waterpik WP-660 – Best Quality Irrigator",
-    subtitle: "Taking into account multiple factors, user ratings, and, of course, our own assessment, the Waterpik Ultra model is the best dental irrigator in terms of quality and price, in addition to being one of the most recommended by dentists.",
-    url: {
-      url: '/blog/water',
-      text: 'WaterPik url title'
-    },
-    itemspro: [
-      {
-        title: 'Helps reduce tartar and prevent oral diseases.',
-      },
-      {
-        title: 'Ensures a thorough cleaning, improving the health of teeth and gums.',
-      },
-      {
-        title: 'Can be especially useful for people with braces or implants, facilitating cleaning in hard-to-reach areas.',
-      },
-      {
-        title: 'Promotes circulation in the gums, strengthening them and helping to maintain their health.',
-      },
-      {
-        title: 'Contributes to the prevention of dental stains, maintaining a more attractive dental aesthetic.',
-      },
-    ],
-    itemscons: [
-      {
-        title: 'The more comprehensive models require a lot of space',
-      },
-      {
-        title: ' For those with dental sensitivity, using it can be a bit uncomfortable.',
-      },
-      {
-        title: 'Is easy to use, but it is necessary to learn how to use it correctly to avoid damaging the gums.',
-      },
-    ]
-  }
 }
 
 export const secondProduct = {
@@ -353,4 +284,26 @@ export const fourthProduct = {
       },
     ]
   }
+}
+
+export const titleProps = 'Dental irrigators are efficient for removing plaque and food particles from between the teeth. Additionally, they contribute to reducing the risk of gum diseases and combating bad breath. But, which irrigator to buy? What would be the best irrigator? Below, we present the most comprehensive and detailed analysis of the best irrigators to assist you in your purchase.'
+export const titleListProps = {
+  id: 'criteria-used-in-this-irrigator-comparison',
+  title: 'What criteria we used in this Irrigators Comparison?',
+  items: [
+    {
+      itemTitle: [
+        '',
+        '',
+        '',
+        '',
+      ],
+      itemContent: [
+        'To find the most reliable oral irrigators, we have analyzed user satisfaction levels, rating them on a scale of 1 to 10.',
+        'From buyer opinions, we have extracted the most praised feature and the most common issue for each irrigator.',
+        'To provide you with comprehensive information, we present the features and accessories of each one.',
+        'Finally, we assess the price in relation to its quality, rating it as: Improvable, Fair, Exceptional.',
+      ]
+    }
+  ]
 }
