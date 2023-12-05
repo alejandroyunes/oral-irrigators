@@ -16,6 +16,9 @@ const waterpicWF13ProductReview = 'https://www.amazon.com/product-reviews/B09C2Q
 const waterpikION = "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701733235/compareIrrigators/WaterpikION/au9clrqapxfmxlejioov.webp"
 const waterpikIONProductUrl = "https://a.co/d/gc0zsKM"
 
+const turewellFC162 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701736336/compareIrrigators/TurewellFC162/jbh50civqiol3jtz1wps.webp'
+const turewellFC162ProductUrl = 'https://a.co/d/amLAm8i'
+
 
 const amazonPrime = 'https://www.amazon.com/'
 
@@ -33,14 +36,13 @@ export const headerProps = {
 export const tableOfContentUrl = '/brands/#'
 
 export const tableOfContentItems = [
-
   {
-    content: '\u2022 1. Waterpik – Top Quality-Price Ratio Irrigator',
+    content: '\u2022 1. Waterpik Oral Irrigator',
     id: `${tableOfContentUrl}waterpik`
   },
   {
-    content: '\u2022 2. Waterpik Cordless Advanced WP-580, 200ml',
-    id: `${tableOfContentUrl}waterpik-wp-580-quality-ratio-irrigator`
+    content: '\u2022 2. Turewell Oral Irrigator',
+    id: `${tableOfContentUrl}turewell`
   },
   {
     content: '\u2022 3. Waterpik Rechargeable Pearl WF-13, 207ml',
@@ -63,11 +65,6 @@ export const tableOfContentItems = [
 export const firstProduct = {
   product: {
     id: 'waterpik',
-    title: 'Waterpik Aquarius Water Flosser WP-660, 650ml',
-    image: waterpikwp660,
-    productUrl: waterPikWP660ProductUrl,
-    primeUrl: waterPik660amazonPrime,
-    url: waterPik660productReview,
   },
   proAndCons: {
     title: "1. Waterpik dental irrigators",
@@ -76,8 +73,7 @@ export const firstProduct = {
 }
 
 export const comparativeTableProps = {
-  id: 'comparative-table-of-the-best-oral-irrigators',
-  title: 'Waterpik Comparison Table',
+  title: 'Comparison Table',
   message: 'In this table, you can see some of the Waterpik models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
   primeUrl: amazonPrime,
   items: [
@@ -151,55 +147,50 @@ export const comparativeTableProps = {
 export const secondProduct = {
   product: {
     id: 'turewell',
-    title: '2. Turewell dental irrigators',
-    image: turewell600mlGlobalData.turewell600ml,
-    productUrl: turewell600mlGlobalData.turewell600mlProductUrl,
-    primeUrl: amazonPrime,
-    url: waterpicWP580ProductReview,
   },
   proAndCons: {
     title: "2. Turewell Quality Oral Irrigator",
-    subtitle: "The Waterpik WP-580 Cordless Advanced, a handheld cordless water flosser designed for quiet operation and efficient oral care. Ideal for travel, this portable device is globally voltage compatible and includes essential accessories, making it the perfect companion for maintaining your oral health wherever life takes you.",
+    subtitle: "Introducing Turewell Series, a frontrunner in oral irrigation technology. Harnessing the power and quality, these advanced irrigator provides a gentle yet thorough cleaning experience. With multiple nozzle options and an intuitive control panel, Turewell oral irrigators are designed for personalized care. Say goodbye to traditional flossing methods and embrace the future of oral hygiene with Turewell.",
   }
 }
 
 export const comparativeTableTwoProps = {
   id: 'comparative-table-of-the-best-oral-irrigators',
-  title: 'Waterpik Comparison Table',
-  message: 'In this table, you can see some of the Waterpik models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
+  title: 'Comparison Table',
+  message: 'In this table, you can see some of the Turewell models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
   primeUrl: amazonPrime,
   items: [
     {
       id: 1,
-      models: 'Waterpik WP-660',
-      image: waterpikwp660,
-      alt: 'Waterpik WP-660 Oral Irrigator',
+      models: 'Turewell FC165',
+      image: turewell600mlGlobalData.turewell600ml,
+      alt: 'Turewell FC165 Oral Irrigator',
       prime: true,
-      dimensions: '3.8 x 4.7 x 10.3 in, 1.46 lbs',
-      multifunctionaltips: '7',
-      capacity: '650 ml',
-      highlight: '10 Nozzles, Best value',
-      problem: 'Noise, Size',
-      price: 'Fair',
-      satisfaction: '9.5/10',
+      dimensions: '5.7 x 4.9 x 8.07 in, 1.7 lbs',
+      multifunctionaltips: '8',
+      capacity: '600 ml',
+      highlight: '8 Nozzles, Value, Ease of use',
+      problem: 'Water Resistance',
+      price: 'Good Price',
+      satisfaction: '8/10',
       view: 'View Price',
-      url: waterPikWP660ProductUrl
+      url: turewell600mlGlobalData.turewell600mlProductUrl
     },
     {
       id: 2,
-      models: 'Waterpik WP-580',
-      image: waterpicWP580,
-      alt: 'Waterpik Cordless WP-580, 200ml',
+      models: 'Turewell FC162',
+      image: turewellFC162,
+      alt: 'Turewell FC162, 600ml',
       prime: true,
-      dimensions: '4 x 2.8 x 11.6 in, 12.8oz',
-      multifunctionaltips: '6',
-      capacity: '200 ml',
-      highlight: 'Long battery life, Cordless',
-      problem: 'Small reservoir',
-      price: 'Fair',
-      satisfaction: '9.5/10',
+      dimensions: '8.7 x 6.14 x 5.08 in, 44.8oz',
+      multifunctionaltips: '8',
+      capacity: '600 ml',
+      highlight: 'Value, Cleaning, Size',
+      problem: 'Water resistance',
+      price: 'Good',
+      satisfaction: '8.6/10',
       view: 'View Price',
-      url: waterpicWP580ProductUrl
+      url: turewellFC162ProductUrl
     },
     {
       id: 3,
@@ -235,6 +226,10 @@ export const comparativeTableTwoProps = {
     }
   ]
 }
+
+
+
+
 
 
 

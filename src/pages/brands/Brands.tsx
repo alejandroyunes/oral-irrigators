@@ -26,7 +26,7 @@ export default function () {
       {/* First Product */}
       <Title titleH2={firstProduct.proAndCons.title} message={firstProduct.proAndCons.subtitle} id={firstProduct.product.id} />
 
-      <Title id={comparativeTableProps.id} titleH2={comparativeTableProps.title} message={comparativeTableProps.message} />
+      <Title titleH2={comparativeTableProps.title} message={comparativeTableProps.message} />
       <ComparativeTable items={comparativeTableProps.items} primeUrl={comparativeTableProps.primeUrl} />
 
 
@@ -34,7 +34,7 @@ export default function () {
 
       <Title titleH2={secondProduct.proAndCons.title} message={secondProduct.proAndCons.subtitle} id={secondProduct.product.id} />
 
-      <Title id={comparativeTableTwoProps.id} titleH2={comparativeTableTwoProps.title} message={comparativeTableTwoProps.message} />
+      <Title titleH2={comparativeTableTwoProps.title} message={comparativeTableTwoProps.message} />
       <ComparativeTable items={comparativeTableTwoProps.items} primeUrl={comparativeTableTwoProps.primeUrl} />
 
 
