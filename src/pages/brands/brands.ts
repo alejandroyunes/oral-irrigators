@@ -1,17 +1,15 @@
-import { waterPik660amazonPrime, waterPik660productReview, waterPikWP660ProductUrl, waterpikwp660 } from "../categories/best-irrigators/article/best-irrigators/data/waterpikwp660"
+import { waterPikWP660ProductUrl, waterpikwp660 } from "../categories/best-irrigators/article/best-irrigators/data/waterpikwp660"
 import { turewell600mlGlobalData } from "../categories/best-irrigators/article/global-data/best-countertop/best-countertop"
-import { nicwellF5025GlobalData } from "../categories/best-irrigators/article/global-data/best-portable/best-portable"
+import { coslus300mlGlobalData, nicwellF5025GlobalData, waterPikGlobalData } from "../categories/best-irrigators/article/global-data/best-portable/best-portable"
 
 const bestIrrigatorsBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701063834/compareIrrigators/BestIrrigatorBg/bq3ntabxi9mjsbk7zbhi.webp'
 const bestIrrigatorsBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701063921/compareIrrigators/BestIrrigatorBg/vrreipanqkrf8d8xjvrl.webp'
 
 const waterpicWP580 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701082075/compareIrrigators/Waterpic-WP-580/au3iegupvu2oby4ibqyy.webp'
 const waterpicWP580ProductUrl = 'https://a.co/d/fDPfb5g'
-const waterpicWP580ProductReview = 'https://www.amazon.com/product-reviews/B01GNVF8S8/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
 
 const waterpicWF13 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701085259/compareIrrigators/Waterpik-WF-13/alhhatr4eii53pnyze9d.webp'
 const waterpicWF13ProductUrl = 'https://a.co/d/hB29NQR'
-const waterpicWF13ProductReview = 'https://www.amazon.com/product-reviews/B09C2QZQFQ/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
 
 const waterpikION = "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701733235/compareIrrigators/WaterpikION/au9clrqapxfmxlejioov.webp"
 const waterpikIONProductUrl = "https://a.co/d/gc0zsKM"
@@ -24,6 +22,9 @@ const turewellFC159ProductUrl = "https://a.co/d/9z9FIj3"
 
 const turewellYXY = "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701747707/compareIrrigators/TurewellYXY/tcqkxsmthahs9yoneg6v.webp"
 const turewellYXYProductUrl = "https://a.co/d/5NMAXnH"
+
+const nicwellf5025T = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701779174/compareIrrigators/NicwellF5025T/k9srlaxpflbgvjd6utwy.webp'
+const nicwellf5025TProductUrl = "https://a.co/d/ajUpF5m"
 
 const amazonPrime = 'https://www.amazon.com/'
 
@@ -42,16 +43,16 @@ export const tableOfContentUrl = '/brands/#'
 
 export const tableOfContentItems = [
   {
-    content: '\u2022 1. Waterpik Oral Irrigator',
+    content: '\u2022 1. Waterpik Oral Irrigators',
     id: `${tableOfContentUrl}waterpik`
   },
   {
-    content: '\u2022 2. Turewell Oral Irrigator',
+    content: '\u2022 2. Turewell Oral Irrigators',
     id: `${tableOfContentUrl}turewell`
   },
   {
-    content: '\u2022 3. Waterpik Rechargeable Pearl WF-13, 207ml',
-    id: `${tableOfContentUrl}waterpik-pearl-wf-13-irrigator`
+    content: '\u2022 3. Nicwell Oral Irrigator',
+    id: `${tableOfContentUrl}nicwell`
   },
   {
     content: '\u2022 4. Nicwell Professional Water Flosser F5025, 200ml',
@@ -72,7 +73,7 @@ export const firstProduct = {
     id: 'waterpik',
   },
   proAndCons: {
-    title: "1. Waterpik dental irrigators",
+    title: "1. Waterpik Oral Irrigators",
     subtitle: "Experience precision and power with Waterpik oral irrigators, a leading brand in oral irrigators. Engineered with state-of-the-art water pulsation technology, this device effectively removes plaque, debris, and bacteria from hard-to-reach areas. Its customizable pressure settings cater to individual preferences, making it suitable for users of all ages. Elevate your oral care routine with WaterPulse Precision Pro – where innovation meets perfection.",
   }
 }
@@ -154,7 +155,7 @@ export const secondProduct = {
     id: 'turewell',
   },
   proAndCons: {
-    title: "2. Turewell Quality Oral Irrigator",
+    title: "2. Turewell Oral Irrigators",
     subtitle: "Introducing Turewell Series, a frontrunner in oral irrigation technology. Harnessing the power and quality, these advanced irrigator provides a gentle yet thorough cleaning experience. With multiple nozzle options and an intuitive control panel, Turewell oral irrigators are designed for personalized care. Say goodbye to traditional flossing methods and embrace the future of oral hygiene with Turewell.",
   }
 }
@@ -232,106 +233,86 @@ export const comparativeTableTwoProps = {
   ]
 }
 
-
-
-
 export const thirdProduct = {
   product: {
-    id: 'waterpik-pearl-wf-13-irrigator',
-    title: 'Waterpik Rechargeable Pearl WF-13, 207ml',
-    image: waterpicWF13,
-    productUrl: waterpicWF13ProductUrl,
-    primeUrl: amazonPrime,
-    url: waterpicWF13ProductReview,
-  },
-  list: [
-    "Type: Wireless, portable",
-    "Weight: 12.8 oz",
-    "Tank Capacity: 207 ml",
-    "4 Tips",
-    "2 pressure levels",
-    "2-year manufacturer's limited warranty",
-    "2 weeks of Battery life",
-  ],
-  productDetails: {
-    title: 'The WF-13 model from Waterpik is positioned as the third best irrigator to date',
-    message: 'Ergonomic design and quiet flossing technology, this handheld flosser ensures enhanced maneuverability and discreet operation.  The ease of cleaning with this oral irrigator stands out, as customers rave about its remarkable ability to clean teeth thoroughly, leaving the mouth feeling exceptionally clean.',
+    id: 'nicwell'
   },
   proAndCons: {
-    title: "3. Waterpik WF-13 – Third Best Quality Irrigator",
-    subtitle: "Waterpik WF-13 rechargable Pearl will help you maintain healthier gums and brighter teeth whether you are at home or on the go. The optimal pressure and easy cleaning process make it a versatile tool, suitable even for use in the shower. Users note significant improvements noticed by their hygienists, emphasizing that it tackles more debris than traditional brushing alone.",
-    itemspro: [
-      {
-        title: 'Equipped with a rechargeable battery and a handheld portable design.',
-      },
-      {
-        title: 'Enjoy enhanced maneuverability with a narrow hand grip and improved 360-degree tip rotation.',
-      },
-      {
-        title: 'The Waterpik brand is clinically proven and the first water flosser to earn the American Dental Association (ADA) Seal of Acceptance.',
-      },
-    ],
-    itemscons: [
-      {
-        title: "Customers express dissatisfaction with the oral irrigator's storage capacity,",
-      },
-      {
-        title: 'Customers express varying opinions regarding the battery life of the oral irrigator. ',
-      },
-    ]
+    title: "3. Nicwell Oral Irrigators",
+    subtitle: "Nicwell Water Dental Flosser takes oral health to new heights with its comprehensive care system. This brand is renowned for its smart design, combining water pulsation and air infusion for an action cleansing effect.",
   }
 }
-
-export const fourthProduct = {
-  product: {
-    id: 'nicwell-f5025-irrigator',
-    title: 'Nicwell Professional Water Flosser F5025, 200ml',
-    image: nicwellF5025GlobalData.nicwellf5025,
-    productUrl: nicwellF5025GlobalData.nicwellf5025ProductUrl,
-    primeUrl: amazonPrime,
-    url: nicwellF5025GlobalData.productReview,
-  },
-  list: [
-    "Portable and Lightweight",
-    "Weight: 12.8 oz",
-    "Tank Capacity: 200 ml",
-    "12 Tips",
-    "4 pressure levels",
-    "Up to 21 days of use with a single charge",
-  ],
-  productDetails: {
-    title: 'The Nicwell F5025 model from Nicwell is positioned as the fourth best irrigator to date',
-    message: 'Nicwell Water Dental Flosser redefines oral care with its upgraded pulsation technique, delivering a high-pressure water pulse for deep cleaning, gum massage, and improved blood circulation. It effectively addresses issues like bleeding gums, bad breath, and is beneficial for orthodontic brace and bridge care.',
-  },
-  proAndCons: {
-    title: "4. Nicwell F5025 – Fourth Best Quality Irrigator",
-    subtitle: "Nicwell F5025 Portable, rechargeable, and designed for optimal oral health on the go.",
-    itemspro: [
-      {
-        title: 'Well worth the price.',
-      },
-      {
-        title: 'Users like the cleanliness the product provides, effectively cleaning between teeth and leaving a clean feeling.',
-      },
-      {
-        title: 'The oral irrigator is praised for being easy to use, offering convenience and cost-effectiveness in daily oral care routines.',
-      },
-      {
-        title: 'Many customers find the overall performance impressive, praising its effectiveness in maintaining oral hygiene.',
-      },
-      {
-        title: 'Customers appreciate the convenience of the oral irrigator, especially in comparison to traditional flossing.',
-      },
-    ],
-    itemscons: [
-      {
-        title: 'Opinions on water resistance, battery life, and overall performance are mixed, indicating varying experiences among users.',
-      },
-      {
-        title: 'Customers are not satisfied with the charging feature of the oral irrigator. They mention that the charger is a USB and they never have a usb charger in the bathroom.',
-      },
-    ]
-  }
+export const comparativeTableThirdProps = {
+  id: 'comparative-table-of-the-best-oral-irrigators',
+  title: 'Comparison Table',
+  message: 'In this table, you can see some of the Nicwell models, their features, notable advantages, user ratings, and the results of our analyses in 2023. It is important to consider that there are fewer products available for Nicwell.',
+  primeUrl: amazonPrime,
+  items: [
+    {
+      id: 1,
+      models: 'Nicwell F5025',
+      image: nicwellF5025GlobalData.nicwellf5025,
+      alt: 'Nicwell 200ml Oral Irrigator',
+      prime: true,
+      dimensions: '8.03 x 4.02 x 2.73 in, 14 oz',
+      multifunctionaltips: '5',
+      capacity: '200 ml',
+      highlight: 'Cleaning Orthodontic Gums, Prevent Bad Breath',
+      problem: 'Charging',
+      price: 'Great Price',
+      satisfaction: '9/10',
+      view: 'View Price',
+      url: nicwellF5025GlobalData.nicwellf5025ProductUrl
+    },
+    {
+      id: 2,
+      models: 'Nicwell F5025 + T2051',
+      image: nicwellf5025T,
+      alt: 'Nicwell F5025 + T2051',
+      prime: true,
+      dimensions: '9.17 x 6.34 x 3.19 in, 22 oz',
+      multifunctionaltips: '6',
+      capacity: '200 ml',
+      highlight: 'Value, Cleaning, Size',
+      problem: 'Charging',
+      price: 'Fair',
+      satisfaction: '8.6/10',
+      view: 'View Price',
+      url: nicwellf5025TProductUrl
+    },
+    {
+      id: 3,
+      models: 'Coslus F5020E',
+      image: coslus300mlGlobalData.coslus300ml,
+      alt: 'Coslus F5020E Oral Irrigator',
+      prime: true,
+      dimensions: '1.97 x 2.74 x 12.2 in, 15.52 oz',
+      multifunctionaltips: '5',
+      capacity: '300ml',
+      highlight: 'Dual-thread stream, Child mode, IPX7 waterproof',
+      problem: 'Limited water capacity',
+      price: 'Excelent price',
+      satisfaction: '9/10',
+      view: 'View Price',
+      url: coslus300mlGlobalData.coslus300mlProductUrl
+    },
+    {
+      id: 4,
+      models: 'Waterpik WF-02',
+      image: waterPikGlobalData.waterpikwf02,
+      alt: 'Waterpik Model WF-02',
+      prime: true,
+      dimensions: '3.6 x 2.5 x 11.75 in, 11.68 oz',
+      multifunctionaltips: '2',
+      capacity: '5oz reservoir for 30 seconds of flossing time',
+      highlight: 'Economical, Portable, Waterproof, Customizable.',
+      problem: 'Battery replacement, Limited water capacity.',
+      price: 'Best buy',
+      satisfaction: '9/10',
+      view: 'View Price',
+      url: waterPikGlobalData.waterpikwf02ProductUrl
+    }
+  ]
 }
 
 export const titleProps = 'Dental irrigators are efficient for removing plaque and food particles from between the teeth. Additionally, they contribute to reducing the risk of gum diseases and combating bad breath. But, which irrigator to buy? What would be the best irrigator? Below, we present the most comprehensive and detailed analysis of the best irrigators to assist you in your purchase.'
