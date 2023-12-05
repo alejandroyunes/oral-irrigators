@@ -6,7 +6,7 @@ import Product from "../../components/Product/Product"
 import TableOfContent from "../../components/TableOfContent/TableOfContent"
 import Title from "../../components/Title/Title"
 import TitleList from "../../components/TitleList/TitleList"
-import { tableOfContentItems, headerProps, titleProps, comparativeTableProps, titleListProps, firstProduct, secondProduct, thirdProduct, fourthProduct } from "./brands"
+import { tableOfContentItems, headerProps, titleProps, comparativeTableProps, titleListProps, firstProduct, secondProduct, thirdProduct, fourthProduct, comparativeTableTwoProps } from "./brands"
 
 export default function () {
   return (
@@ -25,23 +25,23 @@ export default function () {
 
       {/* First Product */}
       <Title titleH2={firstProduct.proAndCons.title} message={firstProduct.proAndCons.subtitle} id={firstProduct.product.id} />
-      {/* <Product {...firstProduct.product} list={firstProduct.list} /> */}
-      {/* <Title {...firstProduct.productDetails} /> */}
-      {/* <ProAndCon {...firstProduct.proAndCons} /> */}
 
       <Title id={comparativeTableProps.id} titleH2={comparativeTableProps.title} message={comparativeTableProps.message} />
       <ComparativeTable items={comparativeTableProps.items} primeUrl={comparativeTableProps.primeUrl} />
 
 
       {/* Second Product */}
+
       <Title titleH2={secondProduct.proAndCons.title} message={secondProduct.proAndCons.subtitle} id={secondProduct.product.id} />
-      <Product {...secondProduct.product} list={secondProduct.list} />
-      <Title {...secondProduct.productDetails} />
-      <ProAndCon {...secondProduct.proAndCons} />
+
+      <Title id={comparativeTableTwoProps.id} titleH2={comparativeTableTwoProps.title} message={comparativeTableTwoProps.message} />
+      <ComparativeTable items={comparativeTableTwoProps.items} primeUrl={comparativeTableTwoProps.primeUrl} />
+
+
 
       {/* Third Product */}
 
-      <Title titleH2={thirdProduct.proAndCons.title} message={thirdProduct.proAndCons.subtitle} id={thirdProduct.product.id} />
+      {/* <Title titleH2={thirdProduct.proAndCons.title} message={thirdProduct.proAndCons.subtitle} id={thirdProduct.product.id} />
       <Product {...thirdProduct.product} list={thirdProduct.list} />
       <Title {...thirdProduct.productDetails} />
       <ProAndCon {...thirdProduct.proAndCons} />
@@ -50,7 +50,7 @@ export default function () {
       <Title titleH2={fourthProduct.proAndCons.title} message={fourthProduct.proAndCons.subtitle} id={fourthProduct.product.id} />
       <Product {...fourthProduct.product} list={fourthProduct.list} />
       <Title {...fourthProduct.productDetails} />
-      <ProAndCon {...fourthProduct.proAndCons} />
+      <ProAndCon {...fourthProduct.proAndCons} /> */}
 
 
       <TitleList {...titleListProps} />

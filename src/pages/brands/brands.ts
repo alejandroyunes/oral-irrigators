@@ -1,4 +1,5 @@
 import { waterPik660amazonPrime, waterPik660productReview, waterPikWP660ProductUrl, waterpikwp660 } from "../categories/best-irrigators/article/best-irrigators/data/waterpikwp660"
+import { turewell600mlGlobalData } from "../categories/best-irrigators/article/global-data/best-countertop/best-countertop"
 import { nicwellF5025GlobalData } from "../categories/best-irrigators/article/global-data/best-portable/best-portable"
 
 const bestIrrigatorsBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701063834/compareIrrigators/BestIrrigatorBg/bq3ntabxi9mjsbk7zbhi.webp'
@@ -11,6 +12,10 @@ const waterpicWP580ProductReview = 'https://www.amazon.com/product-reviews/B01GN
 const waterpicWF13 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701085259/compareIrrigators/Waterpik-WF-13/alhhatr4eii53pnyze9d.webp'
 const waterpicWF13ProductUrl = 'https://a.co/d/hB29NQR'
 const waterpicWF13ProductReview = 'https://www.amazon.com/product-reviews/B09C2QZQFQ/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
+
+const waterpikION = "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701733235/compareIrrigators/WaterpikION/au9clrqapxfmxlejioov.webp"
+const waterpikIONProductUrl = "https://a.co/d/gc0zsKM"
+
 
 const amazonPrime = 'https://www.amazon.com/'
 
@@ -66,13 +71,13 @@ export const firstProduct = {
   },
   proAndCons: {
     title: "1. Waterpik dental irrigators",
-    subtitle: "Experience precision and power with WaterPik oral irrigators, a leading brand in oral irrigators. Engineered with state-of-the-art water pulsation technology, this device effectively removes plaque, debris, and bacteria from hard-to-reach areas. Its customizable pressure settings cater to individual preferences, making it suitable for users of all ages. Elevate your oral care routine with WaterPulse Precision Pro – where innovation meets perfection.",
+    subtitle: "Experience precision and power with Waterpik oral irrigators, a leading brand in oral irrigators. Engineered with state-of-the-art water pulsation technology, this device effectively removes plaque, debris, and bacteria from hard-to-reach areas. Its customizable pressure settings cater to individual preferences, making it suitable for users of all ages. Elevate your oral care routine with WaterPulse Precision Pro – where innovation meets perfection.",
   }
 }
 
 export const comparativeTableProps = {
   id: 'comparative-table-of-the-best-oral-irrigators',
-  title: 'Comparative of the Best Oral Irrigators',
+  title: 'Waterpik Comparison Table',
   message: 'In this table, you can see some of the Waterpik models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
   primeUrl: amazonPrime,
   items: [
@@ -126,66 +131,112 @@ export const comparativeTableProps = {
     },
     {
       id: 4,
-      models: 'Nicwell F5025',
-      image: nicwellF5025GlobalData.nicwellf5025,
-      alt: 'Nicwell 200ml Oral Irrigator',
+      models: 'Waterpik ION WF-12',
+      image: waterpikION,
+      alt: 'Waterpik ION WF-12',
       prime: true,
-      dimensions: '8.03 x 4.02 x 2.73 in, 14 oz',
-      multifunctionaltips: '5',
-      capacity: '200 ml',
-      highlight: 'Cleaning Orthodontic Gums, Prevent Bad Breath',
-      problem: 'Charging',
+      dimensions: ' 5.7 x 5.9 x 7.3 in, 20.8 oz',
+      multifunctionaltips: '7',
+      capacity: '590 ml',
+      highlight: 'Size, Ease of use, Cleanliness',
+      problem: 'Charging, Durability',
       price: 'Great Price',
-      satisfaction: '9/10',
+      satisfaction: '8.6/10',
       view: 'View Price',
-      url: nicwellF5025GlobalData.nicwellf5025ProductUrl
+      url: waterpikIONProductUrl
     }
   ]
 }
 
 export const secondProduct = {
   product: {
-    id: 'waterpik-wp-580-quality-ratio-irrigator',
-    title: 'Waterpik Cordless Advanced WP-580, 200ml',
-    image: waterpicWP580,
-    productUrl: waterpicWP580ProductUrl,
+    id: 'turewell',
+    title: '2. Turewell dental irrigators',
+    image: turewell600mlGlobalData.turewell600ml,
+    productUrl: turewell600mlGlobalData.turewell600mlProductUrl,
     primeUrl: amazonPrime,
     url: waterpicWP580ProductReview,
   },
-  list: [
-    "Type: Wireless, portable",
-    "Weight: 12.8 oz",
-    "Tank Capacity: 200 ml",
-    "2 Classic, 1 Orthodontic, 1 Plaque Seeker Tip",
-    "3 pressure levels",
-    "2-year manufacturer's limited warranty",
-    "4 hrs Battery life",
-  ],
-  productDetails: {
-    title: 'The WP-580 model from Waterpik is positioned as the second best irrigator to date',
-    message: 'Exceptional features and cutting-edge design, the Waterpik 580 model remains unrivaled as the premier choice for state-of-the-art portable oral irrigation.',
-  },
   proAndCons: {
-    title: "2. Waterpik WP-580 – Second Best Quality Irrigator",
+    title: "2. Turewell Quality Oral Irrigator",
     subtitle: "The Waterpik WP-580 Cordless Advanced, a handheld cordless water flosser designed for quiet operation and efficient oral care. Ideal for travel, this portable device is globally voltage compatible and includes essential accessories, making it the perfect companion for maintaining your oral health wherever life takes you.",
-    itemspro: [
-      {
-        title: 'Customers appreciate the user-friendly design.',
-      },
-      {
-        title: 'Users highlight the ease of cleaning the oral irrigator.',
-      },
-      {
-        title: 'Customers enjoy greater maneuverability, finding the product convenient to operate.',
-      },
-    ],
-    itemscons: [
-      {
-        title: 'Some customers think is too large for travel, describing it as bulky and challenging to maneuver.',
-      },
-    ]
   }
 }
+
+export const comparativeTableTwoProps = {
+  id: 'comparative-table-of-the-best-oral-irrigators',
+  title: 'Waterpik Comparison Table',
+  message: 'In this table, you can see some of the Waterpik models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
+  primeUrl: amazonPrime,
+  items: [
+    {
+      id: 1,
+      models: 'Waterpik WP-660',
+      image: waterpikwp660,
+      alt: 'Waterpik WP-660 Oral Irrigator',
+      prime: true,
+      dimensions: '3.8 x 4.7 x 10.3 in, 1.46 lbs',
+      multifunctionaltips: '7',
+      capacity: '650 ml',
+      highlight: '10 Nozzles, Best value',
+      problem: 'Noise, Size',
+      price: 'Fair',
+      satisfaction: '9.5/10',
+      view: 'View Price',
+      url: waterPikWP660ProductUrl
+    },
+    {
+      id: 2,
+      models: 'Waterpik WP-580',
+      image: waterpicWP580,
+      alt: 'Waterpik Cordless WP-580, 200ml',
+      prime: true,
+      dimensions: '4 x 2.8 x 11.6 in, 12.8oz',
+      multifunctionaltips: '6',
+      capacity: '200 ml',
+      highlight: 'Long battery life, Cordless',
+      problem: 'Small reservoir',
+      price: 'Fair',
+      satisfaction: '9.5/10',
+      view: 'View Price',
+      url: waterpicWP580ProductUrl
+    },
+    {
+      id: 3,
+      models: 'Waterpik Pearl WF-13',
+      image: waterpicWF13,
+      alt: 'Waterpik Pearl WF-13',
+      prime: true,
+      dimensions: '3.7 x 2.5 x 11.6 in, 12.8 oz',
+      multifunctionaltips: '4',
+      capacity: '207 ml',
+      highlight: 'Quality, Ultra quiet',
+      problem: 'Storage space',
+      price: 'Good buy',
+      satisfaction: '9.4/10',
+      view: 'View Price',
+      url: waterpicWF13ProductUrl
+    },
+    {
+      id: 4,
+      models: 'Waterpik ION WF-12',
+      image: waterpikION,
+      alt: 'Waterpik ION WF-12',
+      prime: true,
+      dimensions: ' 5.7 x 5.9 x 7.3 in, 20.8 oz',
+      multifunctionaltips: '7',
+      capacity: '590 ml',
+      highlight: 'Size, Ease of use, Cleanliness',
+      problem: 'Charging, Durability',
+      price: 'Great Price',
+      satisfaction: '8.6/10',
+      view: 'View Price',
+      url: waterpikIONProductUrl
+    }
+  ]
+}
+
+
 
 export const thirdProduct = {
   product: {
