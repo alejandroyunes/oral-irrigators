@@ -19,6 +19,11 @@ const waterpikIONProductUrl = "https://a.co/d/gc0zsKM"
 const turewellFC162 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701736336/compareIrrigators/TurewellFC162/jbh50civqiol3jtz1wps.webp'
 const turewellFC162ProductUrl = 'https://a.co/d/amLAm8i'
 
+const turewellFC159 = "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701747370/compareIrrigators/TurewellFC159/ywy8zsyqrxqav9acdfo4.webp"
+const turewellFC159ProductUrl = "https://a.co/d/9z9FIj3"
+
+const turewellYXY = "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701747707/compareIrrigators/TurewellYXY/tcqkxsmthahs9yoneg6v.webp"
+const turewellYXYProductUrl = "https://a.co/d/5NMAXnH"
 
 const amazonPrime = 'https://www.amazon.com/'
 
@@ -166,13 +171,13 @@ export const comparativeTableTwoProps = {
       image: turewell600mlGlobalData.turewell600ml,
       alt: 'Turewell FC165 Oral Irrigator',
       prime: true,
-      dimensions: '5.7 x 4.9 x 8.07 in, 1.7 lbs',
+      dimensions: '5.7 x 4.9 x 8.07 in, 27.2 oz',
       multifunctionaltips: '8',
       capacity: '600 ml',
       highlight: '8 Nozzles, Value, Ease of use',
       problem: 'Water Resistance',
       price: 'Good Price',
-      satisfaction: '8/10',
+      satisfaction: '8.6/10',
       view: 'View Price',
       url: turewell600mlGlobalData.turewell600mlProductUrl
     },
@@ -182,7 +187,7 @@ export const comparativeTableTwoProps = {
       image: turewellFC162,
       alt: 'Turewell FC162, 600ml',
       prime: true,
-      dimensions: '8.7 x 6.14 x 5.08 in, 44.8oz',
+      dimensions: '8.7 x 6.14 x 5.08 in, 44.8 oz',
       multifunctionaltips: '8',
       capacity: '600 ml',
       highlight: 'Value, Cleaning, Size',
@@ -194,41 +199,38 @@ export const comparativeTableTwoProps = {
     },
     {
       id: 3,
-      models: 'Waterpik Pearl WF-13',
-      image: waterpicWF13,
-      alt: 'Waterpik Pearl WF-13',
+      models: 'Turewell FC159',
+      image: turewellFC159,
+      alt: 'Turewell FC159',
       prime: true,
-      dimensions: '3.7 x 2.5 x 11.6 in, 12.8 oz',
-      multifunctionaltips: '4',
-      capacity: '207 ml',
-      highlight: 'Quality, Ultra quiet',
-      problem: 'Storage space',
-      price: 'Good buy',
-      satisfaction: '9.4/10',
+      dimensions: '2.76 x 3.15 x 7.87 in, 13.5 oz',
+      multifunctionaltips: '2',
+      capacity: '250 ml',
+      highlight: 'Ease of use, Compactness',
+      problem: 'Recharging, Durability',
+      price: 'Excelent price',
+      satisfaction: '8.4/10',
       view: 'View Price',
-      url: waterpicWF13ProductUrl
+      url: turewellFC159ProductUrl
     },
     {
       id: 4,
-      models: 'Waterpik ION WF-12',
-      image: waterpikION,
-      alt: 'Waterpik ION WF-12',
+      models: 'Turewell YXY',
+      image: turewellYXY,
+      alt: 'Turewell YXY',
       prime: true,
-      dimensions: ' 5.7 x 5.9 x 7.3 in, 20.8 oz',
-      multifunctionaltips: '7',
-      capacity: '590 ml',
-      highlight: 'Size, Ease of use, Cleanliness',
-      problem: 'Charging, Durability',
+      dimensions: '9.57 x 3.31 x 3.19 in, 15.2 oz',
+      multifunctionaltips: '2',
+      capacity: '300 ml',
+      highlight: 'Size, Ease of use, Weight',
+      problem: 'Waterproofness',
       price: 'Great Price',
-      satisfaction: '8.6/10',
+      satisfaction: '8.4/10',
       view: 'View Price',
-      url: waterpikIONProductUrl
+      url: turewellYXYProductUrl
     }
   ]
 }
-
-
-
 
 
 
