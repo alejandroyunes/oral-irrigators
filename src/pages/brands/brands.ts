@@ -29,7 +29,7 @@ const nicwellf5025TProductUrl = "https://a.co/d/ajUpF5m"
 const amazonPrime = 'https://www.amazon.com/'
 
 export const headerProps = {
-  title: "The best brands of Oral Irrigators in 2023",
+  title: "The Best Brands of Oral Irrigators in 2023",
   subtitle: "Elevate your oral hygiene routine",
   text: "Discover the Ultimate Oral Care: Unveiling the Best Brands of Oral Irrigators",
   image: bestIrrigatorsBgImage,
@@ -55,14 +55,6 @@ export const tableOfContentItems = [
     id: `${tableOfContentUrl}nicwell`
   },
   {
-    content: '\u2022 4. Nicwell Professional Water Flosser F5025, 200ml',
-    id: `${tableOfContentUrl}nicwell-f5025-irrigator`
-  },
-  {
-    content: '\u2022 Comparative Table of the Best Oral Irrigators',
-    id: `${tableOfContentUrl}comparative-table-of-the-best-oral-irrigators`
-  },
-  {
     content: '\u2022 Criteria Used in this Irrigator Comparison',
     id: `${tableOfContentUrl}criteria-used-in-this-irrigator-comparison`
   },
@@ -74,7 +66,7 @@ export const firstProduct = {
   },
   proAndCons: {
     title: "1. Waterpik Oral Irrigators",
-    subtitle: "Experience precision and power with Waterpik oral irrigators, a leading brand in oral irrigators. Engineered with state-of-the-art water pulsation technology, this device effectively removes plaque, debris, and bacteria from hard-to-reach areas. Its customizable pressure settings cater to individual preferences, making it suitable for users of all ages. Elevate your oral care routine with WaterPulse Precision Pro – where innovation meets perfection.",
+    subtitle: "Experience precision and power with Waterpik oral irrigators, a leading brand in oral irrigators. Engineered with state-of-the-art water pulsation technology, this device effectively removes plaque, debris, and bacteria from hard-to-reach areas. Its customizable pressure settings cater to individual preferences, making it suitable for users of all ages. Elevate your oral care routine with Waterpik – where innovation meets perfection.",
   }
 }
 
@@ -89,7 +81,7 @@ export const comparativeTableProps = {
       image: waterpikwp660,
       alt: 'Waterpik WP-660 Oral Irrigator',
       prime: true,
-      dimensions: '3.8 x 4.7 x 10.3 in, 1.46 lbs',
+      dimensions: '3.8 x 4.7 x 10.3 in, 24 oz',
       multifunctionaltips: '7',
       capacity: '650 ml',
       highlight: '10 Nozzles, Best value',
@@ -105,7 +97,7 @@ export const comparativeTableProps = {
       image: waterpicWP580,
       alt: 'Waterpik Cordless WP-580, 200ml',
       prime: true,
-      dimensions: '4 x 2.8 x 11.6 in, 12.8oz',
+      dimensions: '4 x 2.8 x 11.6 in, 12.8 oz',
       multifunctionaltips: '6',
       capacity: '200 ml',
       highlight: 'Long battery life, Cordless',
@@ -156,7 +148,7 @@ export const secondProduct = {
   },
   proAndCons: {
     title: "2. Turewell Oral Irrigators",
-    subtitle: "Introducing Turewell Series, a frontrunner in oral irrigation technology. Harnessing the power and quality, these advanced irrigator provides a gentle yet thorough cleaning experience. With multiple nozzle options and an intuitive control panel, Turewell oral irrigators are designed for personalized care. Say goodbye to traditional flossing methods and embrace the future of oral hygiene with Turewell.",
+    subtitle: "Introducing Turewell Series, a frontrunner in oral irrigation technology. Harnessing the power and quality, these advanced irrigator provides a gentle yet thorough cleaning experience. With multiple nozzle options and an intuitive control panel, Turewell oral irrigators are designed for personalized care.",
   }
 }
 
