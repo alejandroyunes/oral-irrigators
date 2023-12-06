@@ -5,7 +5,7 @@ export const FooterContainer = styled.footer`
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  padding: 60px 0 40px;
+  padding: 60px 24px 40px;
   max-width: ${({ theme }) => theme.breakpoint.sm};
   gap: 10px;
   @media(max-width: ${({ theme }) => theme.breakpoint.sm}){
@@ -37,7 +37,6 @@ export const FooterContainer = styled.footer`
     }
   }
   .footer-right {
-    margin: auto 0;
     p {
       max-width: 400px;
       padding-top: 8px;
@@ -47,6 +46,16 @@ export const FooterContainer = styled.footer`
     }
     img {
       border: 1px solid ${({ theme }) => theme.palette.gray};
+    }
+    @media(max-width: ${({ theme }) => theme.breakpoint.sm}){
+      p {
+        width: 100%;
+      }
+      img {
+        max-width: 100%; 
+        height: auto;
+        object-fit: contain;
+      }
     }
   }
 `
