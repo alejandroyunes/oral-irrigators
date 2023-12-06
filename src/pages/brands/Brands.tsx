@@ -40,7 +40,6 @@ export default function () {
       <Title titleH2={thirdProduct.proAndCons.title} message={thirdProduct.proAndCons.subtitle} id={thirdProduct.product.id} />
 
       <Title titleH2={comparativeTableThirdProps.title} message={comparativeTableThirdProps.message} />
-
       <ComparativeTable items={comparativeTableThirdProps.items} primeUrl={comparativeTableThirdProps.primeUrl} />
 
 
