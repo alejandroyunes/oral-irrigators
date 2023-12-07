@@ -3,9 +3,9 @@ const waterpikWP660 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v170099
 const nicefeelFC5090 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700999294/Best/SingleBests/szgwkq7fkaoqkdexrkzn.webp'
 
 const amazonPrime = 'https://www.amazon.com/'
-const waterpikWP580ProductUrl = 'https://a.co/d/i4SwaUw'
-const waterpikWP660ProductUrl = 'https://a.co/d/4TnnWLx'
-const nicefeelFC5090ProductUrl = 'https://a.co/d/7qXs6RG'
+const waterpikWP580ProductUrl = 'https://amzn.to/4a69BO6'
+const waterpikWP660ProductUrl = 'https://amzn.to/4a2Lb8d'
+const nicefeelFC5090ProductUrl = 'https://amzn.to/4aa9BMX'
 
 export const bestSingleProducts = {
   title: "Brushing Alone Falls Short",

@@ -5,7 +5,7 @@ const synhopeM6 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701546280
 import { panasonicDJ10, panasonicProductUrl, salateB0cj, salateB0cjProductUrl, yaFexARWF1, yaFexARWF1ProductUrl } from "../../../../types/data/travel"
 
 export const synhopem6amazonPrime = 'https://www.amazon.com'
-export const synhopem6ProductUrl = 'https://a.co/d/3oRuu5F'
+export const synhopem6ProductUrl = 'https://amzn.to/46MIggT'
 export const synhopem6productReview = 'https://www.amazon.com/product-reviews/B08J858JXQ/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
 export const synhopem6Url = '/best-portable/synhope-m6-water-flossing-oral-irrigator'
 

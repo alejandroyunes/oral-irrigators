@@ -2,20 +2,20 @@ const bestIrrigatorsBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload
 const bestIrrigatorsBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701439059/typesOfIrrigators/portable/shpabaxdzoacdcsve1kg.webp'
 
 export const panasonicDJ10 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701541960/typesOfIrrigators/portable/Panasonic-EW-DJ10/k2z9vwzvovgs6rfzzemh.webp'
-export const panasonicProductUrl = 'https://a.co/d/0DFOamU'
+export const panasonicProductUrl = 'https://amzn.to/3RvvXBh'
 const panasonicProductReview = 'https://www.amazon.com/product-reviews/B08287TDRJ/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
 
 const synhopeM6 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701546280/typesOfIrrigators/portable/Synhope-b08/jejuh8acst2tmj8dfycf.webp'
-const synhopeM6ProductUrl = 'https://a.co/d/5i0PSQf'
+const synhopeM6ProductUrl = 'https://amzn.to/418zU21'
 const synhopeM6ProductReview = 'https://www.amazon.com/product-reviews/B08J858JXQ/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
 
 export const yaFexARWF1 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701549112/typesOfIrrigators/portable/YaFexAR/uxqbi9xpd7vd4muzcaw4.webp'
-export const yaFexARWF1ProductUrl = 'https://a.co/d/hTfKrMZ'
+export const yaFexARWF1ProductUrl = 'https://amzn.to/3RxiRTW'
 export const yaFexARWF1ProductReview = 'https://www.amazon.com/product-reviews/B08M62TMC3/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
 
 
 export const salateB0cj = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701550814/typesOfIrrigators/portable/SalateB0CJ/jaqrkoocz2kfkelaibzn.webp'
-export const salateB0cjProductUrl = 'https://a.co/d/bcpqzIm'
+export const salateB0cjProductUrl = 'https://amzn.to/486yIP6'
 const salateB0cjProductReview = 'https://www.amazon.com/product-reviews/B0CJBZZZTX/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
 
 const amazonPrime = 'https://www.amazon.com/'

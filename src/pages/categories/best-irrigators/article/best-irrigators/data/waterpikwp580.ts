@@ -9,7 +9,7 @@ import {
 import { nicefeelFC1592bkGlobalData, nicwellF5025GlobalData } from "../../global-data/best-portable/best-portable"
 
 export const waterPik580amazonPrime = 'https://www.amazon.com'
-export const waterPikWP580ProductUrl = 'https://a.co/d/d3UVK29'
+export const waterPikWP580ProductUrl = 'https://amzn.to/46O8vDQ'
 export const waterPik580productReview = 'https://www.amazon.com/product-reviews/B01GNVF8S8/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
 export const waterpikWp580Url = '/best-wireless/waterpik-wp-580-water-flossing-oral-irrigator'
 

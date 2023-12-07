@@ -3,7 +3,7 @@ export const turewell600mlGlobalData = {
   headerBgMobileImage: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700936398/Best/CounterTop/turewell60/lefgkh44oubzssdeegxz.webp',
   turewell600ml: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700936398/Best/CounterTop/turewell60/gse4hbnpov22zwrdkpyl.webp',
   productReview: 'https://www.amazon.com/product-reviews/B087717HRR/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar',
-  turewell600mlProductUrl: 'https://a.co/d/2ARiGQP',
+  turewell600mlProductUrl: 'https://amzn.to/46Ose6r',
   amazonPrime: 'https://www.amazon.com'
 }
 
@@ -12,7 +12,7 @@ export const h2oflossHF9GlobalData = {
   headerBgMobileImage: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700761200/Best/CounterTop/h2ofloss-HF9/ubmexkklvzwgeqftfsnq.webp',
   h2oflossHF9: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700761200/Best/CounterTop/h2ofloss-HF9/ekdpaygkjqtbbvzb17qj.webp',
   productReview: 'https://www.amazon.com/product-reviews/B010NNIZQE/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar',
-  h2oflossHF9ProductUrl: 'https://a.co/d/dlMsV4o',
+  h2oflossHF9ProductUrl: 'https://amzn.to/46Jx6tj',
   amazonPrime: 'https://www.amazon.com'
 }
 
@@ -21,7 +21,7 @@ export const sawgmoreB09GlobalData = {
   headerBgMobileImage: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700914063/Best/CounterTop/Sawgmore/nhf6zromsuveym3opr5b.webp',
   sawgmoreB09: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700914063/Best/CounterTop/Sawgmore/eltsrjk4gxf7zocubifd.webp',
   productReview: 'https://www.amazon.com/product-reviews/B09XTX1NPB/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar',
-  sawgmoreB09ProductUrl: 'https://a.co/d/dswwO1q',
+  sawgmoreB09ProductUrl: 'https://amzn.to/4826pBe',
   amazonPrime: 'https://www.amazon.com'
 }
 
@@ -30,6 +30,6 @@ export const zerhuntFC169GlobalData = {
   headerBgMobileImage: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700936985/Best/CounterTop/ZerhuntFC169/i7wt20lh4gdlf5cij8rc.webp',
   zerhuntFC169: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700936985/Best/CounterTop/ZerhuntFC169/dpabeazxbmr5dx9kjh8z.webp',
   productReview: 'https://www.amazon.com/product-reviews/B07G76D9WD/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar',
-  zerhuntFC169ProductUrl: 'https://a.co/d/7IYJTGb',
+  zerhuntFC169ProductUrl: 'https://amzn.to/3Gycdqi',
   amazonPrime: 'https://www.amazon.com'
 }

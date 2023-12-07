@@ -6,25 +6,25 @@ const bestIrrigatorsBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload
 const bestIrrigatorsBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701063921/compareIrrigators/BestIrrigatorBg/vrreipanqkrf8d8xjvrl.webp'
 
 const waterpicWP580 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701082075/compareIrrigators/Waterpic-WP-580/au3iegupvu2oby4ibqyy.webp'
-const waterpicWP580ProductUrl = 'https://a.co/d/fDPfb5g'
+const waterpicWP580ProductUrl = 'https://amzn.to/3Ni8hhb'
 
 const waterpicWF13 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701085259/compareIrrigators/Waterpik-WF-13/alhhatr4eii53pnyze9d.webp'
-const waterpicWF13ProductUrl = 'https://a.co/d/hB29NQR'
+const waterpicWF13ProductUrl = 'https://amzn.to/418ZOTm'
 
 const waterpikION = "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701733235/compareIrrigators/WaterpikION/au9clrqapxfmxlejioov.webp"
-const waterpikIONProductUrl = "https://a.co/d/gc0zsKM"
+const waterpikIONProductUrl = "https://amzn.to/3GuJQcL"
 
 const turewellFC162 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701736336/compareIrrigators/TurewellFC162/jbh50civqiol3jtz1wps.webp'
-const turewellFC162ProductUrl = 'https://a.co/d/amLAm8i'
+const turewellFC162ProductUrl = 'https://amzn.to/3t7PtKO'
 
 const turewellFC159 = "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701747370/compareIrrigators/TurewellFC159/ywy8zsyqrxqav9acdfo4.webp"
-const turewellFC159ProductUrl = "https://a.co/d/9z9FIj3"
+const turewellFC159ProductUrl = "https://amzn.to/3NdG4YM"
 
 const turewellYXY = "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701747707/compareIrrigators/TurewellYXY/tcqkxsmthahs9yoneg6v.webp"
-const turewellYXYProductUrl = "https://a.co/d/5NMAXnH"
+const turewellYXYProductUrl = "https://amzn.to/3t5EVf4"
 
 const nicwellf5025T = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1701779174/compareIrrigators/NicwellF5025T/k9srlaxpflbgvjd6utwy.webp'
-const nicwellf5025TProductUrl = "https://a.co/d/ajUpF5m"
+const nicwellf5025TProductUrl = "https://amzn.to/46OGOL9"
 
 const amazonPrime = 'https://www.amazon.com/'
 

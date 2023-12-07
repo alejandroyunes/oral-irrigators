@@ -10,7 +10,7 @@ import {
 } from "../../global-data/best-countertop/best-countertop"
 
 export const waterPik660amazonPrime = 'https://www.amazon.com'
-export const waterPikWP660ProductUrl = 'https://a.co/d/9ZaRLRh'
+export const waterPikWP660ProductUrl = 'https://amzn.to/419tnE6'
 export const waterPik660productReview = 'https://www.amazon.com/product-reviews/B00HFQQ0VU/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
 export const waterpikWp660Url = '/best-irrigators/waterpik-wp-660-water-flossing-oral-irrigator'
 

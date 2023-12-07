@@ -3,7 +3,7 @@ export const waterPikGlobalData = {
   headerBgMobileImage: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700500932/Best/WaterPicWF02/cyczyuuch0e4h3twemey.webp',
   waterpikwf02: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700500931/Best/WaterPicWF02/hpp82kmw3yjoyjbira9h.webp',
   productReview: 'https://www.amazon.com/product-reviews/B07DQSC9B5/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar',
-  waterpikwf02ProductUrl: 'https://a.co/d/8D4Qw9R',
+  waterpikwf02ProductUrl: 'https://amzn.to/3TjtFqp',
   amazonPrime: 'https://www.amazon.com'
 }
 
@@ -12,7 +12,7 @@ export const nicwellF5025GlobalData = {
   headerBgMobileImage: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448959/Best/Nicwellf5025/rtxb5naorekpycb465eg.webp',
   nicwellf5025: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448959/Best/Nicwellf5025/ofjladptkdqgsbyeqcve.webp',
   productReview: 'https://www.amazon.com/product-reviews/B08SM447BQ/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar',
-  nicwellf5025ProductUrl: 'https://a.co/d/9iu6CuK',
+  nicwellf5025ProductUrl: 'https://amzn.to/3GsK58d',
   amazonPrime: 'https://www.amazon.com'
 }
 
@@ -21,7 +21,7 @@ export const nicefeelFC1592bkGlobalData = {
   headerBgMobileImage: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700616746/Best/Nicefeel-FC1592-BK/v8nqddi1cgtueifglkip.webp',
   nicefeelFC1592bk: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700616746/Best/Nicefeel-FC1592-BK/rp9vi5urhelrbxwgjquw.webp',
   productReview: 'https://www.amazon.com/product-reviews/B09BYVJJPP/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar',
-  nicefeelFC1592bkProductUrl: 'https://a.co/d/dpyAsbv',
+  nicefeelFC1592bkProductUrl: 'https://amzn.to/3RvbA7j',
   amazonPrime: 'https://www.amazon.com'
 }
 
@@ -30,7 +30,7 @@ export const coslus300mlGlobalData = {
   headerBgMobileImage: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700541238/Best/Coslus300ml/nnbu7ewuqkl8cp4zkbh0.webp',
   coslus300ml: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700541237/Best/Coslus300ml/bekj7waajyb9egnw08a8.webp',
   productReview: 'https://www.amazon.com/product-reviews/B0BG52SJ5N/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar',
-  coslus300mlProductUrl: 'https://a.co/d/hQhUiFO',
+  coslus300mlProductUrl: 'https://amzn.to/3NhjGhd',
   amazonPrime: 'https://www.amazon.com'
 }
 
@@ -39,7 +39,7 @@ export const insmartFC256GlobalData = {
   headerBgMobileImage: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700628391/Best/Insmart-FC256/td5m6r5zdqqa1criayzq.webp',
   insmartFC256: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700628391/Best/Insmart-FC256/wepwdcnie4cnqdymep3c.webp',
   productReview: 'https://www.amazon.com/product-reviews/B0862BTDLK/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar',
-  insmartFC256ProductUrl: 'https://a.co/d/bAXZgvb',
+  insmartFC256ProductUrl: 'https://amzn.to/3Nbst4b',
   amazonPrime: 'https://www.amazon.com'
 }
 
@@ -48,6 +48,6 @@ export const bitvaec2GlobalData = {
   headerBgMobileImage: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700560366/Best/Bitvae/cou9qve0gvhthybqligf.webp',
   bitvaec2: 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700560366/Best/Bitvae/ditfkdygrm4qoohqzttw.webp',
   productReview: 'https://www.amazon.com/product-reviews/B09T8WK7Q8/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar',
-  bitvaec2ProductUrl: 'https://a.co/d/iqvztz1',
+  bitvaec2ProductUrl: 'https://amzn.to/3R3veFS',
   amazonPrime: 'https://www.amazon.com'
 }
