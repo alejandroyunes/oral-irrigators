@@ -24,6 +24,7 @@ export const Wrapper = styled.div`
   margin: 0 auto;
   display: flex;
   height: 100%;
+  gap: 20px;
   align-items: center;
   justify-content: space-between;
   padding: 0 24px;
