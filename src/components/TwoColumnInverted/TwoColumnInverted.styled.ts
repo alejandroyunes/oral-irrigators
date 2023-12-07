@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.section`
-  width: 100%;
+
   background-color: ${({ theme }) => theme.palette.primary.contrastBg};
   margin: 32px 0;
   scroll-margin-top: 24px;
@@ -9,7 +9,6 @@ export const Container = styled.section`
 export const TwoColumn = styled.div`
   max-width:  ${({ theme }) => theme.breakpoint.sm};
   margin: 0 auto;
-
 `
 export const Item = styled.div`
   display: grid;

@@ -1,4 +1,3 @@
-
 import { FooterContainer } from './Footer.styled'
 import { Link } from "react-router-dom"
 
@@ -38,7 +37,6 @@ export default function Footer(props: FooterProps) {
           <p>{text}</p>
         </div>
       </div>
-
     </FooterContainer>
   )
 }

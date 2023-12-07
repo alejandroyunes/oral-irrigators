@@ -6,6 +6,7 @@ import { GlobalStyle } from "../styles/themes/GlobalStyle.tsx"
 import Header from "../components/Header/Header.tsx"
 import Footer from '../components/Footer/Footer.tsx'
 import { footerDataProps } from "./dataProps/dataProps.ts"
+import CookieAccept from "../components/CookieAccept/CookieAccept.tsx"
 
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
 			<GlobalStyle />
 			<Header headerProps={footerDataProps.headerProps} />
 			<Footer {...footerDataProps.footer} />
+			<CookieAccept />
 		</ThemeProvider>
 	)
 }
