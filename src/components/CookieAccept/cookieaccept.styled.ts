@@ -1,14 +1,18 @@
-import styled from "styled-components";
+import styled from "styled-components"
+
+export const ContainerCookie = styled.div`
+.cookie {
+  display: none;
+}
+`
 
 export const Container = styled.div`
-width: auto;
+width: 100%;
 position: fixed;
 bottom: 0;
 background: ${({ theme }) => theme.bodyColor};
 height: 100px;
-.cookie {
-  display: none;
-}
+
 @media(max-width: ${({ theme }) => theme.breakpoint.xs}){
     height: auto;
     padding: 24px 0;
