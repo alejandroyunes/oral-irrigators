@@ -77,8 +77,10 @@ export default function Header({ headerProps }: LinkItemProps) {
             </div>
           </HamburgerMenu>
         </NavContainer>
+
       </HeaderContainer >
       <Outlet />
+
     </>
   )
 }
