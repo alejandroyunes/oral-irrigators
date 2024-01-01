@@ -121,7 +121,7 @@ export const proAndCons = {
 export const comparativeTableProps = {
   id: 'how-does-the-nicwell-compares-to-other-irrigators',
   title: 'Compare the Nicwell F5025 with other irrigators',
-  message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
+  message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2024.',
   primeUrl: nicwellF5025GlobalData.amazonPrime,
   items: [
     {

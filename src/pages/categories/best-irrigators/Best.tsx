@@ -15,8 +15,8 @@ export default function () {
         <Helmet>
           <meta
             name='description'
-            content='Comparison of the Best Irrigators in 2023 | Dental Irrigator' />
-          <title>Comparison of the Best Irrigators in 2023 | Dental Irrigator</title>
+            content='Comparison of the Best Irrigators in 2024 | Dental Irrigator' />
+          <title>Comparison of the Best Irrigators in 2024 | Dental Irrigator</title>
         </Helmet>
       </HelmetProvider>
 
@@ -33,7 +33,7 @@ export default function () {
       <ProAndCon {...firstProduct.proAndCons} />
 
       {/* Second Product */}
-      <Title titleH2={secondProduct.proAndCons.title} message={secondProduct.proAndCons.subtitle} id={secondProduct.product.id}/>
+      <Title titleH2={secondProduct.proAndCons.title} message={secondProduct.proAndCons.subtitle} id={secondProduct.product.id} />
       <Product {...secondProduct.product} list={secondProduct.list} />
       <Title {...secondProduct.productDetails} />
       <ProAndCon {...secondProduct.proAndCons} />

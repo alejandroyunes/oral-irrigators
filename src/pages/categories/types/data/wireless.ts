@@ -79,7 +79,7 @@ export const titleProps = 'Dental irrigators are efficient for removing plaque a
 export const comparativeTableProps = {
   id: 'comparative-table-of-the-best-oral-irrigators',
   title: 'Comparative of the Best Oral Irrigators',
-  message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
+  message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2024.',
   primeUrl: amazonPrime,
   items: [
 

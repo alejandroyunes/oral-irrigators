@@ -29,7 +29,7 @@ const nicwellf5025TProductUrl = "https://amzn.to/46OGOL9"
 const amazonPrime = 'https://www.amazon.com/'
 
 export const headerProps = {
-  title: "The Best Brands of Oral Irrigators in 2023",
+  title: "The Best Brands of Oral Irrigators in 2024",
   subtitle: "Elevate your oral hygiene routine",
   text: "Discover the Ultimate Oral Care: Unveiling the Best Brands of Oral Irrigators",
   image: bestIrrigatorsBgImage,
@@ -72,7 +72,7 @@ export const firstProduct = {
 
 export const comparativeTableProps = {
   title: 'Comparison Table',
-  message: 'In this table, you can see some of the Waterpik models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
+  message: 'In this table, you can see some of the Waterpik models, their features, notable advantages, user ratings, and the results of our analyses in 2024.',
   primeUrl: amazonPrime,
   items: [
     {
@@ -155,7 +155,7 @@ export const secondProduct = {
 export const comparativeTableTwoProps = {
   id: 'comparative-table-of-the-best-oral-irrigators',
   title: 'Comparison Table',
-  message: 'In this table, you can see some of the Turewell models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
+  message: 'In this table, you can see some of the Turewell models, their features, notable advantages, user ratings, and the results of our analyses in 2024.',
   primeUrl: amazonPrime,
   items: [
     {
@@ -237,7 +237,7 @@ export const thirdProduct = {
 export const comparativeTableThirdProps = {
   id: 'comparative-table-of-the-best-oral-irrigators',
   title: 'Comparison Table',
-  message: 'In this table, you can see some of the Nicwell models, their features, notable advantages, user ratings, and the results of our analyses in 2023. It is important to consider that there are fewer products available for Nicwell.',
+  message: 'In this table, you can see some of the Nicwell models, their features, notable advantages, user ratings, and the results of our analyses in 2024. It is important to consider that there are fewer products available for Nicwell.',
   primeUrl: amazonPrime,
   items: [
     {

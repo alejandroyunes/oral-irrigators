@@ -21,7 +21,7 @@ const salateB0cjProductReview = 'https://www.amazon.com/product-reviews/B0CJBZZZ
 const amazonPrime = 'https://www.amazon.com/'
 
 export const headerProps = {
-  title: "The Best Portable Irrigators in 2023",
+  title: "The Best Portable Irrigators in 2024",
   subtitle: "Best Portable Dental Irrigator",
   text: "The best quality - price portable dental irrigator is the Synhope M6 Plus.",
   image: bestIrrigatorsBgImage,
@@ -258,7 +258,7 @@ export const fourthProduct = {
 export const comparativeTableProps = {
   id: 'comparative-table-of-the-best-oral-irrigators',
   title: 'Comparative of the Best Oral Irrigators',
-  message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
+  message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2024.',
   primeUrl: amazonPrime,
   items: [
 

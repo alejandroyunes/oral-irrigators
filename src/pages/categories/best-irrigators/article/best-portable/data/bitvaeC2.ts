@@ -121,7 +121,7 @@ export const proAndCons = {
 export const comparativeTableProps = {
   id: 'how-does-the-bitvae-c2-compares-to-other-irrigators',
   title: 'Compare the Bitvae C2 with other irrigators',
-  message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
+  message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2024.',
   primeUrl: bitvaec2GlobalData.amazonPrime,
   items: [
     {

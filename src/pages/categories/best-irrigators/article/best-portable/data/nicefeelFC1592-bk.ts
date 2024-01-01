@@ -116,7 +116,7 @@ export const proAndCons = {
 export const comparativeTableProps = {
   id: 'how-does-the-nicefeelFC1592bk-compares-to-other-irrigators',
   title: 'Compare the Nicefeel FC1592BK with other irrigators',
-  message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
+  message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2024.',
   primeUrl: nicefeelFC1592bkGlobalData.amazonPrime,
   items: [
     {

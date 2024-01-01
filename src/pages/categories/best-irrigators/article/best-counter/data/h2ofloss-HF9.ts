@@ -125,7 +125,7 @@ export const proAndCons = {
 export const comparativeTableProps = {
   id: 'how-does-the-h2ofloss-compares-to-other-irrigators',
   title: 'Compare the H2ofloss HF-9 with other irrigators',
-  message: 'In this table, you can see all the affortable countertop models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
+  message: 'In this table, you can see all the affortable countertop models, their features, notable advantages, user ratings, and the results of our analyses in 2024.',
   primeUrl: h2oflossHF9GlobalData.amazonPrime,
   items: [
     {

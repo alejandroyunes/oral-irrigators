@@ -7,7 +7,7 @@ const bestIrrigatorsBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/
 const amazonPrime = 'https://www.amazon.com/'
 
 export const headerProps = {
-  title: "The Best CounterTop Irrigators in 2023",
+  title: "The Best CounterTop Irrigators in 2024",
   subtitle: "",
   text: "The best quality - price countertop dental irrigator is the Waterpik Ultra WP-660.",
   image: bestIrrigatorsBgImage,
@@ -72,7 +72,7 @@ export const titleProps = 'Dental irrigators are efficient for removing plaque a
 export const comparativeTableProps = {
   id: 'comparative-table-of-the-best-oral-irrigators',
   title: 'Comparative of the Best Oral Irrigators',
-  message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
+  message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2024.',
   primeUrl: amazonPrime,
   items: [
     {

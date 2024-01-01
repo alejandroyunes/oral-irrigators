@@ -14,7 +14,7 @@ export default function () {
         <Helmet>
           <meta
             name='description'
-            content='Comparison of the Best Irrigators in 2023 | Dental Irrigator' />
+            content='Comparison of the Best Irrigators in 2024 | Dental Irrigator' />
           <title>Discover the Ultimate Oral Care: Unveiling the Best Brands of Oral Irrigators</title>
         </Helmet>
       </HelmetProvider>

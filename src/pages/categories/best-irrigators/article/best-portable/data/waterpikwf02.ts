@@ -125,7 +125,7 @@ export const proAndCons = {
 export const comparativeTableProps = {
   id: 'how-does-the-waterpik-compares-to-other-irrigators',
   title: 'Compare the Waterpik WF-02 with other irrigators',
-  message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
+  message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2024.',
   primeUrl: waterPikGlobalData.amazonPrime,
   items: [
     {

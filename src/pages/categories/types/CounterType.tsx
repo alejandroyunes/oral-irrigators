@@ -15,8 +15,8 @@ export default function () {
         <Helmet>
           <meta
             name='description'
-            content='Comparison of the Best Countertop Irrigators in 2023 | Dental Irrigator' />
-          <title>Comparison of the Best Countertop Irrigators in 2023 | Dental Irrigator</title>
+            content='Comparison of the Best Countertop Irrigators in 2024 | Dental Irrigator' />
+          <title>Comparison of the Best Countertop Irrigators in 2024 | Dental Irrigator</title>
         </Helmet>
       </HelmetProvider>
 

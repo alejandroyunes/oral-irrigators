@@ -132,7 +132,7 @@ export const proAndCons = {
 export const comparativeTableProps = {
   id: 'how-does-the-waterpikWP580-compares-to-other-irrigators',
   title: 'Compare the Waterpik WP-580 with other irrigators',
-  message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
+  message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2024.',
   primeUrl: turewell600mlGlobalData.amazonPrime,
   items: [
     {
